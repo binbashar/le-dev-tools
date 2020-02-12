@@ -17,12 +17,12 @@ define REPOS_LIST
 "terraform-aws-cost-billing-alarm","" \
 "terraform-aws-cost-budget","" \
 "terraform-aws-ec2-basic-layout","" \
+"terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance" \
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account" \
 "terraform-aws-ecr-lifecycle-policy-rule","doingcloudright/terraform-aws-ecr-lifecycle-policy-rule" \
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks" \
 "terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor" \
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
-"terraform-aws-iam-role-sts","" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key" \
 "terraform-aws-lambda","claranet/terraform-aws-lambda" \
 "terraform-aws-lambda-nuke","diodonfrost/terraform-aws-lambda-nuke" \
@@ -36,6 +36,7 @@ define REPOS_LIST
 "terraform-aws-route53-query-logs","trussworks/terraform-aws-route53-query-logs" \
 "terraform-aws-s3-log-storage","cloudposse/terraform-aws-s3-log-storage" \
 "terraform-aws-secure-baseline","nozaq/terraform-aws-secure-baseline" \
+"terraform-aws-security-group","terraform-aws-modules/terraform-aws-security-group" \
 "terraform-aws-tfstate-backend","" \
 "terraform-aws-vpc","terraform-aws-modules/terraform-aws-vpc" \
 "terraform-aws-vpc-flowlogs","" \
