@@ -21,6 +21,7 @@ define REPOS_LIST
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account" \
 "terraform-aws-ecr-lifecycle-policy-rule","doingcloudright/terraform-aws-ecr-lifecycle-policy-rule" \
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks" \
+"terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis" \
 "terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor" \
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key" \
@@ -89,7 +90,34 @@ git-pull-master: ## Git pull repo from master branch
 	done;\
 	IFS=$$OLDIFS
 
-git-tag-sync-fork-upstream: ## Git tag sync from master forked upstream repos
+git-sync-fork-upstream: ## Git sync from master forked upstream repos
+	REPOS=(${REPOS_LIST});\
+    OLDIFS=$$IFS;\
+    IFS=',';\
+    for i in "$${REPOS[@]}"; do\
+        set -- $$i;\
+		if [ "$$2" != "" ]; then\
+			cd $$1;\
+			echo -----------------------;\
+			echo $$1;\
+			echo $$2;\
+			echo -----------------------;\
+			git checkout ${GIT_BRANCH_NAME};\
+			git pull origin ${GIT_BRANCH_NAME};\
+			git remote add upstream https://github.com/$$2;\
+			git pull upstream ${GIT_BRANCH_NAME};\
+			git fetch --tags upstream;\
+			git push origin ${GIT_BRANCH_NAME};\
+			git push -f --tags origin ${GIT_BRANCH_NAME};\
+			echo -----------------------;\
+			echo "GIT FORK TAG SYNC W/ REPO $$2 DONE";\
+			cd ..;\
+			echo "";\
+		fi;\
+	done;\
+	IFS=$$OLDIFS
+
+git-sync-tag-fork-upstream: ## Git tag sync from master forked upstream repos
 	REPOS=(${REPOS_LIST});\
     OLDIFS=$$IFS;\
     IFS=',';\
