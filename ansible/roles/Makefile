@@ -11,12 +11,13 @@ define REPOS_LIST
 "ansible-role-docker","geerlingguy/ansible-role-docker" \
 "ansible-role-jenkins","geerlingguy/ansible-role-jenkins" \
 "ansible-node-exporter","cloudalchemy/ansible-node-exporter" \
-"sa-vpn-pritunl","softasap/sa-vpn-pritunl" \
 "ansible-role-security","geerlingguy/ansible-role-security" \
 "ansible-role-mongodb","UnderGreen/ansible-role-mongodb" \
 "ansible-role-users","" \
+"ansible-role-vpn-pritunl-init-values","" \
+"ansible-sudo","weareinteractive/ansible-sudo" \
 "ansible-users","singleplatform-eng/ansible-users" \
-"ansible-role-vpn-pritunl-init-values",""
+"sa-vpn-pritunl","softasap/sa-vpn-pritunl"
 endef
 
 help:
@@ -61,7 +62,34 @@ git-pull-master: ## Git pull repo from master branch
 	done;\
 	IFS=$$OLDIFS
 
-git-tag-sync-fork-upstream: ## Git tag sync from master forked upstream repos
+git-sync-fork-upstream: ## Git sync from master forked upstream repos
+	REPOS=(${REPOS_LIST});\
+    OLDIFS=$$IFS;\
+    IFS=',';\
+    for i in "$${REPOS[@]}"; do\
+        set -- $$i;\
+		if [ "$$2" != "" ]; then\
+			cd $$1;\
+			echo -----------------------;\
+			echo $$1;\
+			echo $$2;\
+			echo -----------------------;\
+			git checkout ${GIT_BRANCH_NAME};\
+			git pull origin ${GIT_BRANCH_NAME};\
+			git remote add upstream https://github.com/$$2;\
+			git pull upstream ${GIT_BRANCH_NAME};\
+			git fetch --tags upstream;\
+			git push origin ${GIT_BRANCH_NAME};\
+			git push -f --tags origin ${GIT_BRANCH_NAME};\
+			echo -----------------------;\
+			echo "GIT FORK TAG SYNC W/ REPO $$2 DONE";\
+			cd ..;\
+			echo "";\
+		fi;\
+	done;\
+	IFS=$$OLDIFS
+
+git-sync-tag-fork-upstream: ## Git tag sync from master forked upstream repos
 	REPOS=(${REPOS_LIST});\
     OLDIFS=$$IFS;\
     IFS=',';\
