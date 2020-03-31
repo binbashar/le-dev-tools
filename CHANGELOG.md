@@ -1,4 +1,8 @@
 
+<a name="v0.0.4"></a>
+## [v0.0.4](https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v0.0.4) (2020-03-31)
+
+
 <a name="v0.0.3"></a>
 ## [v0.0.3](https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.2...v0.0.3) (2020-02-12)
 
