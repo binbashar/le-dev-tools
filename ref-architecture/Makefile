@@ -25,7 +25,7 @@ endef
 #
 # ARG VARIABLES
 #
-GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
+GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-refarch","binbash-refarch","binbash-ref-architecture","ref-architecture"]}
 define REPOS_LIST
 "le-ansible","" \
 "le-architecture-diagrams","" \
