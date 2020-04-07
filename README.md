@@ -1,9 +1,9 @@
 <div align="center">
-    <img src="./%40figures/binbash.png" alt="drawing" width="350"/>
+    <img src="./%40figures/binbash-logo.png" alt="drawing" width="250"/>
 </div>
 <div align="right">
   <img src="./%40figures/binbash-leverage-logo.png"
-  alt="leverage" width="230"/>
+  alt="leverage" width="130"/>
 </div>
 
 # Binbash Leverage Dev Tools
@@ -44,28 +44,12 @@ The following block provides a brief explanation of the chosen files/folders lay
 - Add Makefile lint step to CI job. 
 
 # Release Management
-
-## Docker based makefile commands
-
-* <https://cloud.docker.com/u/binbash/repository/docker/binbash/git-release>
-* <https://github.com/binbashar/bb-devops-dev-tools/blob/master/Makefile>
-
-Root directory `Makefile` has the automated steps (to be integrated with **CircleCI jobs** []() )
-
 ### CircleCi PR auto-release job
 
 <div align="left">
-  <img src="./%40figures/circleci.png" alt="leverage-circleci" width="230"/>
+  <img src="./%40figures/circleci-logo.png" alt="circleci" width="130"/>
 </div>
 
-- <https://circleci.com/gh/binbashar/bb-devops-dev-tools>
-- **NOTE:** Will only run after merged PR.
-
-### Manual execution from workstation
-
-```
-$ make
-Available Commands:
- - release-major-with-changelog make changelog-major && git add && git commit && make release-major
- - release-minor-with-changelog make changelog-minor && git add && git commit && make release-minor
- - release-patch-with-changelog make changelog-patch && git add && git commit && make release-patch
+- [**pipeline-job**](https://circleci.com/gh/binbashar/bb-devops-dev-tools) (**NOTE:** Will only run after merged PR)
+- [**releases**](https://github.com/binbashar/le-dev-tools/releases) 
+- [**changelog**](https://github.com/binbashar/le-dev-tools/blob/master/CHANGELOG.md) 
