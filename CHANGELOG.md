@@ -7,6 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.8"></a>
+## [v0.0.8] - 2020-04-07
+
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+
+
 <a name="v0.0.7"></a>
 ## [v0.0.7] - 2020-04-07
 
@@ -65,7 +72,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.8...HEAD
+[v0.0.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...v0.0.8
 [v0.0.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.4...v0.0.5
