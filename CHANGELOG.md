@@ -7,6 +7,15 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.7"></a>
+## [v0.0.7] - 2020-04-07
+
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+
+
 <a name="v0.0.6"></a>
 ## [v0.0.6] - 2020-04-07
 
@@ -56,7 +65,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...HEAD
+[v0.0.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.4...v0.0.5
 [v0.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v0.0.4
