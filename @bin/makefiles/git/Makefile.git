@@ -62,6 +62,7 @@ git-sync-fork-upstream: ## Git sync from master forked upstream repos
 			git checkout ${GIT_BRANCH_NAME};\
 			git pull origin ${GIT_BRANCH_NAME};\
 			git remote add upstream https://github.com/$$2;\
+			git fetch --tags upstream;\
 			git pull upstream ${GIT_BRANCH_NAME};\
 			git push origin ${GIT_BRANCH_NAME};\
 			git push -f --tags origin ${GIT_BRANCH_NAME};\
