@@ -27,9 +27,9 @@ endef
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-refarch","binbash-refarch","binbash-ref-architecture","ref-architecture"]}
 define REPOS_LIST
-"le-ansible","" \
+"le-ansible-infra","" \
 "le-architecture-diagrams","" \
-"le-helm-charts","" \
+"le-helm-infra","" \
 "le-tf-aws-organizations","" \
 "le-tf-infra-aws","" \
 "le-tf-aws-kops","" \
