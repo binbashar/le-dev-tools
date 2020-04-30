@@ -29,6 +29,7 @@ GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","
 define REPOS_LIST
 "terraform-aws-backup","cloudposse/terraform-aws-backup" \
 "terraform-aws-backup-by-tags","" \
+"terraform-aws-certbot-lambda","" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront" \
 "terraform-aws-cloudfront-s3-cdn","cloudposse/terraform-aws-cloudfront-s3-cdn" \
 "terraform-aws-cloudtrail","cloudposse/terraform-aws-cloudtrail" \
