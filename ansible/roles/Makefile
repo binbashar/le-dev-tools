@@ -35,7 +35,11 @@ define REPOS_LIST
 "ansible-role-docker","geerlingguy/ansible-role-docker" \
 "ansible-role-java","geerlingguy/ansible-role-java" \
 "ansible-role-jenkins","geerlingguy/ansible-role-jenkins" \
-"ansible-role-jenkins-google-oauth","" \
+"ansible-role-jenkins-bitbucket-oauth" \
+"ansible-role-jenkins-github-oauth" \
+"ansible-role-jenkins-google-oauth" \
+"ansible-role-jenkins-matrix-based-strategy" \
+"ansible-role-jenkins-role-based-strategy" \
 "ansible-role-mongodb","UnderGreen/ansible-role-mongodb" \
 "ansible-role-nginx","jdauphant/ansible-role-nginx" \
 "ansible-role-security","geerlingguy/ansible-role-security" \
