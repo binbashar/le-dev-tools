@@ -1,16 +1,9 @@
 .PHONY: help
 SHELL := /bin/bash
 
-GIT_BRANCH_NAME := master
-GIT_GITHUB_ORG := binbashar
-GIT_REPO_PREFIX := git@github.com:${GIT_GITHUB_ORG}
-
-define REPOS_LIST
-"ansible-playbook-jenkins","" \
-"ansible-playbook-vpn-pritunl","" \
-"ansible-playbook-sec-users","" \
-"ansible-playbook-vault",""
-endef
+GIT_BRANCH_NAME       := master
+GIT_GITHUB_ORG        := binbashar
+GIT_REPO_PREFIX       := git@github.com:${GIT_GITHUB_ORG}
 
 help:
 	@echo 'Available Commands:'
@@ -69,8 +62,8 @@ git-sync-fork-upstream: ## Git sync from master forked upstream repos
 			git checkout ${GIT_BRANCH_NAME};\
 			git pull origin ${GIT_BRANCH_NAME};\
 			git remote add upstream https://github.com/$$2;\
-			git pull upstream ${GIT_BRANCH_NAME};\
 			git fetch --tags upstream;\
+			git pull upstream ${GIT_BRANCH_NAME};\
 			git push origin ${GIT_BRANCH_NAME};\
 			git push -f --tags origin ${GIT_BRANCH_NAME};\
 			echo -----------------------;\
