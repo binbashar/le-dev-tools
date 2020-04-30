@@ -7,6 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.11"></a>
+## [v0.0.11] - 2020-04-30
+
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+
+
 <a name="v0.0.10"></a>
 ## [v0.0.10] - 2020-04-24
 
@@ -85,7 +93,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.10...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.11...HEAD
+[v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.10...v0.0.11
 [v0.0.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.9...v0.0.10
 [v0.0.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.8...v0.0.9
 [v0.0.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...v0.0.8
