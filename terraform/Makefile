@@ -27,6 +27,7 @@ endef
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
 define REPOS_LIST
+"terraform-aws-acm","terraform-aws-modules/terraform-aws-acm" \
 "terraform-aws-backup","cloudposse/terraform-aws-backup" \
 "terraform-aws-backup-by-tags","" \
 "terraform-aws-certbot-lambda","" \
