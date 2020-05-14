@@ -27,10 +27,10 @@ endef
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-ansible-role","binbash-ansible-role","binbash-ansible","ansible"]}
 define REPOS_LIST
-"ansible-disk","AerisCloud/ansible-disk" \
 "ansible-fail2ban","Oefenweb/ansible-fail2ban" \
 "ansible-kubectl","andrewrothstein/ansible-kubectl" \
 "ansible-node-exporter","cloudalchemy/ansible-node-exporter" \
+"ansible-role-aeriscloud-disk","AerisCloud/ansible-disk" \
 "ansible-role-certbot","" \
 "ansible-role-common","" \
 "ansible-role-docker","geerlingguy/ansible-role-docker" \
