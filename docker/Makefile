@@ -35,6 +35,7 @@ define REPOS_LIST
 "docker-debian8-ansible","geerlingguy/docker-debian8-ansible" \
 "docker-debian9-ansible","geerlingguy/docker-debian9-ansible" \
 "docker-debian10-ansible","geerlingguy/docker-debian10-ansible" \
+"k8s-helm","lachie83/k8s-helm" \
 "onetimesecret-docker","dismantl/onetimesecret-docker" \
 "public-docker-images","" \
 "pyflame-docker-sidecar","inikolaev/pyflame-docker-sidecar"
