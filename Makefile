@@ -28,6 +28,21 @@ github-repo-replace-all-topics-terraform: ## Github replace all repo topics - eg
 #==============================================================#
 # GIT MODULE MGMT                                              #
 #==============================================================#
+# git clone repos
+#
+git-clone-repo-all: git-clone-repo-ansible git-clone-repo-docker git-clone-repo-terraform ## Git clone repos
+
+git-clone-repo-ansible: ## Git clone repos ansible
+	cd ./ansible/roles && make git-clone-repo
+
+git-clone-repo-docker: ## Git clone repos repos docker
+	cd ./docker && make git-clone-repo
+
+git-clone-repo-terraform: ## Git clone repos terraform
+	cd ./terraform && make git-clone-repo
+
+# git sync w/ upstream repos
+#
 git-sync-fork-upstream-all: git-sync-fork-upstream-ansible git-sync-fork-upstream-docker git-sync-fork-upstream-terraform ## Git sync from master forked upstream repos
 
 git-sync-fork-upstream-ansible: ## Git sync from master forked upstream repos ansible
