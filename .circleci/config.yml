@@ -21,15 +21,21 @@ jobs:
 
       - run:
           name: git-sync-fork-upstream-ansible
-          command: make git-sync-fork-upstream-ansible
+          command: |
+          make git-clone-repo-ansible
+          make git-sync-fork-upstream-ansible
 
       - run:
           name: git-sync-fork-upstream-docker
-          command: make git-sync-fork-upstream-docker
+          command: |
+          make git-clone-repo-docker
+          make git-sync-fork-upstream-docker
 
       - run:
           name: git-sync-fork-upstream-terraform
-          command: make git-sync-fork-upstream-terraform
+          command: |
+          make git-clone-repo-terraform
+          make git-sync-fork-upstream-terraform
 
   #
   # Grant all binbashar repo topics are setup
