@@ -23,11 +23,11 @@ jobs:
           name: git-sync-fork-upstream-ansible
           command: make git-sync-fork-upstream-ansible
 
-     - run:
+      - run:
           name: git-sync-fork-upstream-docker
           command: make git-sync-fork-upstream-docker
 
-     - run:
+      - run:
           name: git-sync-fork-upstream-terraform
           command: make git-sync-fork-upstream-terraform
 
@@ -51,11 +51,11 @@ jobs:
           name: github-repo-replace-all-topics-ansible
           command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-ansible
 
-     - run:
+      - run:
           name: github-repo-replace-all-topics-docker
           command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-docker
 
-     - run:
+      - run:
           name: github-repo-replace-all-topics-terraform
           command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-terraform
 
@@ -101,7 +101,14 @@ jobs:
 #
 workflows:
   version: 2
-  test_and_release:
+  nightly_sync_and_release:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
     jobs:
       - git-sync-fork-upstream:
           context: binbashar-org-global-context
@@ -121,11 +128,3 @@ workflows:
             branches:
              only: # only branches matching the below regex filters will run
                - master
-  nightly:
-    triggers:
-      - schedule:
-          cron: "0 0 * * *"
-          filters:
-            branches:
-              only:
-                - master

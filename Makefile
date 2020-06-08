@@ -1,5 +1,11 @@
 .PHONY: help
-SHELL := /bin/bash
+SHELL                    := /bin/bash
+MAKEFILE_IMPORT_CIRCLECI := circleci/Makefile.circleci
+
+define MAKE_CIRCLECI
+make \
+-f ./@bin/makefiles/${MAKEFILE_IMPORT_CIRCLECI}
+endef
 
 help:
 	@echo 'Available Commands:'
@@ -32,3 +38,9 @@ git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos doc
 
 git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos terraform
 	cd ./terraform && make git-sync-fork-upstream
+
+#==============================================================#
+# CIRCLECI                                                     #
+#==============================================================#
+circleci-validate-config: ## Validate A CircleCI Config (https://circleci.com/docs/2.0/local-cli/)
+	${MAKE_CIRCLECI} circleci-validate-config
