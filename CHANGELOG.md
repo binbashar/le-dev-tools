@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.17.4"></a>
+## [v0.17.4] - 2020-06-08
+
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+
+
 <a name="v0.17.3"></a>
 ## [v0.17.3] - 2020-06-08
 
@@ -971,7 +977,8 @@ All notable changes to this project will be documented in this file.
 - Init commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.17.3...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.17.4...HEAD
+[v0.17.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.17.3...v0.17.4
 [v0.17.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.12...v0.17.3
 [v0.0.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.11...v0.0.12
 [v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.17.2...v0.0.11
