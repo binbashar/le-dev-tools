@@ -27,9 +27,13 @@ endef
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-ansible-role","binbash-ansible-role","binbash-ansible","ansible"]}
 define REPOS_LIST
+"ansible-alertmanager","cloudalchemy/ansible-alertmanager" \
 "ansible-fail2ban","Oefenweb/ansible-fail2ban" \
 "ansible-kubectl","andrewrothstein/ansible-kubectl" \
+"ansible-grafana","cloudalchemy/ansible-grafana" \
 "ansible-node-exporter","cloudalchemy/ansible-node-exporter" \
+"ansible-prometheus","cloudalchemy/ansible-prometheus" \
+"ansible-prometheus-node-exporter","UnderGreen/ansible-prometheus-node-exporter" \
 "ansible-role-aeriscloud-disk","AerisCloud/ansible-disk" \
 "ansible-role-certbot","" \
 "ansible-role-common","" \
