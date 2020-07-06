@@ -30,6 +30,7 @@ define REPOS_LIST
 "le-ansible-infra","" \
 "le-architecture-diagrams","" \
 "le-helm-infra","" \
+"le-ref-architectre-doc","" \
 "le-tf-aws-organizations","" \
 "le-tf-infra-aws","" \
 "le-tf-aws-kops","" \
