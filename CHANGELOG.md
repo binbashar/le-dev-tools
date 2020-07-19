@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.7"></a>
+## [v0.0.7] - 0001-01-01
+
+
+
 <a name="v0.0.6"></a>
-## [v0.0.6] - 2020-07-07
+## [v0.0.6] - 2020-07-12
 
 - BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
 
@@ -79,7 +84,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...HEAD
+[v0.0.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.4...v0.0.5
 [v0.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v0.0.4
