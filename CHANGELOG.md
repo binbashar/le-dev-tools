@@ -5,8 +5,6 @@ All notable changes to this project will be documented in this file.
 <a name="unreleased"></a>
 ## [Unreleased]
 
-
-
 <a name="v0.0.7"></a>
 ## [v0.0.7] - 0001-01-01
 
