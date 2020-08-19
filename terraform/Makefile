@@ -65,7 +65,6 @@ define REPOS_LIST
 "terraform-aws-vpc","terraform-aws-modules/terraform-aws-vpc" \
 "terraform-aws-vpc-flowlogs","" \
 "terraform-aws-waf-owasp","" \
-"terraform-null-ansible","" \
 "terraform-null-label","cloudposse/terraform-null-label" \
 "terraform-sample-module","" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label"
