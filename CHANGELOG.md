@@ -7,8 +7,22 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.15"></a>
+## [v0.0.15] - 2020-09-11
+
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+
+
 <a name="v0.0.14"></a>
-## [v0.0.14] - 0001-01-01
+## [v0.0.14] - 2020-09-06
 
 
 
@@ -123,7 +137,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.14...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.15...HEAD
+[v0.0.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.14...v0.0.15
 [v0.0.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.13...v0.0.14
 [v0.0.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.12...v0.0.13
 [v0.0.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.11...v0.0.12
