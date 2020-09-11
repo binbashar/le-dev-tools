@@ -19,11 +19,6 @@ jobs:
           name: Context Info Cmds
           command: pwd && ls -ltra && git branch
 
-       - run:
-          name: Initialize Repo Makefiles
-          command: |
-            make init-makefiles
-
       - run:
           name: git-sync-fork-upstream-ansible
           command: make git-clone-repo-ansible && make git-sync-fork-upstream-ansible
@@ -51,11 +46,6 @@ jobs:
       - run:
           name: Context Info Cmds
           command: pwd && ls -ltra && git branch
-
-      - run:
-          name: Initialize Repo Makefiles
-          command: |
-            make init-makefiles
 
       - run:
           name: github-repo-replace-all-topics-ansible
