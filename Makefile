@@ -1,15 +1,29 @@
 .PHONY: help
 SHELL                    := /bin/bash
-MAKEFILE_IMPORT_CIRCLECI := circleci/Makefile.circleci
-
-define MAKE_CIRCLECI
-make \
--f ./@bin/makefiles/${MAKEFILE_IMPORT_CIRCLECI}
-endef
+MAKEFILE_PATH            := ./Makefile
+MAKEFILES_DIR            := ./@bin/makefiles
 
 help:
 	@echo 'Available Commands:'
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf " - \033[36m%-18s\033[0m %s\n", $$1, $$2}'
+
+#==============================================================#
+# INITIALIZATION                                               #
+#==============================================================#
+init-makefiles: ## initialize makefiles
+	rm -rf ${MAKEFILES_DIR}
+	mkdir -p ${MAKEFILES_DIR}
+	git clone https://github.com/binbashar/le-dev-makefiles.git ${MAKEFILES_DIR}
+	echo "" >> ${MAKEFILE_PATH}
+	sed -i '/^#include.*/s/^#//' ${MAKEFILE_PATH}
+
+#
+## IMPORTANT: Automatically managed
+## Must NOT UNCOMMENT the #include lines below
+#
+#include ./@bin/makefiles/circleci/circleci.mk
+#include ./@bin/makefiles/release-mgmt/release.mk
+
 
 #==============================================================#
 # GITHUB MODULE MGMT                                           #
@@ -54,8 +68,3 @@ git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos doc
 git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos terraform
 	cd ./terraform && make git-sync-fork-upstream
 
-#==============================================================#
-# CIRCLECI                                                     #
-#==============================================================#
-circleci-validate-config: ## Validate A CircleCI Config (https://circleci.com/docs/2.0/local-cli/)
-	${MAKE_CIRCLECI} circleci-validate-config
