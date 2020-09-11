@@ -125,6 +125,8 @@ workflows:
                - master
       - github-repo-replace-all-topics:
           context: binbashar-org-global-context
+          requires:
+            - git-sync-fork-upstream
           filters:
             branches:
              only: # only branches matching the below regex filters will run
