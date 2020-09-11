@@ -1,7 +1,7 @@
 .PHONY: help
-SHELL 			:= /bin/bash
-MAKEFILE_PATH   := ./Makefile
-MAKEFILES_DIR   := ../../@bin/makefiles
+SHELL         := /bin/bash
+MAKEFILE_PATH := ./Makefile
+MAKEFILES_DIR := ../../@bin/makefiles
 
 #
 # ARG VARIABLES
