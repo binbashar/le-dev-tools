@@ -67,3 +67,4 @@ git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos doc
 
 git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos terraform
 	cd ./terraform && make init-makefiles && make git-sync-fork-upstream
+

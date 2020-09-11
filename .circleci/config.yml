@@ -108,6 +108,39 @@ jobs:
 #
 workflows:
   version: 2
+
+  #
+  # PR Builded Jobs
+  #
+  pr_sync_and_release:
+    jobs:
+      - git-sync-fork-upstream:
+          context: binbashar-org-global-context
+          filters:
+            branches:
+             only: # only branches matching the below regex filters will run
+               - master
+      - github-repo-replace-all-topics:
+          context: binbashar-org-global-context
+          requires:
+            - git-sync-fork-upstream
+          filters:
+            branches:
+             only: # only branches matching the below regex filters will run
+               - master
+      - release-version-with-changelog:
+          context: binbashar-org-global-context
+          requires:
+            - git-sync-fork-upstream
+            - github-repo-replace-all-topics
+          filters:
+            branches:
+             only: # only branches matching the below regex filters will run
+               - master
+
+  #
+  # Cron weekly scheduled Jobs
+  #
   nightly_sync_and_release:
     triggers:
       - schedule:
