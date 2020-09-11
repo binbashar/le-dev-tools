@@ -79,6 +79,12 @@ jobs:
           command: pwd && ls -ltra && git branch
 
       - run:
+          name: Initialize Repo Makefiles
+          command: |
+            make init-makefiles
+            git update-index --assume-unchanged "Makefile"
+
+      - run:
           name: Release New Version
           command: |
             if git status | grep 'nothing to commit, working tree clean'; then
@@ -88,7 +94,7 @@ jobs:
               git config --global user.email "$GIT_USER_EMAIL"
               git config --global user.name "$GIT_USER_NAME"
               git remote add upstream https://github.com/binbashar/le-dev-tools
-              make -f Makefile.release release-$VERSION_NUMBER-with-changelog-circleci
+              make release-$VERSION_NUMBER-with-changelog-circleci
             else
               echo "==============================================================================================="
               echo "Changes in working directory pending to be pushed - please check 'git status' cmd output below "
