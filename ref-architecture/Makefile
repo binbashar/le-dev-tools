@@ -12,9 +12,7 @@ define REPOS_LIST
 "le-architecture-diagrams","" \
 "le-helm-infra","" \
 "le-ref-architecture-doc","" \
-"le-tf-aws-organizations","" \
 "le-tf-infra-aws","" \
-"le-tf-aws-kops","" \
 "le-tf-modules",""
 endef
 
