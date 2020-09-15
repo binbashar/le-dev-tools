@@ -23,11 +23,11 @@ define REPOS_LIST
 "ansible-role-elasticsearch-curator","geerlingguy/ansible-role-elasticsearch-curator" \
 "ansible-role-java","geerlingguy/ansible-role-java" \
 "ansible-role-jenkins","geerlingguy/ansible-role-jenkins" \
-"ansible-role-jenkins-bitbucket-oauth" \
-"ansible-role-jenkins-github-oauth" \
-"ansible-role-jenkins-google-oauth" \
-"ansible-role-jenkins-matrix-based-strategy" \
-"ansible-role-jenkins-role-based-strategy" \
+"ansible-role-jenkins-bitbucket-oauth","" \
+"ansible-role-jenkins-github-oauth","" \
+"ansible-role-jenkins-google-oauth","" \
+"ansible-role-jenkins-matrix-based-strategy","" \
+"ansible-role-jenkins-role-based-strategy","" \
 "ansible-role-kibana","geerlingguy/ansible-role-kibana" \
 "ansible-role-mongodb","UnderGreen/ansible-role-mongodb" \
 "ansible-role-nginx","jdauphant/ansible-role-nginx" \
