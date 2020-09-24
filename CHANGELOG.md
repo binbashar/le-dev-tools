@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.19"></a>
+## [v0.0.19] - 2020-09-24
+
+- BBL-381 | upgrading circleci machine exec ver
+
+
 <a name="v0.0.18"></a>
-## [v0.0.18] - 0001-01-01
+## [v0.0.18] - 2020-09-20
 
 
 
@@ -154,7 +160,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.18...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.19...HEAD
+[v0.0.19]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.18...v0.0.19
 [v0.0.18]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.17...v0.0.18
 [v0.0.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.16...v0.0.17
 [v0.0.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.15...v0.0.16
