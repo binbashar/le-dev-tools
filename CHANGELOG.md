@@ -7,6 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.20"></a>
+## [v0.0.20] - 2020-09-24
+
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+
+
 <a name="v0.0.19"></a>
 ## [v0.0.19] - 2020-09-24
 
@@ -160,7 +167,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.19...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.20...HEAD
+[v0.0.20]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.19...v0.0.20
 [v0.0.19]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.18...v0.0.19
 [v0.0.18]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.17...v0.0.18
 [v0.0.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.16...v0.0.17
