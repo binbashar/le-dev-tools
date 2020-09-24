@@ -33,6 +33,7 @@ define REPOS_LIST
 "terraform-aws-lambda-nuke","diodonfrost/terraform-aws-lambda-nuke" \
 "terraform-aws-lambda-scheduler-stop-start","diodonfrost/terraform-aws-lambda-scheduler-stop-start" \
 "terraform-aws-logs","trussworks/terraform-aws-logs" \
+"terraform-aws-natgw-notifications","" \
 "terraform-aws-notify-slack","terraform-aws-modules/terraform-aws-notify-slack" \
 "terraform-aws-rds","terraform-aws-modules/terraform-aws-rds" \
 "terraform-aws-redshift","terraform-aws-modules/terraform-aws-redshift" \
