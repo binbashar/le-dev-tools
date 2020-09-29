@@ -14,16 +14,9 @@ init-makefiles: ## initialize makefiles
 	rm -rf ${MAKEFILES_DIR}
 	mkdir -p ${MAKEFILES_DIR}
 	git clone https://github.com/binbashar/le-dev-makefiles.git ${MAKEFILES_DIR}
-	echo "" >> ${MAKEFILE_PATH}
-	sed -i '/^#include.*/s/^#//' ${MAKEFILE_PATH}
 
-#
-## IMPORTANT: Automatically managed
-## Must NOT UNCOMMENT the #include lines below
-#
-#include ${MAKEFILES_DIR}/circleci/circleci.mk
-#include ${MAKEFILES_DIR}/release-mgmt/release.mk
-
+-include ${MAKEFILES_DIR}/circleci/circleci.mk
+-include ${MAKEFILES_DIR}/release-mgmt/release.mk
 
 #==============================================================#
 # GITHUB MODULE MGMT                                           #
@@ -67,4 +60,3 @@ git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos doc
 
 git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos terraform
 	cd ./terraform && make init-makefiles && make git-sync-fork-upstream
-

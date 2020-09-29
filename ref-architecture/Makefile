@@ -8,6 +8,7 @@ MAKEFILES_DIR := ../@bin/makefiles
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-refarch","binbash-refarch","binbash-ref-architecture","ref-architecture"]}
 define REPOS_LIST
+"leverage","" \
 "le-ansible-infra","" \
 "le-architecture-diagrams","" \
 "le-helm-infra","" \
