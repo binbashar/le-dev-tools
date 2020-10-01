@@ -121,8 +121,6 @@ workflows:
   #
   pr_sync_and_release:
     jobs:
-      - sumologic/workflow-collector:
-          context: binbashar-org-global-context
       - git-sync-fork-upstream:
           context: binbashar-org-global-context
           filters:
@@ -146,6 +144,10 @@ workflows:
             branches:
              only: # only branches matching the below regex filters will run
                - master
+      - sumologic/workflow-collector:
+          context: binbashar-org-global-context
+          requires:
+            - release-version-with-changelog
 
   #
   # Cron weekly scheduled Jobs
@@ -159,8 +161,6 @@ workflows:
               only:
                 - master
     jobs:
-      - sumologic/workflow-collector:
-          context: binbashar-org-cron-context
       - git-sync-fork-upstream:
           context: binbashar-org-cron-context
           filters:
@@ -184,3 +184,7 @@ workflows:
             branches:
              only: # only branches matching the below regex filters will run
                - master
+      - sumologic/workflow-collector:
+          context: binbashar-org-global-context
+          requires:
+            - release-version-with-changelog
