@@ -185,6 +185,6 @@ workflows:
              only: # only branches matching the below regex filters will run
                - master
       - sumologic/workflow-collector:
-          context: binbashar-org-global-context
+          context: binbashar-org-cron-context
           requires:
             - release-version-with-changelog
