@@ -30,6 +30,7 @@ define REPOS_LIST
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key" \
 "terraform-aws-lambda","claranet/terraform-aws-lambda" \
+"terraform-aws-lambda-1","opendevsecops/terraform-aws-lambda" \
 "terraform-aws-lambda-nuke","diodonfrost/terraform-aws-lambda-nuke" \
 "terraform-aws-lambda-scheduler-stop-start","diodonfrost/terraform-aws-lambda-scheduler-stop-start" \
 "terraform-aws-logs","trussworks/terraform-aws-logs" \
@@ -40,6 +41,7 @@ define REPOS_LIST
 "terraform-aws-root-login-notifications","trussworks/terraform-aws-root-login-notifications" \
 "terraform-aws-route53-alias","cloudposse/terraform-aws-route53-alias" \
 "terraform-aws-route53-query-logs","trussworks/terraform-aws-route53-query-logs" \
+"terraform-aws-s3-bucket","terraform-aws-modules/terraform-aws-s3-bucket" \
 "terraform-aws-s3-log-storage","cloudposse/terraform-aws-s3-log-storage" \
 "terraform-aws-sqs","terraform-aws-modules/terraform-aws-sqs" \
 "terraform-aws-secure-baseline","nozaq/terraform-aws-secure-baseline" \
@@ -49,7 +51,6 @@ define REPOS_LIST
 "terraform-aws-vpc-flowlogs","" \
 "terraform-aws-waf-owasp","" \
 "terraform-null-label","cloudposse/terraform-null-label" \
-"terraform-sample-module","" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label"
 endef
 
