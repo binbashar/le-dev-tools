@@ -7,8 +7,16 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.29"></a>
+## [v0.0.29] - 2020-10-23
+
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+
+
 <a name="v0.0.28"></a>
-## [v0.0.28] - 0001-01-01
+## [v0.0.28] - 2020-10-18
 
 
 
@@ -216,7 +224,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.28...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.29...HEAD
+[v0.0.29]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.28...v0.0.29
 [v0.0.28]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.27...v0.0.28
 [v0.0.27]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.26...v0.0.27
 [v0.0.26]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.25...v0.0.26
