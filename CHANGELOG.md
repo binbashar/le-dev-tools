@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.30"></a>
+## [v0.0.30] - 0001-01-01
+
+
+
 <a name="v0.0.29"></a>
 ## [v0.0.29] - 2020-10-23
 
@@ -224,7 +229,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.29...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.30...HEAD
+[v0.0.30]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.29...v0.0.30
 [v0.0.29]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.28...v0.0.29
 [v0.0.28]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.27...v0.0.28
 [v0.0.27]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.26...v0.0.27
