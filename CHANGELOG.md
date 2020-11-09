@@ -7,8 +7,15 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.33"></a>
+## [v0.0.33] - 2020-11-09
+
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+
+
 <a name="v0.0.32"></a>
-## [v0.0.32] - 0001-01-01
+## [v0.0.32] - 2020-11-08
 
 
 
@@ -239,7 +246,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.32...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.33...HEAD
+[v0.0.33]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.32...v0.0.33
 [v0.0.32]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.31...v0.0.32
 [v0.0.31]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.30...v0.0.31
 [v0.0.30]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.29...v0.0.30
