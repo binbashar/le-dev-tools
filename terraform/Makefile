@@ -27,6 +27,7 @@ define REPOS_LIST
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks" \
 "terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis" \
 "terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor" \
+"terraform-aws-guardduty-multiaccount","" \
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key" \
 "terraform-aws-lambda","claranet/terraform-aws-lambda" \
