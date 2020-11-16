@@ -7,6 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.36"></a>
+## [v0.0.36] - 2020-11-16
+
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+
+
 <a name="v0.0.35"></a>
 ## [v0.0.35] - 2020-11-15
 
@@ -258,7 +265,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.35...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.36...HEAD
+[v0.0.36]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.35...v0.0.36
 [v0.0.35]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.34...v0.0.35
 [v0.0.34]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.33...v0.0.34
 [v0.0.33]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.32...v0.0.33
