@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.37"></a>
+## [v0.0.37] - 2020-11-16
+
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+
+
 <a name="v0.0.36"></a>
 ## [v0.0.36] - 2020-11-16
 
@@ -265,7 +271,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.36...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.37...HEAD
+[v0.0.37]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.36...v0.0.37
 [v0.0.36]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.35...v0.0.36
 [v0.0.35]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.34...v0.0.35
 [v0.0.34]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.33...v0.0.34
