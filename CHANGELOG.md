@@ -7,8 +7,15 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.35"></a>
+## [v0.0.35] - 2020-11-15
+
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+
+
 <a name="v0.0.34"></a>
-## [v0.0.34] - 0001-01-01
+## [v0.0.34] - 2020-11-15
 
 
 
@@ -251,7 +258,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.34...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.35...HEAD
+[v0.0.35]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.34...v0.0.35
 [v0.0.34]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.33...v0.0.34
 [v0.0.33]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.32...v0.0.33
 [v0.0.32]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.31...v0.0.32
