@@ -21,6 +21,8 @@ define REPOS_LIST
 "ansible-role-docker","geerlingguy/ansible-role-docker" \
 "ansible-role-elasticsearch","geerlingguy/ansible-role-elasticsearch" \
 "ansible-role-elasticsearch-curator","geerlingguy/ansible-role-elasticsearch-curator" \
+"ansible-role-filecreate","" \
+"ansible-role-fileremove","" \
 "ansible-role-java","geerlingguy/ansible-role-java" \
 "ansible-role-jenkins","geerlingguy/ansible-role-jenkins" \
 "ansible-role-jenkins-bitbucket-oauth","" \
