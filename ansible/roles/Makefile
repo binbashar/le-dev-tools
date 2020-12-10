@@ -12,6 +12,8 @@ define REPOS_LIST
 "ansible-fail2ban","Oefenweb/ansible-fail2ban" \
 "ansible-kubectl","andrewrothstein/ansible-kubectl" \
 "ansible-grafana","cloudalchemy/ansible-grafana" \
+"ansible-role-bash-command","RoleModel/bash_command" \
+"ansible-role-cron","manala/ansible-role-cron" \
 "ansible-node-exporter","cloudalchemy/ansible-node-exporter" \
 "ansible-prometheus","cloudalchemy/ansible-prometheus" \
 "ansible-prometheus-node-exporter","UnderGreen/ansible-prometheus-node-exporter" \
@@ -33,6 +35,8 @@ define REPOS_LIST
 "ansible-role-kibana","geerlingguy/ansible-role-kibana" \
 "ansible-role-mongodb","UnderGreen/ansible-role-mongodb" \
 "ansible-role-nginx","jdauphant/ansible-role-nginx" \
+"ansible-role-nginxinc-nginx","nginxinc/ansible-role-nginx" \
+"ansible-role-nginx-config","nginxinc/ansible-role-nginx-config" \
 "ansible-role-security","geerlingguy/ansible-role-security" \
 "ansible-role-users","" \
 "ansible-role-vpn-pritunl-init-values","" \
