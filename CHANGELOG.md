@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.44"></a>
+## [v0.0.44] - 2020-12-17
+
+- BBL-192 | adding terraform gh runner module
+
+
 <a name="v0.0.43"></a>
-## [v0.0.43] - 0001-01-01
+## [v0.0.43] - 2020-12-13
 
 
 
@@ -303,7 +309,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.43...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.44...HEAD
+[v0.0.44]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.43...v0.0.44
 [v0.0.43]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.42...v0.0.43
 [v0.0.42]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.41...v0.0.42
 [v0.0.41]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.40...v0.0.41
