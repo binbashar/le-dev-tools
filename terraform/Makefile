@@ -21,6 +21,7 @@ define REPOS_LIST
 "terraform-aws-config","trussworks/terraform-aws-config" \
 "terraform-aws-cost-billing-alarm","" \
 "terraform-aws-cost-budget","" \
+"terraform-aws-dynamodb","cloudposse/terraform-aws-dynamodb" \
 "terraform-aws-ec2-basic-layout","" \
 "terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance" \
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account" \
@@ -46,6 +47,7 @@ define REPOS_LIST
 "terraform-aws-route53-query-logs","trussworks/terraform-aws-route53-query-logs" \
 "terraform-aws-s3-bucket","terraform-aws-modules/terraform-aws-s3-bucket" \
 "terraform-aws-s3-log-storage","cloudposse/terraform-aws-s3-log-storage" \
+"terraform-aws-ses","cloudposse/terraform-aws-ses" \
 "terraform-aws-sqs","terraform-aws-modules/terraform-aws-sqs" \
 "terraform-aws-secure-baseline","nozaq/terraform-aws-secure-baseline" \
 "terraform-aws-security-group","terraform-aws-modules/terraform-aws-security-group" \
