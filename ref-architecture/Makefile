@@ -15,7 +15,8 @@ define REPOS_LIST
 "le-helm-infra","" \
 "le-ref-architecture-doc","" \
 "le-tf-infra-aws","" \
-"le-tf-modules",""
+"le-tf-modules","" \
+"le-tf-vault",""
 endef
 
 help:
