@@ -10,7 +10,7 @@ GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","
 define REPOS_LIST
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm" \
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb" \
-"terraform-aws-backup","cloudposse/terraform-aws-backup" \
+"terraform-aws-backup","lgallard/terraform-aws-backup" \
 "terraform-aws-backup-by-tags","" \
 "terraform-aws-certbot-lambda","" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront" \
