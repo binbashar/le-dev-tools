@@ -7,8 +7,24 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.56"></a>
+## [v0.0.56] - 0001-01-01
+
+
+
+<a name="v0.0.55"></a>
+## [v0.0.55] - 2021-02-14
+
+
+
+<a name="v0.0.54"></a>
+## [v0.0.54] - 2021-02-12
+
+- BBL-192 | updating terraform modules repo list
+
+
 <a name="v0.0.53"></a>
-## [v0.0.53] - 0001-01-01
+## [v0.0.53] - 2021-02-07
 
 
 
@@ -355,7 +371,10 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.53...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.56...HEAD
+[v0.0.56]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.55...v0.0.56
+[v0.0.55]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.54...v0.0.55
+[v0.0.54]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.53...v0.0.54
 [v0.0.53]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.52...v0.0.53
 [v0.0.52]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.51...v0.0.52
 [v0.0.51]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.50...v0.0.51
