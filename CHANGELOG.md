@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.59"></a>
+## [v0.0.59] - 2021-03-04
+
+- BBL-192 | adding new ansible and terraform leverage supported repos
+
+
 <a name="v0.0.58"></a>
-## [v0.0.58] - 0001-01-01
+## [v0.0.58] - 2021-02-28
 
 
 
@@ -383,7 +389,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.58...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.59...HEAD
+[v0.0.59]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.58...v0.0.59
 [v0.0.58]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.57...v0.0.58
 [v0.0.57]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.56...v0.0.57
 [v0.0.56]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.55...v0.0.56
