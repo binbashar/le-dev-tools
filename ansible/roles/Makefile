@@ -25,6 +25,7 @@ define REPOS_LIST
 "ansible-role-elasticsearch-curator","geerlingguy/ansible-role-elasticsearch-curator" \
 "ansible-role-filecreate","" \
 "ansible-role-fileremove","" \
+"ansible-role-github-actions-runner","MonolithProjects/ansible-github_actions_runner" \
 "ansible-role-java","geerlingguy/ansible-role-java" \
 "ansible-role-jenkins","geerlingguy/ansible-role-jenkins" \
 "ansible-role-jenkins-bitbucket-oauth","" \
@@ -33,12 +34,15 @@ define REPOS_LIST
 "ansible-role-jenkins-matrix-based-strategy","" \
 "ansible-role-jenkins-role-based-strategy","" \
 "ansible-role-kibana","geerlingguy/ansible-role-kibana" \
+"ansible-role-logrotate","nickhammond/ansible-logrotate" \
 "ansible-role-mongodb","UnderGreen/ansible-role-mongodb" \
 "ansible-role-nginx","jdauphant/ansible-role-nginx" \
 "ansible-role-nginxinc-nginx","nginxinc/ansible-role-nginx" \
 "ansible-role-nginx-config","nginxinc/ansible-role-nginx-config" \
 "ansible-role-security","geerlingguy/ansible-role-security" \
 "ansible-role-users","" \
+"ansible-role-vault","ansible-community/ansible-vault" \
+"ansible-role-vault-init","" \
 "ansible-role-vpn-pritunl-init-values","" \
 "ansible-sudo","weareinteractive/ansible-sudo" \
 "ansible-users","singleplatform-eng/ansible-users" \
