@@ -11,6 +11,7 @@ define REPOS_LIST
 "leverage","" \
 "le-ansible-infra","" \
 "le-architecture-diagrams","" \
+"le-demo-apps","" \
 "le-dev-makefiles","" \
 "le-helm-infra","" \
 "le-ref-architecture-doc","" \
