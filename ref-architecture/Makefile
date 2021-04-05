@@ -13,6 +13,7 @@ define REPOS_LIST
 "le-architecture-diagrams","" \
 "le-demo-apps","" \
 "le-dev-makefiles","" \
+"le-devops-workflows","" \
 "le-helm-infra","" \
 "le-ref-architecture-doc","" \
 "le-tf-infra-aws","" \
