@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.0.70"></a>
+## [v0.0.70] - 2021-04-30
+
+- BBL-192 | Updating repo list - terraform and ref-architecture
+
+
 <a name="v0.0.69"></a>
-## [v0.0.69] - 0001-01-01
+## [v0.0.69] - 2021-04-25
 
 
 
@@ -441,7 +447,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.69...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.70...HEAD
+[v0.0.70]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.69...v0.0.70
 [v0.0.69]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.68...v0.0.69
 [v0.0.68]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.67...v0.0.68
 [v0.0.67]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.66...v0.0.67
