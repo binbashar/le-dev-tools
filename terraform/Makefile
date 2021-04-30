@@ -28,6 +28,7 @@ define REPOS_LIST
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account" \
 "terraform-aws-ecr-lifecycle-policy-rule","doingcloudright/terraform-aws-ecr-lifecycle-policy-rule" \
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks" \
+"terraform-aws-elasticsearch","lgallard/terraform-aws-elasticsearch" \
 "terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis" \
 "terraform-aws-github-runner","philips-labs/terraform-aws-github-runner" \
 "terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor" \
