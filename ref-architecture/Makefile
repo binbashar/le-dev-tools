@@ -10,6 +10,7 @@ GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-refarch","binbash-refarch","binbash-
 define REPOS_LIST
 "ghaction-action-slack","8398a7/action-slack" \
 "ghaction-leverage-aws-credentials","" \
+"ghaction-leverage-configure-ref-arch","" \
 "ghaction-repository-dispatch","peter-evans/repository-dispatch" \
 "leverage","" \
 "le-ansible-infra","" \
