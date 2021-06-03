@@ -7,8 +7,15 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.1.2"></a>
+## [v0.1.2] - 2021-06-03
+
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+
+
 <a name="v0.1.1"></a>
-## [v0.1.1] - 0001-01-01
+## [v0.1.1] - 2021-05-30
 
 
 
@@ -477,7 +484,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.2...HEAD
+[v0.1.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.1...v0.1.2
 [v0.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.74...v0.1.1
 [v0.0.74]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.0...v0.0.74
 [v0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.73...v0.1.0
