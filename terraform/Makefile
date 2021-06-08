@@ -12,7 +12,6 @@ define REPOS_LIST
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb" \
 "terraform-aws-backup","lgallard/terraform-aws-backup" \
 "terraform-aws-backup-notifications","" \
-"terraform-aws-backup-by-tags","" \
 "terraform-aws-certbot-lambda","" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront" \
 "terraform-aws-cloudfront-s3-cdn","cloudposse/terraform-aws-cloudfront-s3-cdn" \
