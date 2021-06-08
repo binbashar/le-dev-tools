@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.1.4"></a>
+## [v0.1.4] - 2021-06-08
+
+- BBL-192 | removing deprecated terraform repo from list
+
+
 <a name="v0.1.3"></a>
-## [v0.1.3] - 0001-01-01
+## [v0.1.3] - 2021-06-06
 
 
 
@@ -489,7 +495,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.3...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.4...HEAD
+[v0.1.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.3...v0.1.4
 [v0.1.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.2...v0.1.3
 [v0.1.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.1...v0.1.2
 [v0.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.74...v0.1.1
