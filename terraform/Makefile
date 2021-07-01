@@ -55,7 +55,7 @@ define REPOS_LIST
 "terraform-aws-secure-baseline","nozaq/terraform-aws-secure-baseline" \
 "terraform-aws-security-group","terraform-aws-modules/terraform-aws-security-group" \
 "terraform-aws-tfstate-backend","" \
-"terraform-aws-transit-gateway","terraform-aws-modules/terraform-aws-transit-gateway" \
+"terraform-aws-transit-gateway","cloudposse/terraform-aws-transit-gateway" \
 "terraform-aws-vpc","terraform-aws-modules/terraform-aws-vpc" \
 "terraform-aws-vpc-flowlogs","" \
 "terraform-aws-waf-owasp","" \
