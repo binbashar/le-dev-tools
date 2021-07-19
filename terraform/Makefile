@@ -57,6 +57,8 @@ define REPOS_LIST
 "terraform-aws-tfstate-backend","" \
 "terraform-aws-transit-gateway","cloudposse/terraform-aws-transit-gateway" \
 "terraform-aws-vpc","terraform-aws-modules/terraform-aws-vpc" \
+"terraform-aws-vpc-base","cloudposse/terraform-aws-vpc" \
+"terraform-aws-multi-az-subnets","cloudposse/terraform-aws-multi-az-subnets" \
 "terraform-aws-vpc-flowlogs","" \
 "terraform-aws-waf-owasp","" \
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2" \
