@@ -7,8 +7,15 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.1.12"></a>
+## [v0.1.12] - 2021-07-19
+
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+
+
 <a name="v0.1.11"></a>
-## [v0.1.11] - 0001-01-01
+## [v0.1.11] - 2021-07-18
 
 
 
@@ -532,7 +539,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.11...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.12...HEAD
+[v0.1.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.11...v0.1.12
 [v0.1.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.10...v0.1.11
 [v0.1.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.9...v0.1.10
 [v0.1.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.8...v0.1.9
