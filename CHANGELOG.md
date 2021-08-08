@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.1.15"></a>
+## [v0.1.15] - 0001-01-01
+
+
+
 <a name="v0.1.14"></a>
-## [v0.1.14] - 0001-01-01
+## [v0.1.14] - 2021-08-01
 
 
 
@@ -549,7 +554,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.14...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.15...HEAD
+[v0.1.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.14...v0.1.15
 [v0.1.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.13...v0.1.14
 [v0.1.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.12...v0.1.13
 [v0.1.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.11...v0.1.12
