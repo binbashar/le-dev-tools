@@ -24,6 +24,7 @@ define REPOS_LIST
 "terraform-aws-dynamodb","cloudposse/terraform-aws-dynamodb" \
 "terraform-aws-ec2-basic-layout","" \
 "terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance" \
+"terraform-aws-ecr","lgallard/terraform-aws-ecr" \
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account" \
 "terraform-aws-ecr-lifecycle-policy-rule","doingcloudright/terraform-aws-ecr-lifecycle-policy-rule" \
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks" \
@@ -40,9 +41,12 @@ define REPOS_LIST
 "terraform-aws-lambda-scheduler-stop-start","diodonfrost/terraform-aws-lambda-scheduler-stop-start" \
 "terraform-aws-logs","trussworks/terraform-aws-logs" \
 "terraform-aws-msk-apache-kafka-cluster","cloudposse/terraform-aws-msk-apache-kafka-cluster" \
+"terraform-aws-multi-az-subnets","cloudposse/terraform-aws-multi-az-subnets" \
 "terraform-aws-natgw-notifications","" \
+"terraform-aws-network-firewall","" \
 "terraform-aws-notify-slack","terraform-aws-modules/terraform-aws-notify-slack" \
 "terraform-aws-rds","terraform-aws-modules/terraform-aws-rds" \
+"terraform-aws-rds-export-to-s3","" \
 "terraform-aws-rds-aurora","terraform-aws-modules/terraform-aws-rds-aurora" \
 "terraform-aws-redshift","terraform-aws-modules/terraform-aws-redshift" \
 "terraform-aws-root-login-notifications","trussworks/terraform-aws-root-login-notifications" \
@@ -56,10 +60,11 @@ define REPOS_LIST
 "terraform-aws-security-group","terraform-aws-modules/terraform-aws-security-group" \
 "terraform-aws-tfstate-backend","" \
 "terraform-aws-transit-gateway","cloudposse/terraform-aws-transit-gateway" \
+"terraform-aws-transit-gateway","terraform-aws-modules/terraform-aws-transit-gateway" \
 "terraform-aws-vpc","terraform-aws-modules/terraform-aws-vpc" \
 "terraform-aws-vpc-base","cloudposse/terraform-aws-vpc" \
-"terraform-aws-multi-az-subnets","cloudposse/terraform-aws-multi-az-subnets" \
 "terraform-aws-vpc-flowlogs","" \
+"terraform-aws-vpn-gateway","terraform-aws-modules/terraform-aws-vpn-gateway" \
 "terraform-aws-waf-owasp","" \
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2" \
 "terraform-null-label","cloudposse/terraform-null-label" \
