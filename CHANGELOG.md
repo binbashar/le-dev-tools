@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v0.1.18"></a>
+## [v0.1.18] - 2021-08-25
+
+- adding new IaC library terraform repos
+
+
 <a name="v0.1.17"></a>
-## [v0.1.17] - 0001-01-01
+## [v0.1.17] - 2021-08-22
 
 
 
@@ -564,7 +570,8 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.17...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.18...HEAD
+[v0.1.18]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.17...v0.1.18
 [v0.1.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.16...v0.1.17
 [v0.1.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.15...v0.1.16
 [v0.1.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.14...v0.1.15
