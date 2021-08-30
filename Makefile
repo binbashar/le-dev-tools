@@ -34,6 +34,9 @@ github-repo-replace-all-topics-docker: ## Github replace all repo topics - eg: m
 github-repo-replace-all-topics-terraform: ## Github replace all repo topics - eg: make GITHUB_TOKEN="4df7...406" -f Makefile.github github-repo-replace-all-topics-terraform
 	cd ./terraform && make init-makefiles && make github-repo-replace-all-topics
 
+github-repo-replace-all-topics-refarch: ## Github replace all repo topics - eg: make GITHUB_TOKEN="4df7...406" -f Makefile.github github-repo-replace-all-topics-refarch
+	cd ./ref-architecture && make init-makefiles && make github-repo-replace-all-topics
+
 #==============================================================#
 # GIT MODULE MGMT                                              #
 #==============================================================#
