@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.5.1"></a>
+## [v2.5.1] - 0001-01-01
+
+
+
 <a name="v0.1.23"></a>
-## [v0.1.23] - 0001-01-01
+## [v0.1.23] - 2021-09-19
 
 
 
@@ -149,6 +154,134 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.72"></a>
 ## [v0.0.72] - 2021-05-09
 
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.5.0"></a>
+## [v2.5.0] - 2021-05-06
+
+- Ability to create alarms.
+- Added the ability to subscribe to queues.
+- Add subscription.
+- Added support for sns topics.
+- Added optional role policy.
+- Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
+- Minor code-quality improvements.
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- New lambda function with improved deployment mechanisms and support for layers.
+- Update README.md
+- Update README.md
+- Updated documentation.
+- Fixed variables and re-introduced depends_on as module_depends_on.
+- Fixed APIGW permission logic.
+- Added types and default values.
+- Migrated to v0.12 with support for schedule and apigw integration.
+- Set the default to version 10.
+- Added configurable runtime.
+- Code-quality improvements and memory_size options.
+- Update README.md
+- Update README.md
+- Code-quality improvements.
+- Added tags.
+- Added default github ignore rules for terraform.
+- More output variables.
+- Improved readme.
+- Better variable descriptions.
+- Updated readme.
+- Added codacy badge.
+- First.
 
 
 <a name="v0.0.71"></a>
@@ -230,6 +363,127 @@ All notable changes to this project will be documented in this file.
 
 - Merge branch 'master' of github.com:binbashar/le-dev-tools
 - BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.4.0"></a>
+## [v2.4.0] - 2021-02-22
+
+- Added the ability to subscribe to queues.
+- Add subscription.
+- Added support for sns topics.
+- Added optional role policy.
+- Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
+- Minor code-quality improvements.
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- New lambda function with improved deployment mechanisms and support for layers.
+- Update README.md
+- Update README.md
+- Updated documentation.
+- Fixed variables and re-introduced depends_on as module_depends_on.
+- Fixed APIGW permission logic.
+- Added types and default values.
+- Migrated to v0.12 with support for schedule and apigw integration.
+- Set the default to version 10.
+- Added configurable runtime.
+- Code-quality improvements and memory_size options.
+- Update README.md
+- Update README.md
+- Code-quality improvements.
+- Added tags.
+- Added default github ignore rules for terraform.
+- More output variables.
+- Improved readme.
+- Better variable descriptions.
+- Updated readme.
+- Added codacy badge.
+- First.
 
 
 <a name="v0.0.56"></a>
@@ -538,6 +792,88 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.4"></a>
 ## [v0.0.4] - 2020-06-28
 
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.3.0"></a>
+## [v2.3.0] - 2020-06-26
+
+- Add subscription.
+
+
+<a name="v2.2.0"></a>
+## [v2.2.0] - 2020-06-26
+
+- Added support for sns topics.
+- Added optional role policy.
+- Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
+- Minor code-quality improvements.
+- Update README.md
+- Update README.md
+- Update README.md
+- Update README.md
+- New lambda function with improved deployment mechanisms and support for layers.
+- Update README.md
+- Update README.md
+- Updated documentation.
+- Fixed variables and re-introduced depends_on as module_depends_on.
+- Fixed APIGW permission logic.
+- Added types and default values.
+- Migrated to v0.12 with support for schedule and apigw integration.
+- Set the default to version 10.
+- Added configurable runtime.
+- Code-quality improvements and memory_size options.
+- Update README.md
+- Update README.md
+- Code-quality improvements.
+- Added tags.
+- Added default github ignore rules for terraform.
+- More output variables.
+- Improved readme.
+- Better variable descriptions.
+- Updated readme.
+- Added codacy badge.
+- First.
 
 
 <a name="v0.0.3"></a>
@@ -550,10 +886,88 @@ All notable changes to this project will be documented in this file.
 
 - BBL-84 update scheduling to a weekly frequency
 - BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.1.1"></a>
+## [v2.1.1] - 2020-06-10
+
+- Added optional role policy.
+- Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
+- Update README.md
+- Update README.md
+- Update README.md
+
+
+<a name="v2.1.0"></a>
+## [v2.1.0] - 2020-06-10
+
+- Minor code-quality improvements.
+- Update README.md
+- New lambda function with improved deployment mechanisms and support for layers.
+- Update README.md
+- Update README.md
+- Updated documentation.
+- Fixed variables and re-introduced depends_on as module_depends_on.
+- Fixed APIGW permission logic.
+- Added types and default values.
+- Migrated to v0.12 with support for schedule and apigw integration.
+- Set the default to version 10.
+- Added configurable runtime.
+- Code-quality improvements and memory_size options.
+- Update README.md
+- Update README.md
+- Code-quality improvements.
+- Added tags.
+- Added default github ignore rules for terraform.
+- More output variables.
+- Improved readme.
+- Better variable descriptions.
+- Updated readme.
+- Added codacy badge.
+- First.
 
 
 <a name="v0.0.1"></a>
-## v0.0.1 - 2020-06-08
+## [v0.0.1] - 2020-06-08
 
 - BBL-84 minor circleci/config.yaml sintaxt fix
 - BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
@@ -596,7 +1010,65 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.23...HEAD
+<a name="v2.0.0"></a>
+## [v2.0.0] - 2020-05-22
+
+- New lambda function with improved deployment mechanisms and support for layers.
+- Update README.md
+- Update README.md
+- Updated documentation.
+
+
+<a name="v1.0.0"></a>
+## [v1.0.0] - 2020-05-19
+
+- Fixed variables and re-introduced depends_on as module_depends_on.
+- Fixed APIGW permission logic.
+- Added types and default values.
+- Migrated to v0.12 with support for schedule and apigw integration.
+
+
+<a name="v0.5.1"></a>
+## [v0.5.1] - 2019-12-28
+
+- Set the default to version 10.
+
+
+<a name="v0.5.0"></a>
+## [v0.5.0] - 2019-12-28
+
+- Added configurable runtime.
+
+
+<a name="v0.4.0"></a>
+## [v0.4.0] - 2019-05-22
+
+- Code-quality improvements and memory_size options.
+- Update README.md
+- Update README.md
+
+
+<a name="v0.3.0"></a>
+## [v0.3.0] - 2018-11-15
+
+- Code-quality improvements.
+
+
+<a name="v0.2.0"></a>
+## v0.2.0 - 2018-11-15
+
+- Added tags.
+- Added default github ignore rules for terraform.
+- More output variables.
+- Improved readme.
+- Better variable descriptions.
+- Updated readme.
+- Added codacy badge.
+- First.
+
+
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.1...HEAD
+[v2.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.23...v2.5.1
 [v0.1.23]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.22...v0.1.23
 [v0.1.22]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.21...v0.1.22
 [v0.1.21]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.20...v0.1.21
@@ -623,7 +1095,8 @@ All notable changes to this project will be documented in this file.
 [v0.0.74]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.0...v0.0.74
 [v0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.73...v0.1.0
 [v0.0.73]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.72...v0.0.73
-[v0.0.72]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.71...v0.0.72
+[v0.0.72]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.0...v0.0.72
+[v2.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.71...v2.5.0
 [v0.0.71]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.70...v0.0.71
 [v0.0.70]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.69...v0.0.70
 [v0.0.69]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.68...v0.0.69
@@ -638,7 +1111,8 @@ All notable changes to this project will be documented in this file.
 [v0.0.60]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.59...v0.0.60
 [v0.0.59]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.58...v0.0.59
 [v0.0.58]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.57...v0.0.58
-[v0.0.57]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.56...v0.0.57
+[v0.0.57]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.4.0...v0.0.57
+[v2.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.56...v2.4.0
 [v0.0.56]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.55...v0.0.56
 [v0.0.55]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.54...v0.0.55
 [v0.0.54]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.53...v0.0.54
@@ -691,6 +1165,17 @@ All notable changes to this project will be documented in this file.
 [v0.0.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.4...v0.0.5
-[v0.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v0.0.4
+[v0.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.3.0...v0.0.4
+[v2.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.2.0...v2.3.0
+[v2.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v2.2.0
 [v0.0.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.2...v0.0.3
-[v0.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.1...v0.0.2
+[v0.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.1...v0.0.2
+[v2.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.0...v2.1.1
+[v2.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.1...v2.1.0
+[v0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.0.0...v0.0.1
+[v2.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.0.0...v2.0.0
+[v1.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.1...v1.0.0
+[v0.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.0...v0.5.1
+[v0.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.4.0...v0.5.0
+[v0.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.3.0...v0.4.0
+[v0.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.2.0...v0.3.0
