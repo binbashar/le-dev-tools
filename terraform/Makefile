@@ -19,6 +19,7 @@ define REPOS_LIST
 "terraform-aws-cloudtrail-cloudwatch-alarms","cloudposse/terraform-aws-cloudtrail-cloudwatch-alarms" \
 "terraform-aws-cloudtrail-s3-bucket","cloudposse/terraform-aws-cloudtrail-s3-bucket" \
 "terraform-aws-config","trussworks/terraform-aws-config" \
+"terraform-aws-config-notifications","trussworks/terraform-aws-config-notifications" \
 "terraform-aws-cost-billing-alarm","" \
 "terraform-aws-cost-budget","" \
 "terraform-aws-dynamodb","cloudposse/terraform-aws-dynamodb" \
@@ -30,13 +31,13 @@ define REPOS_LIST
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks" \
 "terraform-aws-elasticsearch","lgallard/terraform-aws-elasticsearch" \
 "terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis" \
+"terraform-aws-firewall-manager","cloudposse/terraform-aws-firewall-manager" \
 "terraform-aws-github-runner","philips-labs/terraform-aws-github-runner" \
 "terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor" \
 "terraform-aws-guardduty-multiaccount","" \
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key" \
-"terraform-aws-lambda","claranet/terraform-aws-lambda" \
-"terraform-aws-lambda-1","opendevsecops/terraform-aws-lambda" \
+"terraform-aws-lambda","terraform-aws-modules/terraform-aws-lambda" \
 "terraform-aws-lambda-nuke","diodonfrost/terraform-aws-lambda-nuke" \
 "terraform-aws-lambda-scheduler-stop-start","diodonfrost/terraform-aws-lambda-scheduler-stop-start" \
 "terraform-aws-logs","trussworks/terraform-aws-logs" \
