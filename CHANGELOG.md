@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.5.3"></a>
+## [v2.5.3] - 2021-10-06
+
+- updating terraform repos
+
+
 <a name="v2.5.2"></a>
-## [v2.5.2] - 0001-01-01
+## [v2.5.2] - 2021-10-03
 
 
 
@@ -1072,7 +1078,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.2...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.3...HEAD
+[v2.5.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.2...v2.5.3
 [v2.5.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.1...v2.5.2
 [v2.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.23...v2.5.1
 [v0.1.23]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.22...v0.1.23
