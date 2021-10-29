@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.5.7"></a>
+## [v2.5.7] - 2021-10-29
+
+- adding new forked IaC library terraform repos
+
+
 <a name="v2.5.6"></a>
-## [v2.5.6] - 0001-01-01
+## [v2.5.6] - 2021-10-24
 
 
 
@@ -1093,7 +1099,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.6...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.7...HEAD
+[v2.5.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.6...v2.5.7
 [v2.5.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.5...v2.5.6
 [v2.5.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.4...v2.5.5
 [v2.5.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.3...v2.5.4
