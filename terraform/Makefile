@@ -10,6 +10,7 @@ GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","
 define REPOS_LIST
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm" \
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb" \
+"terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling" \
 "terraform-aws-backup","lgallard/terraform-aws-backup" \
 "terraform-aws-backup-notifications","" \
 "terraform-aws-certbot-lambda","" \
@@ -56,6 +57,7 @@ define REPOS_LIST
 "terraform-aws-s3-bucket","terraform-aws-modules/terraform-aws-s3-bucket" \
 "terraform-aws-s3-log-storage","cloudposse/terraform-aws-s3-log-storage" \
 "terraform-aws-ses","cloudposse/terraform-aws-ses" \
+"terraform-aws-sns-topic","cloudposse/terraform-aws-sns-topic" \
 "terraform-aws-sqs","terraform-aws-modules/terraform-aws-sqs" \
 "terraform-aws-secure-baseline","nozaq/terraform-aws-secure-baseline" \
 "terraform-aws-security-group","terraform-aws-modules/terraform-aws-security-group" \
@@ -65,6 +67,7 @@ define REPOS_LIST
 "terraform-aws-vpc","terraform-aws-modules/terraform-aws-vpc" \
 "terraform-aws-vpc-base","cloudposse/terraform-aws-vpc" \
 "terraform-aws-vpc-flowlogs","" \
+"terraform-aws-vpc-peering","grem11n/terraform-aws-vpc-peering" \
 "terraform-aws-vpn-gateway","terraform-aws-modules/terraform-aws-vpn-gateway" \
 "terraform-aws-waf-owasp","" \
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2" \
