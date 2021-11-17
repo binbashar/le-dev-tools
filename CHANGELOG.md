@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.5.11"></a>
+## [v2.5.11] - 2021-11-17
+
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+
+
 <a name="v2.5.10"></a>
-## [v2.5.10] - 0001-01-01
+## [v2.5.10] - 2021-11-14
 
 
 
@@ -1114,7 +1120,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.10...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.11...HEAD
+[v2.5.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.10...v2.5.11
 [v2.5.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.9...v2.5.10
 [v2.5.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.8...v2.5.9
 [v2.5.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.7...v2.5.8
