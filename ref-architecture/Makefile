@@ -22,6 +22,7 @@ define REPOS_LIST
 "le-ref-architecture-doc","" \
 "le-tf-infra-aws","" \
 "le-tf-infra-aws-template","" \
+"le-tf-gitlab","" \
 "le-tf-modules","" \
 "le-tf-vault",""
 endef
