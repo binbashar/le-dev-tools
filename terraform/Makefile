@@ -39,8 +39,10 @@ define REPOS_LIST
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key" \
 "terraform-aws-lambda","terraform-aws-modules/terraform-aws-lambda" \
+"terraform-aws-lambda-1","opendevsecops/terraform-aws-lambda" \
 "terraform-aws-lambda-nuke","diodonfrost/terraform-aws-lambda-nuke" \
 "terraform-aws-lambda-scheduler-stop-start","diodonfrost/terraform-aws-lambda-scheduler-stop-start" \
+"terraform-local-archive-builder","opendevsecops/terraform-local-archive-builder" \
 "terraform-aws-logs","trussworks/terraform-aws-logs" \
 "terraform-aws-msk-apache-kafka-cluster","cloudposse/terraform-aws-msk-apache-kafka-cluster" \
 "terraform-aws-multi-az-subnets","cloudposse/terraform-aws-multi-az-subnets" \
