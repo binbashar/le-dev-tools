@@ -19,6 +19,7 @@ define REPOS_LIST
 "terraform-aws-cloudtrail","cloudposse/terraform-aws-cloudtrail" \
 "terraform-aws-cloudtrail-cloudwatch-alarms","cloudposse/terraform-aws-cloudtrail-cloudwatch-alarms" \
 "terraform-aws-cloudtrail-s3-bucket","cloudposse/terraform-aws-cloudtrail-s3-bucket" \
+"terraform-aws-cloudwatch-alarms","clouddrove/terraform-aws-cloudwatch-alarms" \
 "terraform-aws-config","trussworks/terraform-aws-config" \
 "terraform-aws-config-notifications","trussworks/terraform-aws-config-notifications" \
 "terraform-aws-cost-billing-alarm","" \
@@ -39,8 +40,10 @@ define REPOS_LIST
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key" \
 "terraform-aws-lambda","terraform-aws-modules/terraform-aws-lambda" \
+"terraform-aws-lambda-1","opendevsecops/terraform-aws-lambda" \
 "terraform-aws-lambda-nuke","diodonfrost/terraform-aws-lambda-nuke" \
 "terraform-aws-lambda-scheduler-stop-start","diodonfrost/terraform-aws-lambda-scheduler-stop-start" \
+"terraform-local-archive-builder","opendevsecops/terraform-local-archive-builder" \
 "terraform-aws-logs","trussworks/terraform-aws-logs" \
 "terraform-aws-msk-apache-kafka-cluster","cloudposse/terraform-aws-msk-apache-kafka-cluster" \
 "terraform-aws-multi-az-subnets","cloudposse/terraform-aws-multi-az-subnets" \
@@ -61,6 +64,10 @@ define REPOS_LIST
 "terraform-aws-sqs","terraform-aws-modules/terraform-aws-sqs" \
 "terraform-aws-secure-baseline","nozaq/terraform-aws-secure-baseline" \
 "terraform-aws-security-group","terraform-aws-modules/terraform-aws-security-group" \
+"terraform-aws-secrets-manager","lgallard/terraform-aws-secrets-manager" \
+"terraform-aws-sftp","trussworks/terraform-aws-sftp" \
+"terraform-aws-sftp-user","trussworks/terraform-aws-sftp-user" \
+"terraform-aws-sso","cloudposse/terraform-aws-sso" \
 "terraform-aws-tfstate-backend","" \
 "terraform-aws-transit-gateway","cloudposse/terraform-aws-transit-gateway" \
 "terraform-aws-transit-gateway","terraform-aws-modules/terraform-aws-transit-gateway" \
