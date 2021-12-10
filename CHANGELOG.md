@@ -7,8 +7,16 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.5.15"></a>
+## [v2.5.15] - 2021-12-10
+
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+
+
 <a name="v2.5.14"></a>
-## [v2.5.14] - 0001-01-01
+## [v2.5.14] - 2021-12-05
 
 
 
@@ -1135,7 +1143,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.14...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.15...HEAD
+[v2.5.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.14...v2.5.15
 [v2.5.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.13...v2.5.14
 [v2.5.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.12...v2.5.13
 [v2.5.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.11...v2.5.12
