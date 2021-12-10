@@ -19,6 +19,7 @@ define REPOS_LIST
 "terraform-aws-cloudtrail","cloudposse/terraform-aws-cloudtrail" \
 "terraform-aws-cloudtrail-cloudwatch-alarms","cloudposse/terraform-aws-cloudtrail-cloudwatch-alarms" \
 "terraform-aws-cloudtrail-s3-bucket","cloudposse/terraform-aws-cloudtrail-s3-bucket" \
+"terraform-aws-cloudwatch-alarms","clouddrove/terraform-aws-cloudwatch-alarms" \
 "terraform-aws-config","trussworks/terraform-aws-config" \
 "terraform-aws-config-notifications","trussworks/terraform-aws-config-notifications" \
 "terraform-aws-cost-billing-alarm","" \
@@ -63,6 +64,10 @@ define REPOS_LIST
 "terraform-aws-sqs","terraform-aws-modules/terraform-aws-sqs" \
 "terraform-aws-secure-baseline","nozaq/terraform-aws-secure-baseline" \
 "terraform-aws-security-group","terraform-aws-modules/terraform-aws-security-group" \
+"terraform-aws-secrets-manager","lgallard/terraform-aws-secrets-manager" \
+"terraform-aws-sftp","trussworks/terraform-aws-sftp" \
+"terraform-aws-sftp-user","trussworks/terraform-aws-sftp-user" \
+"terraform-aws-sso","cloudposse/terraform-aws-sso" \
 "terraform-aws-tfstate-backend","" \
 "terraform-aws-transit-gateway","cloudposse/terraform-aws-transit-gateway" \
 "terraform-aws-transit-gateway","terraform-aws-modules/terraform-aws-transit-gateway" \
