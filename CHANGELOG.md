@@ -7,6 +7,11 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.5.16"></a>
+## [v2.5.16] - 0001-01-01
+
+
+
 <a name="v2.5.15"></a>
 ## [v2.5.15] - 2021-12-10
 
@@ -1143,7 +1148,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.15...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.16...HEAD
+[v2.5.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.15...v2.5.16
 [v2.5.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.14...v2.5.15
 [v2.5.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.13...v2.5.14
 [v2.5.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.12...v2.5.13
