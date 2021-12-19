@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.2"></a>
+## [v3.2.2] - 0001-01-01
+
+
+
 <a name="v2.5.16"></a>
-## [v2.5.16] - 0001-01-01
+## [v2.5.16] - 2021-12-12
 
 
 
@@ -28,6 +33,152 @@ All notable changes to this project will be documented in this file.
 <a name="v2.5.13"></a>
 ## [v2.5.13] - 2021-11-28
 
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v3.2.1"></a>
+## [v3.2.1] - 2021-11-22
+
+- fix: update CI/CD process to enable auto-release workflow ([#96](https://github.com/binbashar/bb-devops-dev-tools/issues/96))
+- docs: Add note in README about CloudFront with ACM ([#79](https://github.com/binbashar/bb-devops-dev-tools/issues/79))
+- fix: create missing validation records in cases (eg, wildcard SAN) ([#89](https://github.com/binbashar/bb-devops-dev-tools/issues/89))
+- chore: update CI/CD to use latest `terraform-docs` and discoverable Apache2.0 license ([#85](https://github.com/binbashar/bb-devops-dev-tools/issues/85))
+- feat: Shorten outputs (removing this_) ([#83](https://github.com/binbashar/bb-devops-dev-tools/issues/83))
+- chore: update documentation and pin `terraform_docs` version to avoid future changes ([#78](https://github.com/binbashar/bb-devops-dev-tools/issues/78))
+- chore: align ci-cd static checks to use individual minimum Terraform versions ([#76](https://github.com/binbashar/bb-devops-dev-tools/issues/76))
+- docs: Add note on how to handle off-by-one validation record issue when upgrading to +v2.13.0 ([#75](https://github.com/binbashar/bb-devops-dev-tools/issues/75))
+- fix: bump min supported version due to types unsupported on current ([#74](https://github.com/binbashar/bb-devops-dev-tools/issues/74))
+- chore: add ci-cd workflow for pre-commit checks ([#73](https://github.com/binbashar/bb-devops-dev-tools/issues/73))
+- fix: Fixed wildcard in domain names ([#71](https://github.com/binbashar/bb-devops-dev-tools/issues/71))
+- feat: Updated version requirements to support Terraform 0.14 also ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+- fix: Wait for correct certificate_arn when validation is enabled ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v2.5.12"></a>
@@ -177,6 +328,147 @@ All notable changes to this project will be documented in this file.
 
 - Merge branch 'master' of github.com:binbashar/le-dev-tools
 - BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v3.2.0"></a>
+## [v3.2.0] - 2021-06-28
+
+- docs: Add note in README about CloudFront with ACM ([#79](https://github.com/binbashar/bb-devops-dev-tools/issues/79))
+
+
+<a name="v3.1.0"></a>
+## [v3.1.0] - 2021-06-28
+
+- fix: create missing validation records in cases (eg, wildcard SAN) ([#89](https://github.com/binbashar/bb-devops-dev-tools/issues/89))
+- chore: update CI/CD to use latest `terraform-docs` and discoverable Apache2.0 license ([#85](https://github.com/binbashar/bb-devops-dev-tools/issues/85))
+- feat: Shorten outputs (removing this_) ([#83](https://github.com/binbashar/bb-devops-dev-tools/issues/83))
+- chore: update documentation and pin `terraform_docs` version to avoid future changes ([#78](https://github.com/binbashar/bb-devops-dev-tools/issues/78))
+- chore: align ci-cd static checks to use individual minimum Terraform versions ([#76](https://github.com/binbashar/bb-devops-dev-tools/issues/76))
+- docs: Add note on how to handle off-by-one validation record issue when upgrading to +v2.13.0 ([#75](https://github.com/binbashar/bb-devops-dev-tools/issues/75))
+- fix: bump min supported version due to types unsupported on current ([#74](https://github.com/binbashar/bb-devops-dev-tools/issues/74))
+- chore: add ci-cd workflow for pre-commit checks ([#73](https://github.com/binbashar/bb-devops-dev-tools/issues/73))
+- fix: Fixed wildcard in domain names ([#71](https://github.com/binbashar/bb-devops-dev-tools/issues/71))
+- feat: Updated version requirements to support Terraform 0.14 also ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+- fix: Wait for correct certificate_arn when validation is enabled ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.1.7"></a>
@@ -234,6 +526,16 @@ All notable changes to this project will be documented in this file.
 
 <a name="v0.0.72"></a>
 ## [v0.0.72] - 2021-05-09
+
+
+
+<a name="v0.0.71"></a>
+## [v0.0.71] - 2021-05-02
+
+
+
+<a name="v0.0.70"></a>
+## [v0.0.70] - 2021-04-30
 
 - BBL-192 | Updating repo list - terraform and ref-architecture
 - BBL-192 | adding new repo to ref arch list
@@ -327,53 +629,44 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-<a name="v2.5.0"></a>
-## [v2.5.0] - 2021-05-06
+<a name="v3.0.0"></a>
+## [v3.0.0] - 2021-04-26
 
-- Ability to create alarms.
-- Added the ability to subscribe to queues.
-- Add subscription.
-- Added support for sns topics.
-- Added optional role policy.
-- Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
-- Minor code-quality improvements.
-- Update README.md
-- Update README.md
-- Update README.md
-- Update README.md
-- New lambda function with improved deployment mechanisms and support for layers.
-- Update README.md
-- Update README.md
-- Updated documentation.
-- Fixed variables and re-introduced depends_on as module_depends_on.
-- Fixed APIGW permission logic.
-- Added types and default values.
-- Migrated to v0.12 with support for schedule and apigw integration.
-- Set the default to version 10.
-- Added configurable runtime.
-- Code-quality improvements and memory_size options.
-- Update README.md
-- Update README.md
-- Code-quality improvements.
-- Added tags.
-- Added default github ignore rules for terraform.
-- More output variables.
-- Improved readme.
-- Better variable descriptions.
-- Updated readme.
-- Added codacy badge.
-- First.
-
-
-<a name="v0.0.71"></a>
-## [v0.0.71] - 2021-05-02
-
-
-
-<a name="v0.0.70"></a>
-## [v0.0.70] - 2021-04-30
-
-- BBL-192 | Updating repo list - terraform and ref-architecture
+- feat: Shorten outputs (removing this_) ([#83](https://github.com/binbashar/bb-devops-dev-tools/issues/83))
+- chore: update documentation and pin `terraform_docs` version to avoid future changes ([#78](https://github.com/binbashar/bb-devops-dev-tools/issues/78))
+- chore: align ci-cd static checks to use individual minimum Terraform versions ([#76](https://github.com/binbashar/bb-devops-dev-tools/issues/76))
+- docs: Add note on how to handle off-by-one validation record issue when upgrading to +v2.13.0 ([#75](https://github.com/binbashar/bb-devops-dev-tools/issues/75))
+- fix: bump min supported version due to types unsupported on current ([#74](https://github.com/binbashar/bb-devops-dev-tools/issues/74))
+- chore: add ci-cd workflow for pre-commit checks ([#73](https://github.com/binbashar/bb-devops-dev-tools/issues/73))
+- fix: Fixed wildcard in domain names ([#71](https://github.com/binbashar/bb-devops-dev-tools/issues/71))
+- feat: Updated version requirements to support Terraform 0.14 also ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+- fix: Wait for correct certificate_arn when validation is enabled ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.0.69"></a>
@@ -437,11 +730,6 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.58"></a>
 ## [v0.0.58] - 2021-02-28
 
-
-
-<a name="v0.0.57"></a>
-## [v0.0.57] - 2021-02-23
-
 - Merge branch 'master' of github.com:binbashar/le-dev-tools
 - BBL-192 | adding terraform module to the repo list
 - BBL-192 | updating terraform modules repo list
@@ -530,46 +818,171 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-<a name="v2.4.0"></a>
-## [v2.4.0] - 2021-02-22
+<a name="v2.14.0"></a>
+## [v2.14.0] - 2021-02-24
 
-- Added the ability to subscribe to queues.
-- Add subscription.
-- Added support for sns topics.
-- Added optional role policy.
-- Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
-- Minor code-quality improvements.
-- Update README.md
-- Update README.md
-- Update README.md
-- Update README.md
-- New lambda function with improved deployment mechanisms and support for layers.
-- Update README.md
-- Update README.md
-- Updated documentation.
-- Fixed variables and re-introduced depends_on as module_depends_on.
-- Fixed APIGW permission logic.
-- Added types and default values.
-- Migrated to v0.12 with support for schedule and apigw integration.
-- Set the default to version 10.
-- Added configurable runtime.
-- Code-quality improvements and memory_size options.
-- Update README.md
-- Update README.md
-- Code-quality improvements.
-- Added tags.
-- Added default github ignore rules for terraform.
-- More output variables.
-- Improved readme.
-- Better variable descriptions.
-- Updated readme.
-- Added codacy badge.
-- First.
+- docs: Add note on how to handle off-by-one validation record issue when upgrading to +v2.13.0 ([#75](https://github.com/binbashar/bb-devops-dev-tools/issues/75))
+- fix: bump min supported version due to types unsupported on current ([#74](https://github.com/binbashar/bb-devops-dev-tools/issues/74))
+- chore: add ci-cd workflow for pre-commit checks ([#73](https://github.com/binbashar/bb-devops-dev-tools/issues/73))
+- fix: Fixed wildcard in domain names ([#71](https://github.com/binbashar/bb-devops-dev-tools/issues/71))
+- feat: Updated version requirements to support Terraform 0.14 also ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+- fix: Wait for correct certificate_arn when validation is enabled ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
+
+
+<a name="v0.0.57"></a>
+## [v0.0.57] - 2021-02-23
+
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
 
 
 <a name="v0.0.56"></a>
 ## [v0.0.56] - 2021-02-21
 
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.13.0"></a>
+## [v2.13.0] - 2021-02-19
+
+- fix: Fixed wildcard in domain names ([#71](https://github.com/binbashar/bb-devops-dev-tools/issues/71))
+- feat: Updated version requirements to support Terraform 0.14 also ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+- fix: Wait for correct certificate_arn when validation is enabled ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.0.55"></a>
@@ -702,6 +1115,111 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.32"></a>
 ## [v0.0.32] - 2020-11-08
 
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.12.0"></a>
+## [v2.12.0] - 2020-11-04
+
+- feat: Updated version requirements to support Terraform 0.14 also ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+- fix: Wait for correct certificate_arn when validation is enabled ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.0.31"></a>
@@ -829,11 +1347,164 @@ All notable changes to this project will be documented in this file.
 ## [v0.0.12] - 2020-08-23
 
 - BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.11.0"></a>
+## [v2.11.0] - 2020-08-17
+
+- fix: Wait for correct certificate_arn when validation is enabled ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.0.11"></a>
 ## [v0.0.11] - 2020-08-16
 
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="v2.10.0"></a>
+## [v2.10.0] - 2020-08-13
+
+- feat: Bump version of AWS provider to support v3
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.0.10"></a>
@@ -916,45 +1587,34 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-<a name="v2.3.0"></a>
-## [v2.3.0] - 2020-06-26
+<a name="v2.9.0"></a>
+## [v2.9.0] - 2020-06-24
 
-- Add subscription.
-
-
-<a name="v2.2.0"></a>
-## [v2.2.0] - 2020-06-26
-
-- Added support for sns topics.
-- Added optional role policy.
-- Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
-- Minor code-quality improvements.
-- Update README.md
-- Update README.md
-- Update README.md
-- Update README.md
-- New lambda function with improved deployment mechanisms and support for layers.
-- Update README.md
-- Update README.md
-- Updated documentation.
-- Fixed variables and re-introduced depends_on as module_depends_on.
-- Fixed APIGW permission logic.
-- Added types and default values.
-- Migrated to v0.12 with support for schedule and apigw integration.
-- Set the default to version 10.
-- Added configurable runtime.
-- Code-quality improvements and memory_size options.
-- Update README.md
-- Update README.md
-- Code-quality improvements.
-- Added tags.
-- Added default github ignore rules for terraform.
-- More output variables.
-- Improved readme.
-- Better variable descriptions.
-- Updated readme.
-- Added codacy badge.
-- First.
+- feat: Added dns ttl as variable ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.0.3"></a>
@@ -1008,20 +1668,44 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
+<a name="v2.8.0"></a>
+## [v2.8.0] - 2020-06-11
+
+- fix: certificate_transparency_logging_preference to default to `true` ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
+
+
 <a name="v2.1.1"></a>
 ## [v2.1.1] - 2020-06-10
 
 - Added optional role policy.
 - Merge branch 'master' of https://github.com/opendevsecops/terraform-aws-lambda
-- Update README.md
-- Update README.md
-- Update README.md
-
-
-<a name="v2.1.0"></a>
-## [v2.1.0] - 2020-06-10
-
 - Minor code-quality improvements.
+- Update README.md
+- Update README.md
+- Update README.md
 - Update README.md
 - New lambda function with improved deployment mechanisms and support for layers.
 - Update README.md
@@ -1045,6 +1729,39 @@ All notable changes to this project will be documented in this file.
 - Updated readme.
 - Added codacy badge.
 - First.
+
+
+<a name="v2.7.0"></a>
+## [v2.7.0] - 2020-06-10
+
+- Fixed syntax error in newly added options block for certificate trans… ([#50](https://github.com/binbashar/bb-devops-dev-tools/issues/50))
+
+
+<a name="v2.6.0"></a>
+## [v2.6.0] - 2020-06-10
+
+- Updated README
+- feat: Add certificate transparency log option to ACM ([#18](https://github.com/binbashar/bb-devops-dev-tools/issues/18))
+- Update ".pre-commit-config.yaml".
+- Create "LICENSE".
+- Create ".gitignore".
+- Create ".pre-commit-config.yaml".
+- Create "Makefile".
+- Create ".editorconfig".
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.0.1"></a>
@@ -1091,24 +1808,6 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
-<a name="v2.0.0"></a>
-## [v2.0.0] - 2020-05-22
-
-- New lambda function with improved deployment mechanisms and support for layers.
-- Update README.md
-- Update README.md
-- Updated documentation.
-
-
-<a name="v1.0.0"></a>
-## [v1.0.0] - 2020-05-19
-
-- Fixed variables and re-introduced depends_on as module_depends_on.
-- Fixed APIGW permission logic.
-- Added types and default values.
-- Migrated to v0.12 with support for schedule and apigw integration.
-
-
 <a name="v0.5.1"></a>
 ## [v0.5.1] - 2019-12-28
 
@@ -1119,6 +1818,75 @@ All notable changes to this project will be documented in this file.
 ## [v0.5.0] - 2019-12-28
 
 - Added configurable runtime.
+- Code-quality improvements and memory_size options.
+- Update README.md
+- Update README.md
+- Code-quality improvements.
+- Added tags.
+- Added default github ignore rules for terraform.
+- More output variables.
+- Improved readme.
+- Better variable descriptions.
+- Updated readme.
+- Added codacy badge.
+- First.
+
+
+<a name="v2.5.0"></a>
+## [v2.5.0] - 2019-12-19
+
+- Updated example with multiple SANs after PR [#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32)
+- Fixing validation records when wildcard is present with alternative domains ([#32](https://github.com/binbashar/bb-devops-dev-tools/issues/32))
+
+
+<a name="v2.4.0"></a>
+## [v2.4.0] - 2019-11-12
+
+- Updated pre-commit hooks
+- Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+
+
+<a name="v2.3.0"></a>
+## [v2.3.0] - 2019-09-02
+
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+
+
+<a name="v2.2.0"></a>
+## [v2.2.0] - 2019-07-08
+
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+
+
+<a name="v2.1.0"></a>
+## [v2.1.0] - 2019-06-17
+
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+
+
+<a name="v1.4.0"></a>
+## [v1.4.0] - 2019-06-13
+
+- Fixed docs after [#11](https://github.com/binbashar/bb-devops-dev-tools/issues/11)
+- validation_allow_overwrite_records variable to allow overwrite records ([#11](https://github.com/binbashar/bb-devops-dev-tools/issues/11))
+
+
+<a name="v2.0.0"></a>
+## [v2.0.0] - 2019-06-05
+
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+
+
+<a name="v1.3.0"></a>
+## [v1.3.0] - 2019-05-30
+
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.4.0"></a>
@@ -1127,6 +1895,34 @@ All notable changes to this project will be documented in this file.
 - Code-quality improvements and memory_size options.
 - Update README.md
 - Update README.md
+- Code-quality improvements.
+- Added tags.
+- Added default github ignore rules for terraform.
+- More output variables.
+- Improved readme.
+- Better variable descriptions.
+- Updated readme.
+- Added codacy badge.
+- First.
+
+
+<a name="v1.2.0"></a>
+## [v1.2.0] - 2019-02-14
+
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+
+
+<a name="v1.1.0"></a>
+## [v1.1.0] - 2019-02-01
+
+- Fixed bug when creation was disabled
+
+
+<a name="v1.0.0"></a>
+## [v1.0.0] - 2018-12-13
+
+- Updated readme
+- Initial commit with all the code
 
 
 <a name="v0.3.0"></a>
@@ -1148,11 +1944,13 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.16...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.2...HEAD
+[v3.2.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.16...v3.2.2
 [v2.5.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.15...v2.5.16
 [v2.5.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.14...v2.5.15
 [v2.5.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.13...v2.5.14
-[v2.5.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.12...v2.5.13
+[v2.5.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.1...v2.5.13
+[v3.2.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.12...v3.2.1
 [v2.5.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.11...v2.5.12
 [v2.5.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.10...v2.5.11
 [v2.5.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.9...v2.5.10
@@ -1180,7 +1978,9 @@ All notable changes to this project will be documented in this file.
 [v0.1.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.10...v0.1.11
 [v0.1.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.9...v0.1.10
 [v0.1.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.8...v0.1.9
-[v0.1.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.7...v0.1.8
+[v0.1.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.0...v0.1.8
+[v3.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.1.0...v3.2.0
+[v3.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.7...v3.1.0
 [v0.1.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.6...v0.1.7
 [v0.1.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.5...v0.1.6
 [v0.1.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.4...v0.1.5
@@ -1191,10 +1991,10 @@ All notable changes to this project will be documented in this file.
 [v0.0.74]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.0...v0.0.74
 [v0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.73...v0.1.0
 [v0.0.73]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.72...v0.0.73
-[v0.0.72]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.0...v0.0.72
-[v2.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.71...v2.5.0
+[v0.0.72]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.71...v0.0.72
 [v0.0.71]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.70...v0.0.71
-[v0.0.70]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.69...v0.0.70
+[v0.0.70]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.0.0...v0.0.70
+[v3.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.69...v3.0.0
 [v0.0.69]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.68...v0.0.69
 [v0.0.68]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.67...v0.0.68
 [v0.0.67]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.66...v0.0.67
@@ -1206,10 +2006,11 @@ All notable changes to this project will be documented in this file.
 [v0.0.61]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.60...v0.0.61
 [v0.0.60]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.59...v0.0.60
 [v0.0.59]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.58...v0.0.59
-[v0.0.58]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.57...v0.0.58
-[v0.0.57]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.4.0...v0.0.57
-[v2.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.56...v2.4.0
-[v0.0.56]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.55...v0.0.56
+[v0.0.58]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.14.0...v0.0.58
+[v2.14.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.57...v2.14.0
+[v0.0.57]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.56...v0.0.57
+[v0.0.56]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.13.0...v0.0.56
+[v2.13.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.55...v2.13.0
 [v0.0.55]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.54...v0.0.55
 [v0.0.54]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.53...v0.0.54
 [v0.0.53]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.52...v0.0.53
@@ -1233,7 +2034,8 @@ All notable changes to this project will be documented in this file.
 [v0.0.35]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.34...v0.0.35
 [v0.0.34]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.33...v0.0.34
 [v0.0.33]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.32...v0.0.33
-[v0.0.32]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.31...v0.0.32
+[v0.0.32]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.12.0...v0.0.32
+[v2.12.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.31...v2.12.0
 [v0.0.31]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.30...v0.0.31
 [v0.0.30]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.29...v0.0.30
 [v0.0.29]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.28...v0.0.29
@@ -1253,25 +2055,37 @@ All notable changes to this project will be documented in this file.
 [v0.0.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.14...v0.0.15
 [v0.0.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.13...v0.0.14
 [v0.0.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.12...v0.0.13
-[v0.0.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.11...v0.0.12
-[v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.10...v0.0.11
+[v0.0.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.11.0...v0.0.12
+[v2.11.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.11...v2.11.0
+[v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.10.0...v0.0.11
+[v2.10.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.10...v2.10.0
 [v0.0.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.9...v0.0.10
 [v0.0.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.8...v0.0.9
 [v0.0.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...v0.0.8
 [v0.0.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.4...v0.0.5
-[v0.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.3.0...v0.0.4
-[v2.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.2.0...v2.3.0
-[v2.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v2.2.0
+[v0.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.9.0...v0.0.4
+[v2.9.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v2.9.0
 [v0.0.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.2...v0.0.3
-[v0.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.1...v0.0.2
-[v2.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.0...v2.1.1
-[v2.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.1...v2.1.0
-[v0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.0.0...v0.0.1
-[v2.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.0.0...v2.0.0
-[v1.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.1...v1.0.0
+[v0.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.8.0...v0.0.2
+[v2.8.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.1...v2.8.0
+[v2.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.7.0...v2.1.1
+[v2.7.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.6.0...v2.7.0
+[v2.6.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.1...v2.6.0
+[v0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.1...v0.0.1
 [v0.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.0...v0.5.1
-[v0.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.4.0...v0.5.0
-[v0.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.3.0...v0.4.0
+[v0.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.0...v0.5.0
+[v2.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.4.0...v2.5.0
+[v2.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.3.0...v2.4.0
+[v2.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.2.0...v2.3.0
+[v2.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.0...v2.2.0
+[v2.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.4.0...v2.1.0
+[v1.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.0.0...v1.4.0
+[v2.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.3.0...v2.0.0
+[v1.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.4.0...v1.3.0
+[v0.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.2.0...v0.4.0
+[v1.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.1.0...v1.2.0
+[v1.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.0.0...v1.1.0
+[v1.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.3.0...v1.0.0
 [v0.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.2.0...v0.3.0
