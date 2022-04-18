@@ -35,6 +35,7 @@ define REPOS_LIST
 "terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis" \
 "terraform-aws-firewall-manager","cloudposse/terraform-aws-firewall-manager" \
 "terraform-aws-github-runner","philips-labs/terraform-aws-github-runner" \
+"terraform-aws-gitlab-runner","npalm/terraform-aws-gitlab-runner" \
 "terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor" \
 "terraform-aws-guardduty-multiaccount","" \
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam" \
@@ -77,6 +78,7 @@ define REPOS_LIST
 "terraform-aws-vpc-peering","grem11n/terraform-aws-vpc-peering" \
 "terraform-aws-vpn-gateway","terraform-aws-modules/terraform-aws-vpn-gateway" \
 "terraform-aws-waf-owasp","" \
+"terraform-aws-wafv2","trussworks/terraform-aws-wafv2" \
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2" \
 "terraform-null-label","cloudposse/terraform-null-label" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label"
