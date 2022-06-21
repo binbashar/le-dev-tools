@@ -6,7 +6,7 @@ jobs:
   #
   git-sync-fork-upstream:
     machine:
-      image: ubuntu-1604:202007-01 # Ubuntu 16.04, Docker v19.03.12, Docker Compose v1.26.1
+      image: ubuntu-2004:202201-01 # Ubuntu 20.04, Docker v20.10.12, Docker Compose v1.29.2
 
       # This job has been blocked because Docker Layer Caching is not available on your plan.
       # Should upgrade if necessary.
