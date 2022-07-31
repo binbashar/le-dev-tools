@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.27"></a>
+## [v3.2.27] - 0001-01-01
+
+
+
 <a name="v3.2.26"></a>
-## [v3.2.26] - 0001-01-01
+## [v3.2.26] - 2022-07-24
 
 
 
@@ -2067,7 +2072,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.26...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.27...HEAD
+[v3.2.27]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.26...v3.2.27
 [v3.2.26]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.25...v3.2.26
 [v3.2.25]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.24...v3.2.25
 [v3.2.24]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.23...v3.2.24
