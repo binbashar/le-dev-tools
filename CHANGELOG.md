@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.37"></a>
+## [v3.2.37] - 0001-01-01
+
+
+
 <a name="v3.2.36"></a>
-## [v3.2.36] - 0001-01-01
+## [v3.2.36] - 2022-09-25
 
 
 
@@ -66,6 +71,469 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.25"></a>
 ## [v3.2.25] - 2022-07-17
 
+- Update config.yml
+- Update config.yml
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.16.0"></a>
+## [1.16.0] - 2022-07-11
+
+- Edit release-drafter
+- Edit Galaxy metadata
+- Direct download and FQCN
+- ci: Exclude Molecule test for non Ansible changes
+- ci: edit Release Drafter
+- style: Add extra label
+- ci: edit Release Drafter
+- docs: add Fedora 34-36 to galaxy metadata
+- ci: add test for ubuntu 22
+- ci: fix pre-commit
+- Update actions/setup-python action to v4
+- ci: fix push to galaxy when released from draft
+- ci: fix env variable
+- Update pre-commit/action action to v3
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- Ref [#135](https://github.com/binbashar/bb-devops-dev-tools/issues/135) - Correct teardown permissions
+- Edit README
+- Edit README
+- Edit README
+- Edit README
+- Update robertdebock/galaxy-action action to v1.2.1
+- Add Release Drafter
+- Fix linting
+- Add environment to GHA
+- fix issues with spaces in runner_name in more cases
+- Update install_runner.yml
+- Community standards improvement
+- Update robertdebock/galaxy-action action to v1.2.0
+- Accept a boolean value being entered as a string.
+- Edit readme
+- Fix repo test
+- Fix uninstall
+- Fix repo test
+- Improve uninstallation
+- Fix idempotence
+- Fix lint
+- Several changes
+- Update actions/checkout action to v3
+- Add testing for Debian 11 in the CI
+- Install dependencies for Debian Bullseye
+- Add option to configure runner group
+- Remove CentoOS8 from tests
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v3.2.24"></a>
@@ -88,6 +556,456 @@ All notable changes to this project will be documented in this file.
 
 - Update config.yml
 - Update config.yml
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.15.4"></a>
+## [1.15.4] - 2022-06-05
+
+- ci: fix push to galaxy when released from draft
+- ci: fix env variable
+- Update pre-commit/action action to v3
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- Ref [#135](https://github.com/binbashar/bb-devops-dev-tools/issues/135) - Correct teardown permissions
+- Edit README
+- Edit README
+- Edit README
+- Edit README
+- Update robertdebock/galaxy-action action to v1.2.1
+- Add Release Drafter
+- Fix linting
+- Add environment to GHA
+- fix issues with spaces in runner_name in more cases
+- Update install_runner.yml
+- Community standards improvement
+- Update robertdebock/galaxy-action action to v1.2.0
+- Accept a boolean value being entered as a string.
+- Edit readme
+- Fix repo test
+- Fix uninstall
+- Fix repo test
+- Improve uninstallation
+- Fix idempotence
+- Fix lint
+- Several changes
+- Update actions/checkout action to v3
+- Add testing for Debian 11 in the CI
+- Install dependencies for Debian Bullseye
+- Add option to configure runner group
+- Remove CentoOS8 from tests
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v3.2.20"></a>
@@ -98,6 +1016,442 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.19"></a>
 ## [v3.2.19] - 2022-05-22
 
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.15.3"></a>
+## [1.15.3] - 2022-05-21
+
+- Add Release Drafter
+- Fix linting
+- Add environment to GHA
+- fix issues with spaces in runner_name in more cases
+- Update install_runner.yml
+- Community standards improvement
+- Update robertdebock/galaxy-action action to v1.2.0
+- Accept a boolean value being entered as a string.
+- Edit readme
+- Fix repo test
+- Fix uninstall
+- Fix repo test
+- Improve uninstallation
+- Fix idempotence
+- Fix lint
+- Several changes
+- Update actions/checkout action to v3
+- Add testing for Debian 11 in the CI
+- Install dependencies for Debian Bullseye
+- Add option to configure runner group
+- Remove CentoOS8 from tests
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v3.2.18"></a>
@@ -134,6 +1488,435 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.12"></a>
 ## [v3.2.12] - 2022-04-03
 
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.15.2"></a>
+## [1.15.2] - 2022-04-01
+
+- Update robertdebock/galaxy-action action to v1.2.0
+- Accept a boolean value being entered as a string.
+- Edit readme
+- Fix repo test
+- Fix uninstall
+- Fix repo test
+- Improve uninstallation
+- Fix idempotence
+- Fix lint
+- Several changes
+- Update actions/checkout action to v3
+- Add testing for Debian 11 in the CI
+- Install dependencies for Debian Bullseye
+- Add option to configure runner group
+- Remove CentoOS8 from tests
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v3.2.11"></a>
@@ -144,6 +1927,438 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.10"></a>
 ## [v3.2.10] - 2022-03-13
 
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.15.1"></a>
+## [1.15.1] - 2022-03-07
+
+- Edit readme
+
+
+<a name="1.15.0"></a>
+## [1.15.0] - 2022-03-07
+
+- Fix repo test
+- Fix uninstall
+- Fix repo test
+- Improve uninstallation
+- Fix idempotence
+- Fix lint
+- Several changes
+- Update actions/checkout action to v3
+- Add testing for Debian 11 in the CI
+- Install dependencies for Debian Bullseye
+- Add option to configure runner group
+- Remove CentoOS8 from tests
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v3.2.9"></a>
@@ -159,6 +2374,424 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.7"></a>
 ## [v3.2.7] - 2022-02-20
 
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.14.0"></a>
+## [1.14.0] - 2022-02-13
+
+- Add testing for Debian 11 in the CI
+- Install dependencies for Debian Bullseye
+- Add option to configure runner group
+- Remove CentoOS8 from tests
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v3.2.6"></a>
@@ -197,6 +2830,422 @@ All notable changes to this project will be documented in this file.
 - Adding new terraform IaC lib modules
 - Merge branch 'master' of github.com:binbashar/le-dev-tools
 - New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.13.0"></a>
+## [1.13.0] - 2021-12-08
+
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+
+
+<a name="1.12.4"></a>
+## [1.12.4] - 2021-12-06
+
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v2.5.14"></a>
@@ -358,6 +3407,414 @@ All notable changes to this project will be documented in this file.
 <a name="v2.5.12"></a>
 ## [v2.5.12] - 2021-11-21
 
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.12.3"></a>
+## [1.12.3] - 2021-11-18
+
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v2.5.11"></a>
@@ -369,6 +3826,412 @@ All notable changes to this project will be documented in this file.
 <a name="v2.5.10"></a>
 ## [v2.5.10] - 2021-11-14
 
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.12.2"></a>
+## [1.12.2] - 2021-11-07
+
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v2.5.9"></a>
@@ -426,6 +4289,412 @@ All notable changes to this project will be documented in this file.
 <a name="v0.1.22"></a>
 ## [v0.1.22] - 2021-09-12
 
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.12.1"></a>
+## [1.12.1] - 2021-09-07
+
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+
+
+<a name="1.12.0"></a>
+## [1.12.0] - 2021-09-05
+
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.1.21"></a>
@@ -463,11 +4732,786 @@ All notable changes to this project will be documented in this file.
 <a name="v0.1.15"></a>
 ## [v0.1.15] - 2021-08-08
 
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.11.1"></a>
+## [1.11.1] - 2021-08-04
+
+- Remove ghp_ regex search from assert
+
+
+<a name="1.11.0"></a>
+## [1.11.0] - 2021-08-04
+
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.1.14"></a>
 ## [v0.1.14] - 2021-08-01
 
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.10.0"></a>
+## [1.10.0] - 2021-07-29
+
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.1.13"></a>
@@ -597,6 +5641,285 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
+<a name="1.9.0"></a>
+## [1.9.0] - 2021-06-28
+
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
 <a name="v3.2.0"></a>
 ## [v3.2.0] - 2021-06-28
 
@@ -648,6 +5971,374 @@ All notable changes to this project will be documented in this file.
 <a name="v0.1.7"></a>
 ## [v0.1.7] - 2021-06-27
 
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.8.4"></a>
+## [1.8.4] - 2021-06-26
+
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.1.6"></a>
@@ -676,6 +6367,365 @@ All notable changes to this project will be documented in this file.
 
 - BBL-192 | adding new config ref-arch ghactions repo
 - BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.8.3"></a>
+## [1.8.3] - 2021-05-31
+
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.1.1"></a>
@@ -867,11 +6917,696 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.65"></a>
 ## [v0.0.65] - 2021-04-04
 
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.8.2"></a>
+## [1.8.2] - 2021-04-03
+
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.64"></a>
 ## [v0.0.64] - 2021-03-28
 
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.8.1"></a>
+## [1.8.1] - 2021-03-26
+
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.63"></a>
@@ -899,6 +7634,343 @@ All notable changes to this project will be documented in this file.
 ## [v0.0.59] - 2021-03-04
 
 - BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.8.0"></a>
+## [1.8.0] - 2021-03-01
+
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+
+
+<a name="1.7.0"></a>
+## [1.7.0] - 2021-02-28
+
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.58"></a>
@@ -1027,6 +8099,226 @@ All notable changes to this project will be documented in this file.
 - Fixed bug when creation was disabled
 - Updated readme
 - Initial commit with all the code
+
+
+<a name="1.6.0"></a>
+## [1.6.0] - 2021-02-23
+
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.57"></a>
@@ -1159,6 +8451,223 @@ All notable changes to this project will be documented in this file.
 - Initial commit with all the code
 
 
+<a name="1.5.1"></a>
+## [1.5.1] - 2021-02-16
+
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
 <a name="v0.0.55"></a>
 ## [v0.0.55] - 2021-02-14
 
@@ -1194,6 +8703,304 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.49"></a>
 ## [v0.0.49] - 2021-01-17
 
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.5.0"></a>
+## [1.5.0] - 2021-01-12
+
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.48"></a>
@@ -1204,16 +9011,881 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.47"></a>
 ## [v0.0.47] - 2021-01-03
 
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.4.8"></a>
+## [1.4.8] - 2020-12-27
+
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.46"></a>
 ## [v0.0.46] - 2020-12-27
 
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.4.7"></a>
+## [1.4.7] - 2020-12-24
+
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.45"></a>
 ## [v0.0.45] - 2020-12-20
 
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.4.6"></a>
+## [1.4.6] - 2020-12-18
+
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.44"></a>
@@ -1225,12 +9897,572 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.43"></a>
 ## [v0.0.43] - 2020-12-13
 
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.4.5"></a>
+## [1.4.5] - 2020-12-11
+
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.42"></a>
 ## [v0.0.42] - 2020-12-10
 
 - BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.4.4"></a>
+## [1.4.4] - 2020-12-07
+
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.41"></a>
@@ -1242,11 +10474,568 @@ All notable changes to this project will be documented in this file.
 ## [v0.0.40] - 2020-12-03
 
 - BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.4.3"></a>
+## [1.4.3] - 2020-12-02
+
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.39"></a>
 ## [v0.0.39] - 2020-11-29
 
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.4.2"></a>
+## [1.4.2] - 2020-11-27
+
+- Fix hide_sensitive_logs variable
+
+
+<a name="1.4.1"></a>
+## [1.4.1] - 2020-11-27
+
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+
+
+<a name="1.4.0"></a>
+## [1.4.0] - 2020-11-27
+
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.38"></a>
@@ -1399,6 +11188,254 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.31"></a>
 ## [v0.0.31] - 2020-11-01
 
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.3.0"></a>
+## [1.3.0] - 2020-10-31
+
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+
+
+<a name="1.2.8"></a>
+## [1.2.8] - 2020-10-26
+
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+
+
+<a name="1.2.7"></a>
+## [1.2.7] - 2020-10-25
+
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.30"></a>
@@ -1412,6 +11449,211 @@ All notable changes to this project will be documented in this file.
 - Merge branch 'master' of github.com:binbashar/le-dev-tools
 - BBL-438 | updating terraform repo list
 - BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.2.6"></a>
+## [1.2.6] - 2020-10-22
+
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+
+
+<a name="1.2.5"></a>
+## [1.2.5] - 2020-10-18
+
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.28"></a>
@@ -1568,6 +11810,132 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
+<a name="1.2.4"></a>
+## [1.2.4] - 2020-08-18
+
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
 <a name="v2.11.0"></a>
 ## [v2.11.0] - 2020-08-17
 
@@ -1648,6 +12016,129 @@ All notable changes to this project will be documented in this file.
 - BBL-117 Adding CHANGELOG.md config files
 - BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
 - BBL-177 first commit
+
+
+<a name="1.2.3"></a>
+## [1.2.3] - 2020-08-13
+
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v2.10.0"></a>
@@ -1791,9 +12282,261 @@ All notable changes to this project will be documented in this file.
 - Initial commit with all the code
 
 
+<a name="1.2.2"></a>
+## [1.2.2] - 2020-06-23
+
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
 <a name="v0.0.3"></a>
 ## [v0.0.3] - 2020-06-21
 
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.2.1"></a>
+## [1.2.1] - 2020-06-14
+
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
 
 
 <a name="v0.0.2"></a>
@@ -1982,6 +12725,168 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
+<a name="1.2.0"></a>
+## [1.2.0] - 2020-05-18
+
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+
+
+<a name="1.1.4"></a>
+## [1.1.4] - 2020-05-12
+
+- Add the runner_user when the service is installed
+
+
+<a name="1.1.3"></a>
+## [1.1.3] - 2020-05-10
+
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+
+
+<a name="1.1.2"></a>
+## [1.1.2] - 2020-05-01
+
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+
+
+<a name="1.1.1"></a>
+## [1.1.1] - 2020-04-18
+
+- Fix reinstall
+- Fix reinstall
+
+
+<a name="1.1.0"></a>
+## [1.1.0] - 2020-04-05
+
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+
+
+<a name="1.0.5"></a>
+## [1.0.5] - 2020-03-29
+
+- Allow Ubuntu molecule tests
+
+
+<a name="1.0.4"></a>
+## [1.0.4] - 2020-03-29
+
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+
+
+<a name="1.0.3"></a>
+## [1.0.3] - 2020-03-23
+
+- Docs correction
+
+
+<a name="1.0.2"></a>
+## [1.0.2] - 2020-03-23
+
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+
+
+<a name="1.0.1"></a>
+## [1.0.1] - 2020-03-23
+
+- Fix ansible lints
+
+
+<a name="1.0.0"></a>
+## [1.0.0] - 2020-03-23
+
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+
+
+<a name="0.1.0"></a>
+## [0.1.0] - 2020-03-16
+
+- Add reg token request
+- Add reg token request
+
+
+<a name="0.0.2"></a>
+## [0.0.2] - 2020-03-08
+
+- Edit Readme
+
+
+<a name="0.0.1"></a>
+## [0.0.1] - 2020-03-08
+
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
 <a name="v0.5.1"></a>
 ## [v0.5.1] - 2019-12-28
 
@@ -2118,7 +13023,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.36...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.37...HEAD
+[v3.2.37]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.36...v3.2.37
 [v3.2.36]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.35...v3.2.36
 [v3.2.35]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.34...v3.2.35
 [v3.2.34]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.33...v3.2.34
@@ -2130,38 +13036,49 @@ All notable changes to this project will be documented in this file.
 [v3.2.28]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.27...v3.2.28
 [v3.2.27]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.26...v3.2.27
 [v3.2.26]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.25...v3.2.26
-[v3.2.25]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.24...v3.2.25
+[v3.2.25]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.16.0...v3.2.25
+[1.16.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.24...1.16.0
 [v3.2.24]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.23...v3.2.24
 [v3.2.23]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.22...v3.2.23
 [v3.2.22]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.21...v3.2.22
-[v3.2.21]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.20...v3.2.21
+[v3.2.21]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.4...v3.2.21
+[1.15.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.20...1.15.4
 [v3.2.20]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.19...v3.2.20
-[v3.2.19]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.18...v3.2.19
+[v3.2.19]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.3...v3.2.19
+[1.15.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.18...1.15.3
 [v3.2.18]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.17...v3.2.18
 [v3.2.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.16...v3.2.17
 [v3.2.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.15...v3.2.16
 [v3.2.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.14...v3.2.15
 [v3.2.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.13...v3.2.14
 [v3.2.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.12...v3.2.13
-[v3.2.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.11...v3.2.12
+[v3.2.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.2...v3.2.12
+[1.15.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.11...1.15.2
 [v3.2.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.10...v3.2.11
-[v3.2.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.9...v3.2.10
+[v3.2.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.1...v3.2.10
+[1.15.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.0...1.15.1
+[1.15.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.9...1.15.0
 [v3.2.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.8...v3.2.9
 [v3.2.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.7...v3.2.8
-[v3.2.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.6...v3.2.7
+[v3.2.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.14.0...v3.2.7
+[1.14.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.6...1.14.0
 [v3.2.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.5...v3.2.6
 [v3.2.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.4...v3.2.5
 [v3.2.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.3...v3.2.4
 [v3.2.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.2...v3.2.3
 [v3.2.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.16...v3.2.2
 [v2.5.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.15...v2.5.16
-[v2.5.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.14...v2.5.15
+[v2.5.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.13.0...v2.5.15
+[1.13.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.12.4...1.13.0
+[1.12.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.14...1.12.4
 [v2.5.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.13...v2.5.14
 [v2.5.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.1...v2.5.13
 [v3.2.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.12...v3.2.1
-[v2.5.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.11...v2.5.12
+[v2.5.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.12.3...v2.5.12
+[1.12.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.11...1.12.3
 [v2.5.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.10...v2.5.11
-[v2.5.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.9...v2.5.10
+[v2.5.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.12.2...v2.5.10
+[1.12.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.9...1.12.2
 [v2.5.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.8...v2.5.9
 [v2.5.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.7...v2.5.8
 [v2.5.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.6...v2.5.7
@@ -2172,29 +13089,37 @@ All notable changes to this project will be documented in this file.
 [v2.5.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.1...v2.5.2
 [v2.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.23...v2.5.1
 [v0.1.23]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.22...v0.1.23
-[v0.1.22]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.21...v0.1.22
+[v0.1.22]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.12.1...v0.1.22
+[1.12.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.12.0...1.12.1
+[1.12.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.21...1.12.0
 [v0.1.21]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.20...v0.1.21
 [v0.1.20]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.19...v0.1.20
 [v0.1.19]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.18...v0.1.19
 [v0.1.18]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.17...v0.1.18
 [v0.1.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.16...v0.1.17
 [v0.1.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.15...v0.1.16
-[v0.1.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.14...v0.1.15
-[v0.1.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.13...v0.1.14
+[v0.1.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.11.1...v0.1.15
+[1.11.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.11.0...1.11.1
+[1.11.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.14...1.11.0
+[v0.1.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.10.0...v0.1.14
+[1.10.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.13...1.10.0
 [v0.1.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.12...v0.1.13
 [v0.1.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.11...v0.1.12
 [v0.1.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.10...v0.1.11
 [v0.1.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.9...v0.1.10
 [v0.1.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.8...v0.1.9
-[v0.1.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.0...v0.1.8
+[v0.1.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.9.0...v0.1.8
+[1.9.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.0...1.9.0
 [v3.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.1.0...v3.2.0
 [v3.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.7...v3.1.0
-[v0.1.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.6...v0.1.7
+[v0.1.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.8.4...v0.1.7
+[1.8.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.6...1.8.4
 [v0.1.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.5...v0.1.6
 [v0.1.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.4...v0.1.5
 [v0.1.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.3...v0.1.4
 [v0.1.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.2...v0.1.3
-[v0.1.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.1...v0.1.2
+[v0.1.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.8.3...v0.1.2
+[1.8.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.1...1.8.3
 [v0.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.74...v0.1.1
 [v0.0.74]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.0...v0.0.74
 [v0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.73...v0.1.0
@@ -2207,35 +13132,51 @@ All notable changes to this project will be documented in this file.
 [v0.0.68]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.67...v0.0.68
 [v0.0.67]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.66...v0.0.67
 [v0.0.66]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.65...v0.0.66
-[v0.0.65]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.64...v0.0.65
-[v0.0.64]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.63...v0.0.64
+[v0.0.65]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.8.2...v0.0.65
+[1.8.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.64...1.8.2
+[v0.0.64]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.8.1...v0.0.64
+[1.8.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.63...1.8.1
 [v0.0.63]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.62...v0.0.63
 [v0.0.62]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.61...v0.0.62
 [v0.0.61]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.60...v0.0.61
 [v0.0.60]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.59...v0.0.60
-[v0.0.59]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.58...v0.0.59
+[v0.0.59]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.8.0...v0.0.59
+[1.8.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.7.0...1.8.0
+[1.7.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.58...1.7.0
 [v0.0.58]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.14.0...v0.0.58
-[v2.14.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.57...v2.14.0
+[v2.14.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.6.0...v2.14.0
+[1.6.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.57...1.6.0
 [v0.0.57]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.56...v0.0.57
 [v0.0.56]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.13.0...v0.0.56
-[v2.13.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.55...v2.13.0
+[v2.13.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.5.1...v2.13.0
+[1.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.55...1.5.1
 [v0.0.55]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.54...v0.0.55
 [v0.0.54]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.53...v0.0.54
 [v0.0.53]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.52...v0.0.53
 [v0.0.52]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.51...v0.0.52
 [v0.0.51]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.50...v0.0.51
 [v0.0.50]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.49...v0.0.50
-[v0.0.49]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.48...v0.0.49
+[v0.0.49]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.5.0...v0.0.49
+[1.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.48...1.5.0
 [v0.0.48]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.47...v0.0.48
-[v0.0.47]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.46...v0.0.47
-[v0.0.46]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.45...v0.0.46
-[v0.0.45]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.44...v0.0.45
+[v0.0.47]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.8...v0.0.47
+[1.4.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.46...1.4.8
+[v0.0.46]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.7...v0.0.46
+[1.4.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.45...1.4.7
+[v0.0.45]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.6...v0.0.45
+[1.4.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.44...1.4.6
 [v0.0.44]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.43...v0.0.44
-[v0.0.43]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.42...v0.0.43
-[v0.0.42]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.41...v0.0.42
+[v0.0.43]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.5...v0.0.43
+[1.4.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.42...1.4.5
+[v0.0.42]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.4...v0.0.42
+[1.4.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.41...1.4.4
 [v0.0.41]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.40...v0.0.41
-[v0.0.40]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.39...v0.0.40
-[v0.0.39]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.38...v0.0.39
+[v0.0.40]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.3...v0.0.40
+[1.4.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.39...1.4.3
+[v0.0.39]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.2...v0.0.39
+[1.4.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.1...1.4.2
+[1.4.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.0...1.4.1
+[1.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.38...1.4.0
 [v0.0.38]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.37...v0.0.38
 [v0.0.37]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.36...v0.0.37
 [v0.0.36]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.35...v0.0.36
@@ -2244,9 +13185,14 @@ All notable changes to this project will be documented in this file.
 [v0.0.33]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.32...v0.0.33
 [v0.0.32]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.12.0...v0.0.32
 [v2.12.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.31...v2.12.0
-[v0.0.31]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.30...v0.0.31
+[v0.0.31]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.3.0...v0.0.31
+[1.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.8...1.3.0
+[1.2.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.7...1.2.8
+[1.2.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.30...1.2.7
 [v0.0.30]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.29...v0.0.30
-[v0.0.29]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.28...v0.0.29
+[v0.0.29]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.6...v0.0.29
+[1.2.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.5...1.2.6
+[1.2.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.28...1.2.5
 [v0.0.28]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.27...v0.0.28
 [v0.0.27]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.26...v0.0.27
 [v0.0.26]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.25...v0.0.26
@@ -2263,9 +13209,11 @@ All notable changes to this project will be documented in this file.
 [v0.0.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.14...v0.0.15
 [v0.0.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.13...v0.0.14
 [v0.0.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.12...v0.0.13
-[v0.0.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.11.0...v0.0.12
+[v0.0.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.4...v0.0.12
+[1.2.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.11.0...1.2.4
 [v2.11.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.11...v2.11.0
-[v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.10.0...v0.0.11
+[v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.3...v0.0.11
+[1.2.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.10.0...1.2.3
 [v2.10.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.10...v2.10.0
 [v0.0.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.9...v0.0.10
 [v0.0.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.8...v0.0.9
@@ -2274,14 +13222,31 @@ All notable changes to this project will be documented in this file.
 [v0.0.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.4...v0.0.5
 [v0.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.9.0...v0.0.4
-[v2.9.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...v2.9.0
-[v0.0.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.2...v0.0.3
+[v2.9.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.2...v2.9.0
+[1.2.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.3...1.2.2
+[v0.0.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.1...v0.0.3
+[1.2.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.2...1.2.1
 [v0.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.8.0...v0.0.2
 [v2.8.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.1...v2.8.0
 [v2.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.7.0...v2.1.1
 [v2.7.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.6.0...v2.7.0
 [v2.6.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.1...v2.6.0
-[v0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.1...v0.0.1
+[v0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.0...v0.0.1
+[1.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.4...1.2.0
+[1.1.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.3...1.1.4
+[1.1.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.2...1.1.3
+[1.1.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.1...1.1.2
+[1.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.5...1.1.0
+[1.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.4...1.0.5
+[1.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.3...1.0.4
+[1.0.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.2...1.0.3
+[1.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.1...1.0.2
+[1.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.0...1.0.1
+[1.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.1.0...1.0.0
+[0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.0.2...0.1.0
+[0.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.0.1...0.0.2
+[0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.1...0.0.1
 [v0.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.0...v0.5.1
 [v0.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.0...v0.5.0
 [v2.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.4.0...v2.5.0
