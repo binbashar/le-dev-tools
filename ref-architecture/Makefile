@@ -8,23 +8,23 @@ MAKEFILES_DIR := ../@bin/makefiles
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-refarch","binbash-refarch","binbash-ref-architecture","ref-architecture"]}
 define REPOS_LIST
-"ghaction-action-slack","8398a7/action-slack" \
-"ghaction-leverage-aws-credentials","" \
-"ghaction-leverage-configure-ref-arch","" \
-"ghaction-repository-dispatch","peter-evans/repository-dispatch" \
-"leverage","" \
-"le-ansible-infra","" \
-"le-architecture-diagrams","" \
-"le-demo-apps","" \
-"le-dev-makefiles","" \
-"le-devops-workflows","" \
-"le-helm-infra","" \
-"le-ref-architecture-doc","" \
-"le-tf-infra-aws","" \
-"le-tf-infra-aws-template","" \
-"le-tf-gitlab","" \
-"le-tf-modules","" \
-"le-tf-vault",""
+"ghaction-action-slack","8398a7/action-slack","master" \
+"ghaction-leverage-aws-credentials","","" \
+"ghaction-leverage-configure-ref-arch","","" \
+"ghaction-repository-dispatch","peter-evans/repository-dispatch","main" \
+"leverage","","" \
+"le-ansible-infra","","" \
+"le-architecture-diagrams","","" \
+"le-demo-apps","","" \
+"le-dev-makefiles","","" \
+"le-devops-workflows","","" \
+"le-helm-infra","","" \
+"le-ref-architecture-doc","","" \
+"le-tf-infra-aws","","" \
+"le-tf-infra-aws-template","","" \
+"le-tf-gitlab","","" \
+"le-tf-modules","","" \
+"le-tf-vault","","" \
 endef
 
 help:

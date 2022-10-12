@@ -8,7 +8,7 @@ MAKEFILES_DIR := ../@bin/makefiles
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-jenkins","binbash-jenkins","jenkinsfile"]}
 define REPOS_LIST
-"jenkins-modules",""
+"jenkins-modules","","" \
 endef
 
 help:

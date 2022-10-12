@@ -8,19 +8,19 @@ MAKEFILES_DIR := ../@bin/makefiles
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-docker","binbash-docker","docker","dockerfile"]}
 define REPOS_LIST
-"awesome-compose","docker/awesome-compose" \
-"dockerfiles","jessfraz/dockerfiles" \
-"docker-letsencrypt","linuxserver/docker-letsencrypt" \
-"docker-ubuntu1604-ansible","geerlingguy/docker-ubuntu1604-ansible" \
-"docker-ubuntu1804-ansible","geerlingguy/docker-ubuntu1804-ansible" \
-"docker-debian8-ansible","geerlingguy/docker-debian8-ansible" \
-"docker-debian9-ansible","geerlingguy/docker-debian9-ansible" \
-"docker-debian10-ansible","geerlingguy/docker-debian10-ansible" \
-"k8s-helm","lachie83/k8s-helm" \
-"le-docker-images","" \
-"onetimesecret-docker","dismantl/onetimesecret-docker" \
-"public-docker-images","" \
-"pyflame-docker-sidecar","inikolaev/pyflame-docker-sidecar"
+"awesome-compose","docker/awesome-compose","master" \
+"dockerfiles","jessfraz/dockerfiles","master" \
+"docker-letsencrypt","linuxserver/docker-letsencrypt","master" \
+"docker-ubuntu1604-ansible","geerlingguy/docker-ubuntu1604-ansible","master" \
+"docker-ubuntu1804-ansible","geerlingguy/docker-ubuntu1804-ansible","master" \
+"docker-debian8-ansible","geerlingguy/docker-debian8-ansible","master" \
+"docker-debian9-ansible","geerlingguy/docker-debian9-ansible","master" \
+"docker-debian10-ansible","geerlingguy/docker-debian10-ansible","master" \
+"k8s-helm","lachie83/k8s-helm","master" \
+"le-docker-images","","" \
+"onetimesecret-docker","dismantl/onetimesecret-docker","master" \
+"public-docker-images","","" \
+"pyflame-docker-sidecar","inikolaev/pyflame-docker-sidecar","master" \
 endef
 
 help:
