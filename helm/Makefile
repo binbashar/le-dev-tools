@@ -8,7 +8,7 @@ MAKEFILES_DIR := ../@bin/makefiles
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-helm","binbash-helm","helm","helm-charts"]}
 define REPOS_LIST
-"helm-charts","","" \
+"helm-charts","",""
 endef
 
 help:

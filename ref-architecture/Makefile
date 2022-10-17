@@ -24,7 +24,7 @@ define REPOS_LIST
 "le-tf-infra-aws-template","","" \
 "le-tf-gitlab","","" \
 "le-tf-modules","","" \
-"le-tf-vault","","" \
+"le-tf-vault","",""
 endef
 
 help:

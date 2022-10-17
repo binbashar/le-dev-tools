@@ -20,7 +20,7 @@ define REPOS_LIST
 "le-docker-images","","" \
 "onetimesecret-docker","dismantl/onetimesecret-docker","master" \
 "public-docker-images","","" \
-"pyflame-docker-sidecar","inikolaev/pyflame-docker-sidecar","master" \
+"pyflame-docker-sidecar","inikolaev/pyflame-docker-sidecar","master"
 endef
 
 help:

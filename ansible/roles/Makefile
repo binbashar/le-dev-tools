@@ -47,7 +47,7 @@ define REPOS_LIST
 "ansible-sudo","weareinteractive/ansible-sudo","master" \
 "ansible-users","singleplatform-eng/ansible-users","master" \
 "ansible-role-awscli-configure","christiangda/ansible-role-awscli-configure","master" \
-"sa-vpn-pritunl","softasap/sa-vpn-pritunl","master" \
+"sa-vpn-pritunl","softasap/sa-vpn-pritunl","master"
 endef
 
 help:
