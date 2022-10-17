@@ -7,8 +7,15 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.40"></a>
+## [v3.2.40] - 2022-10-17
+
+- BBL-528 fixed end of def ([#46](https://github.com/binbashar/bb-devops-dev-tools/issues/46))
+- BBL-528 added branch to repo list ([#45](https://github.com/binbashar/bb-devops-dev-tools/issues/45))
+
+
 <a name="v3.2.39"></a>
-## [v3.2.39] - 0001-01-01
+## [v3.2.39] - 2022-10-16
 
 
 
@@ -13033,7 +13040,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.39...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.40...HEAD
+[v3.2.40]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.39...v3.2.40
 [v3.2.39]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.38...v3.2.39
 [v3.2.38]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.37...v3.2.38
 [v3.2.37]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.36...v3.2.37
