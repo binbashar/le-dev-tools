@@ -81,7 +81,7 @@ define REPOS_LIST
 "terraform-aws-wafv2","trussworks/terraform-aws-wafv2","main" \
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2","main" \
 "terraform-null-label","cloudposse/terraform-null-label","master" \
-"terraform-terraform-label","cloudposse/terraform-terraform-label","master" \
+"terraform-terraform-label","cloudposse/terraform-terraform-label","master"
 endef
 
 help:
