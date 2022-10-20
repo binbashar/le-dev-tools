@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.41"></a>
+## [v3.2.41] - 2022-10-20
+
+- BBL-528 added new terraform repo to sync ([#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48))
+
+
 <a name="v3.2.40"></a>
 ## [v3.2.40] - 2022-10-17
 
@@ -13040,7 +13046,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.40...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.41...HEAD
+[v3.2.41]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.40...v3.2.41
 [v3.2.40]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.39...v3.2.40
 [v3.2.39]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.38...v3.2.39
 [v3.2.38]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.37...v3.2.38
