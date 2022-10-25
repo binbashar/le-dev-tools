@@ -31,6 +31,10 @@ jobs:
           name: git-sync-fork-upstream-terraform
           command: make git-clone-repo-terraform && make git-sync-fork-upstream-terraform
 
+      - run:
+          name: git-sync-fork-upstream-git
+          command: make git-clone-repo-git && make git-sync-fork-upstream-git
+
   #
   # Grant all binbashar repo topics are setup
   #
@@ -58,6 +62,10 @@ jobs:
       - run:
           name: github-repo-replace-all-topics-terraform
           command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-terraform
+
+      - run:
+          name: github-repo-replace-all-topics-git
+          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-git
 
   #
   # Release
