@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.43"></a>
+## [v3.2.43] - 2022-10-25
+
+- ISSUE-50 added git section to sync process ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+
+
 <a name="v3.2.42"></a>
-## [v3.2.42] - 0001-01-01
+## [v3.2.42] - 2022-10-23
 
 
 
@@ -13051,7 +13057,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.42...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.43...HEAD
+[v3.2.43]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.42...v3.2.43
 [v3.2.42]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.41...v3.2.42
 [v3.2.41]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.40...v3.2.41
 [v3.2.40]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.39...v3.2.40
