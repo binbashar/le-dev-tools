@@ -23,7 +23,7 @@ init-makefiles: ## initialize makefiles
 #==============================================================#
 # GITHUB MODULE MGMT                                           #
 #==============================================================#
-github-repo-replace-all-topics-all: github-repo-replace-all-topics-ansible github-repo-replace-all-topics-docker github-repo-replace-all-topics-terraform github-repo-replace-all-topics-git ## Github replace all repo topics - eg: make GITHUB_TOKEN="4df7...406" -f Makefile.github github-repo-replace-all-topics-all
+github-repo-replace-all-topics-all: github-repo-replace-all-topics-ansible github-repo-replace-all-topics-docker github-repo-replace-all-topics-terraform github-repo-replace-all-topics-git github-repo-replace-all-topics-refarch ## Github replace all repo topics - eg: make GITHUB_TOKEN="4df7...406" -f Makefile.github github-repo-replace-all-topics-all
 
 github-repo-replace-all-topics-ansible: ## Github replace all repo topics - eg: make GITHUB_TOKEN="4df7...406" -f Makefile.github github-repo-replace-all-topics-ansible
 	cd ./ansible/roles && make init-makefiles && make github-repo-replace-all-topics
@@ -45,7 +45,7 @@ github-repo-replace-all-topics-git: ## Github replace all repo topics - eg: make
 #==============================================================#
 # git clone repos
 #
-git-clone-repo-all: git-clone-repo-ansible git-clone-repo-docker git-clone-repo-terraform git-clone-repo-git ## Git clone repos
+git-clone-repo-all: git-clone-repo-ansible git-clone-repo-docker git-clone-repo-terraform git-clone-repo-git git-clone-repo-refarch ## Git clone repos
 
 git-clone-repo-ansible: ## Git clone repos ansible
 	cd ./ansible/roles && make init-makefiles && make git-clone-repo
@@ -59,9 +59,12 @@ git-clone-repo-terraform: ## Git clone repos terraform
 git-clone-repo-git: ## Git clone repos repos docker
 	cd ./git && make init-makefiles && make git-clone-repo
 
+git-clone-repo-refarch: ## Git clone repos repos docker
+	cd ./ref-architecture && make init-makefiles && make git-clone-repo
+
 # git sync w/ upstream repos
 #
-git-sync-fork-upstream-all: git-sync-fork-upstream-ansible git-sync-fork-upstream-docker git-sync-fork-upstream-terraform git-sync-fork-upstream-git ## Git sync from master forked upstream repos
+git-sync-fork-upstream-all: git-sync-fork-upstream-ansible git-sync-fork-upstream-docker git-sync-fork-upstream-terraform git-sync-fork-upstream-git git-sync-fork-upstream-refarch ## Git sync from master forked upstream repos
 
 git-sync-fork-upstream-ansible: ## Git sync from master forked upstream repos ansible
 	cd ./ansible/roles && make init-makefiles && make git-sync-fork-upstream
@@ -74,3 +77,6 @@ git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos 
 
 git-sync-fork-upstream-git: ## Git sync from master forked upstream repos docker
 	cd ./git && make init-makefiles && make git-sync-fork-upstream
+
+git-sync-fork-upstream-refarch: ## Git sync from master forked upstream repos docker
+	cd ./ref-architecture && make init-makefiles && make git-sync-fork-upstream
