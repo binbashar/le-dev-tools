@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.57"></a>
+## [v3.2.57] - 0001-01-01
+
+
+
 <a name="v3.2.56"></a>
-## [v3.2.56] - 2023-01-08
+## [v3.2.56] - 2023-01-15
 
 - ISSUE-52 Added refarch content to sync process ([#53](https://github.com/binbashar/bb-devops-dev-tools/issues/53))
 - ISSUE-50 added git section to sync process ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
@@ -14594,7 +14599,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.56...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.57...HEAD
+[v3.2.57]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.56...v3.2.57
 [v3.2.56]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.16.4...v3.2.56
 [1.16.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.55...1.16.4
 [v3.2.55]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.54...v3.2.55
