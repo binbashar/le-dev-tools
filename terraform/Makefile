@@ -82,7 +82,8 @@ define REPOS_LIST
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2","main" \
 "terraform-null-label","cloudposse/terraform-null-label","master" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label","master" \
-"terraform-provider-postgresql","cyrilgdn/terraform-provider-postgresql","master"
+"terraform-provider-postgresql","cyrilgdn/terraform-provider-postgresql","master" \
+"terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main"
 endef
 
 help:
