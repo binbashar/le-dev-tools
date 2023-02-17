@@ -83,7 +83,8 @@ define REPOS_LIST
 "terraform-null-label","cloudposse/terraform-null-label","master" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label","master" \
 "terraform-provider-postgresql","cyrilgdn/terraform-provider-postgresql","master" \
-"terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main"
+"terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main" \
+"terraform-aws-apigateway-v2","terraform-aws-modules/terraform-aws-apigateway-v2","master"
 endef
 
 help:
