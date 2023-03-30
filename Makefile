@@ -72,43 +72,43 @@ git-sync-fork-upstream-ansible: ## Git sync from master forked upstream repos an
 	@cd ./ansible/roles && make init-makefiles && make git-sync-fork-upstream &&  \
 	if [ -f failedsyncs.txt ]; \
 	then \
-		make notify-failure TITLE="Ansible Forks Sync Failed" MESSAGE="Failures for ansible fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+		make notify-failure TITLE="Ansible Forks Sync Failed" MESSAGE=":ansible: Failures for ansible fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Ansible Forks Sync Succeeded" MESSAGE="No issues in ansible fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Ansible Forks Sync Succeeded" MESSAGE=":ansible: No issues in ansible fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos docker
 	@cd ./docker && make init-makefiles && make git-sync-fork-upstream &&  \
 	if [ -f failedsyncs.txt ]; \
 	then \
-		make notify-failure TITLE="Docker Forks Sync Failed" MESSAGE="Failures for docker fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+		make notify-failure TITLE="Docker Forks Sync Failed" MESSAGE=":docker: Failures for docker fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Docker Forks Sync Succeeded" MESSAGE="No issues in docker fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Docker Forks Sync Succeeded" MESSAGE=":docker: No issues in docker fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos terraform
 	@cd ./terraform && make init-makefiles && make git-sync-fork-upstream &&  \
 	if [ -f failedsyncs.txt ]; \
 	then \
-		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE=":terraform: Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE=":terraform: No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-git: ## Git sync from master forked upstream repos docker
 	@cd ./git && make init-makefiles && make git-sync-fork-upstream &&  \
 	if [ -f failedsyncs.txt ]; \
 	then \
-		make notify-failure TITLE="Git Forks Sync Failed" MESSAGE="Failures for git fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+		make notify-failure TITLE="Git Forks Sync Failed" MESSAGE=":git: Failures for git fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Git Forks Sync Succeeded" MESSAGE="No issues in git fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Git Forks Sync Succeeded" MESSAGE=":git: No issues in git fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-refarch: ## Git sync from master forked upstream repos docker
 	@cd ./ref-architecture && make init-makefiles && make git-sync-fork-upstream &&  \
 	if [ -f failedsyncs.txt ]; \
 	then \
-		make notify-failure TITLE="RefArch Forks Sync Failed" MESSAGE="Failures for RefArch fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+		make notify-failure TITLE="RefArch Forks Sync Failed" MESSAGE=":leverage-v2-cube: Failures for RefArch fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="RefArch Forks Sync Succeeded" MESSAGE="No issues in RefArch fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="RefArch Forks Sync Succeeded" MESSAGE=":leverage-v2-cube: No issues in RefArch fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
