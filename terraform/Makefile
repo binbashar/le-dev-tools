@@ -6,8 +6,12 @@ MAKEFILES_DIR := ../@bin/makefiles
 #
 # ARG VARIABLES
 #
-GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
 define REPOS_LIST
+"terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master" \
+"terraform-aws-backup","lgallard/terraform-aws-backup","master"
+endef
+GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
+define REPOS_LIST2
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm","master" \
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb","master" \
 "terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling","master" \
@@ -94,11 +98,15 @@ help:
 #==============================================================#
 # INITIALIZATION                                               #
 #==============================================================#
-init-makefiles: ## initialize makefiles
+init-makefiles: init-control-file ## initialize makefiles
 	rm -rf ${MAKEFILES_DIR}
 	mkdir -p ${MAKEFILES_DIR}
 	git clone https://github.com/binbashar/le-dev-makefiles.git ${MAKEFILES_DIR}
+	cd ${MAKEFILES_DIR} && git checkout ISSUE-47-le-dev-tools-notification-on-failure
+
+init-control-file: ## sets the notification files
+	@rm -f failedsyncs.txt
 
 -include ${MAKEFILES_DIR}/git/git.mk
 -include ${MAKEFILES_DIR}/github/github.mk
-
+-include ${MAKEFILES_DIR}/slack/notifications.mk

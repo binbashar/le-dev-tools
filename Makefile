@@ -54,7 +54,7 @@ git-clone-repo-docker: ## Git clone repos repos docker
 	cd ./docker && make init-makefiles && make git-clone-repo
 
 git-clone-repo-terraform: ## Git clone repos terraform
-	cd ./terraform && make init-makefiles && make git-clone-repo
+	cd ./terraform  && make init-makefiles && make git-clone-repo
 
 git-clone-repo-git: ## Git clone repos repos docker
 	cd ./git && make init-makefiles && make git-clone-repo
@@ -67,16 +67,46 @@ git-clone-repo-refarch: ## Git clone repos repos docker
 git-sync-fork-upstream-all: git-sync-fork-upstream-ansible git-sync-fork-upstream-docker git-sync-fork-upstream-terraform git-sync-fork-upstream-git git-sync-fork-upstream-refarch ## Git sync from master forked upstream repos
 
 git-sync-fork-upstream-ansible: ## Git sync from master forked upstream repos ansible
-	cd ./ansible/roles && make init-makefiles && make git-sync-fork-upstream
+	@cd ./ansible/roles && make init-makefiles && make git-sync-fork-upstream &&  \
+	if [ -f failedsyncs.txt ]; \
+	then \
+		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+	else \
+		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+	fi;
 
 git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos docker
-	cd ./docker && make init-makefiles && make git-sync-fork-upstream
+	@cd ./docker && make init-makefiles && make git-sync-fork-upstream &&  \
+	if [ -f failedsyncs.txt ]; \
+	then \
+		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+	else \
+		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+	fi;
 
 git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos terraform
-	cd ./terraform && make init-makefiles && make git-sync-fork-upstream
+	@cd ./terraform && make init-makefiles && make git-sync-fork-upstream &&  \
+	if [ -f failedsyncs.txt ]; \
+	then \
+		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+	else \
+		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+	fi;
 
 git-sync-fork-upstream-git: ## Git sync from master forked upstream repos docker
-	cd ./git && make init-makefiles && make git-sync-fork-upstream
+	@cd ./git && make init-makefiles && make git-sync-fork-upstream &&  \
+	if [ -f failedsyncs.txt ]; \
+	then \
+		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+	else \
+		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+	fi;
 
 git-sync-fork-upstream-refarch: ## Git sync from master forked upstream repos docker
-	cd ./ref-architecture && make init-makefiles && make git-sync-fork-upstream
+	@cd ./ref-architecture && make init-makefiles && make git-sync-fork-upstream &&  \
+	if [ -f failedsyncs.txt ]; \
+	then \
+		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
+	else \
+		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+	fi;
