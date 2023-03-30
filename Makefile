@@ -4,6 +4,8 @@ MAKEFILE_PATH := ./Makefile
 MAKEFILES_DIR := ./@bin/makefiles
 MAKEFILES_VER := v0.2.11
 
+SEND_NOTIF_ON_SUCCESS := true
+
 help:
 	@echo 'Available Commands:'
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf " - \033[36m%-18s\033[0m %s\n", $$1, $$2}'
@@ -72,7 +74,7 @@ git-sync-fork-upstream-ansible: ## Git sync from master forked upstream repos an
 	then \
 		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos docker
@@ -81,7 +83,7 @@ git-sync-fork-upstream-docker: ## Git sync from master forked upstream repos doc
 	then \
 		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos terraform
@@ -90,7 +92,7 @@ git-sync-fork-upstream-terraform: ## Git sync from master forked upstream repos 
 	then \
 		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-git: ## Git sync from master forked upstream repos docker
@@ -99,7 +101,7 @@ git-sync-fork-upstream-git: ## Git sync from master forked upstream repos docker
 	then \
 		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
 
 git-sync-fork-upstream-refarch: ## Git sync from master forked upstream repos docker
@@ -108,5 +110,5 @@ git-sync-fork-upstream-refarch: ## Git sync from master forked upstream repos do
 	then \
 		make notify-failure TITLE="Terraform Forks Sync Failed" MESSAGE="Failures for terraform fork sync: $$(cat failedsyncs.txt | tr '\n' ',')" SLACK_URL="$(SLACK_URL)"; \
 	else \
-		make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)"; \
+		([ $(SEND_NOTIF_ON_SUCCESS) == "true" ] && make notify-success TITLE="Terraform Forks Sync Succeeded" MESSAGE="No issues in terraform fork syncs" SLACK_URL="$(SLACK_URL)") || echo "Success, no notification needed."; \
 	fi;
