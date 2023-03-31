@@ -1,24 +1,6 @@
 version: 2.1
 
 jobs:
-  git-sync-fork-upstream-test:
-    machine:
-      image: ubuntu-2004:202201-01 # Ubuntu 20.04, Docker v20.10.12, Docker Compose v1.29.2
-
-      # This job has been blocked because Docker Layer Caching is not available on your plan.
-      # Should upgrade if necessary.
-      docker_layer_caching: false
-
-    steps:
-      - checkout
-
-      - run:
-          name: Context Info Cmds
-          command: pwd && ls -ltra && git branch
-
-      - run:
-          name: git-sync-fork-upstream-terraform
-          command: make git-clone-repo-terraform && make git-sync-fork-upstream-terraform SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
   #
   # Sync all binbashar forked repos w/ their upstreams
   #
@@ -226,12 +208,6 @@ workflows:
   #
   pr_sync_and_release:
     jobs:
-      - git-sync-fork-upstream-test:
-          context: binbashar-org-global-context
-          filters:
-            branches:
-             only: # only branches matching the below regex filters will run
-               - ISSUE-47-notification-on-failure
       - git-sync-fork-upstream:
           context: binbashar-org-global-context
           filters:
