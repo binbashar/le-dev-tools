@@ -3,11 +3,14 @@ SHELL         := /bin/bash
 MAKEFILE_PATH := ./Makefile
 MAKEFILES_DIR := ../@bin/makefiles
 
+define REPOS_LIST
+"terraform-aws-config","trussworks/terraform-aws-config","main"
+endef
 #
 # ARG VARIABLES
 #
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
-define REPOS_LIST
+define REPOS_LIST2
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm","master" \
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb","master" \
 "terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling","master" \
