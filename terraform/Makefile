@@ -4,7 +4,7 @@ MAKEFILE_PATH := ./Makefile
 MAKEFILES_DIR := ../@bin/makefiles
 
 define REPOS_LIST
-"terraform-aws-config","trussworks/terraform-aws-config","main"
+"terraform-aws-route53-query-logs","trussworks/terraform-aws-route53-query-logs","main"
 endef
 #
 # ARG VARIABLES
