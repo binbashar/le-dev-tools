@@ -9,6 +9,7 @@ MAKEFILES_DIR := ../@bin/makefiles
 define REPOS_LIST
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm","master" \
 "terraform-aws-config","trussworks/terraform-aws-config","main" \
+"terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance","master" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master"
 endef
 GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
