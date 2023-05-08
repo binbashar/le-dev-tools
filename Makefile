@@ -18,7 +18,7 @@ init-makefiles: ## initialize makefiles
 	mkdir -p ${MAKEFILES_DIR}
 	git clone https://github.com/binbashar/le-dev-makefiles.git ${MAKEFILES_DIR} -q
 	cd ${MAKEFILES_DIR} && git checkout ${MAKEFILES_VER} -q
-    git checkout ISSUE-47-le-dev-tools-notification-on-failure
+	git checkout ISSUE-47-le-dev-tools-notification-on-failure
 
 -include ${MAKEFILES_DIR}/circleci/circleci.mk
 -include ${MAKEFILES_DIR}/release-mgmt/release.mk
