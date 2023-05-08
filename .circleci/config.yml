@@ -1,5 +1,10 @@
 version: 2.1
 
+parameters:
+  manual_trigger_parameter:
+    type: string
+    default: ""
+
 jobs:
   #
   # Sync all binbashar forked repos w/ their upstreams
@@ -19,25 +24,25 @@ jobs:
           name: Context Info Cmds
           command: pwd && ls -ltra && git branch
 
-      - run:
-          name: git-sync-fork-upstream-ansible
-          command: make git-clone-repo-ansible && make git-sync-fork-upstream-ansible SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
+      #- run:
+      #    name: git-sync-fork-upstream-ansible
+      #    command: make git-clone-repo-ansible && make git-sync-fork-upstream-ansible SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
-      - run:
-          name: git-sync-fork-upstream-docker
-          command: make git-clone-repo-docker && make git-sync-fork-upstream-docker SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
+      #- run:
+      #    name: git-sync-fork-upstream-docker
+      #    command: make git-clone-repo-docker && make git-sync-fork-upstream-docker SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
       - run:
           name: git-sync-fork-upstream-terraform
           command: make git-clone-repo-terraform && make git-sync-fork-upstream-terraform SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
-      - run:
-          name: git-sync-fork-upstream-git
-          command: make git-clone-repo-git && make git-sync-fork-upstream-git SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
+      #- run:
+      #    name: git-sync-fork-upstream-git
+      #    command: make git-clone-repo-git && make git-sync-fork-upstream-git SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
-      - run:
-          name: git-sync-fork-upstream-refarch
-          command: make git-clone-repo-refarch && make git-sync-fork-upstream-refarch SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
+      #- run:
+      #    name: git-sync-fork-upstream-refarch
+      #    command: make git-clone-repo-refarch && make git-sync-fork-upstream-refarch SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
   #
   # Grant all binbashar repo topics are setup
@@ -55,25 +60,25 @@ jobs:
           name: Context Info Cmds
           command: pwd && ls -ltra && git branch
 
-      - run:
-          name: github-repo-replace-all-topics-ansible
-          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-ansible
+      #- run:
+      #    name: github-repo-replace-all-topics-ansible
+      #    command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-ansible
 
-      - run:
-          name: github-repo-replace-all-topics-docker
-          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-docker
+      #- run:
+      #    name: github-repo-replace-all-topics-docker
+      #    command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-docker
 
       - run:
           name: github-repo-replace-all-topics-terraform
           command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-terraform
 
-      - run:
-          name: github-repo-replace-all-topics-git
-          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-git
+      #- run:
+      #    name: github-repo-replace-all-topics-git
+      #    command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-git
 
-      - run:
-          name: github-repo-replace-all-topics-refarch
-          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-refarch
+      #- run:
+      #    name: github-repo-replace-all-topics-refarch
+      #    command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-refarch
 
   #
   # Release
@@ -273,3 +278,24 @@ workflows:
           context: binbashar-org-cron-context
           requires:
             - release-version-with-changelog
+
+  #
+  # Manual job
+  #
+  manual_nightly_sync_and_release:
+    when:  << pipeline.parameters.manual_trigger_parameter >>
+    jobs:
+      - git-sync-fork-upstream:
+          context: binbashar-org-cron-context
+          filters:
+            branches:
+             only: # only branches matching the below regex filters will run
+               - ISSUE-47-notification-on-failure
+      - github-repo-replace-all-topics:
+          context: binbashar-org-cron-context
+          requires:
+            - git-sync-fork-upstream
+          filters:
+            branches:
+             only: # only branches matching the below regex filters will run
+               - ISSUE-47-notification-on-failure
