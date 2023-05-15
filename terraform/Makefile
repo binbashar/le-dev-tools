@@ -14,7 +14,7 @@ define REPOS_LIST
 "terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling","master" \
 "terraform-aws-backup","lgallard/terraform-aws-backup","master" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master" \
-"terraform-aws-cloudfront-s3-cdn","cloudposse/terraform-aws-cloudfront-s3-cdn","master" \
+"terraform-aws-cloudfront-s3-cdn","cloudposse/terraform-aws-cloudfront-s3-cdn","main" \
 "terraform-aws-cloudtrail","cloudposse/terraform-aws-cloudtrail","master" \
 "terraform-aws-cloudtrail-cloudwatch-alarms","cloudposse/terraform-aws-cloudtrail-cloudwatch-alarms","master" \
 "terraform-aws-cloudtrail-s3-bucket","cloudposse/terraform-aws-cloudtrail-s3-bucket","master" \
