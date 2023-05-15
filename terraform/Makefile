@@ -14,12 +14,6 @@ define REPOS_LIST
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb","master" \
 "terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling","master" \
 "terraform-aws-backup","lgallard/terraform-aws-backup","master" \
-"terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master"
-endef
-GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
-define REPOS_LIST_ORIG
-"terraform-aws-backup-notifications","","" \
-"terraform-aws-certbot-lambda","","" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master" \
 "terraform-aws-cloudfront-s3-cdn","cloudposse/terraform-aws-cloudfront-s3-cdn","master" \
 "terraform-aws-cloudtrail","cloudposse/terraform-aws-cloudtrail","master" \
@@ -28,6 +22,12 @@ define REPOS_LIST_ORIG
 "terraform-aws-cloudwatch-alarms","clouddrove/terraform-aws-cloudwatch-alarms","master" \
 "terraform-aws-config","trussworks/terraform-aws-config","main" \
 "terraform-aws-config-notifications","trussworks/terraform-aws-config-notifications","main" \
+"terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master"
+endef
+GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
+define REPOS_LIST_ORIG
+"terraform-aws-backup-notifications","","" \
+"terraform-aws-certbot-lambda","","" \
 "terraform-aws-cost-billing-alarm","","" \
 "terraform-aws-cost-budget","","" \
 "terraform-aws-dynamodb","cloudposse/terraform-aws-dynamodb","master" \
