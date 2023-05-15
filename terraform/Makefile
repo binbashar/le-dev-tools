@@ -6,10 +6,9 @@ MAKEFILES_DIR := ../@bin/makefiles
 #
 # ARG VARIABLES
 #
+GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
 define REPOS_LIST
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm","master" \
-"terraform-aws-config","trussworks/terraform-aws-config","main" \
-"terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance","master" \
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb","master" \
 "terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling","master" \
 "terraform-aws-backup","lgallard/terraform-aws-backup","master" \
@@ -21,7 +20,6 @@ define REPOS_LIST
 "terraform-aws-cloudwatch-alarms","clouddrove/terraform-aws-cloudwatch-alarms","master" \
 "terraform-aws-config","trussworks/terraform-aws-config","main" \
 "terraform-aws-config-notifications","trussworks/terraform-aws-config-notifications","main" \
-"terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master" \
 "terraform-aws-backup-notifications","","" \
 "terraform-aws-certbot-lambda","","" \
 "terraform-aws-cost-billing-alarm","","" \
@@ -38,10 +36,7 @@ define REPOS_LIST
 "terraform-aws-firewall-manager","cloudposse/terraform-aws-firewall-manager","master" \
 "terraform-aws-github-runner","philips-labs/terraform-aws-github-runner","develop" \
 "terraform-aws-gitlab-runner","npalm/terraform-aws-gitlab-runner","develop" \
-"terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor","master"
-endef
-GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
-define REPOS_LIST_ORIG
+"terraform-aws-guardduty-monitor","opendevsecops/terraform-aws-guardduty-monitor","master" \
 "terraform-aws-guardduty-multiaccount","","" \
 "terraform-aws-iam","terraform-aws-modules/terraform-aws-iam","master" \
 "terraform-aws-kms-key","cloudposse/terraform-aws-kms-key","master" \
