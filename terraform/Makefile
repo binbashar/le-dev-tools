@@ -10,14 +10,14 @@ define REPOS_LIST
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm","master" \
 "terraform-aws-config","trussworks/terraform-aws-config","main" \
 "terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance","master" \
-"terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master"
-endef
-GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
-define REPOS_LIST_ORIG
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm","master" \
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb","master" \
 "terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling","master" \
 "terraform-aws-backup","lgallard/terraform-aws-backup","master" \
+"terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master"
+endef
+GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","terraform"]}
+define REPOS_LIST_ORIG
 "terraform-aws-backup-notifications","","" \
 "terraform-aws-certbot-lambda","","" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master" \
