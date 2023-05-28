@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.79"></a>
+## [v3.2.79] - 0001-01-01
+
+
+
 <a name="v3.2.78"></a>
-## [v3.2.78] - 2023-05-14
+## [v3.2.78] - 2023-05-21
 
 - commenting out sumologic collerctor circleci pending step
 - disabling sumologic colector at circleci pipeline
@@ -19359,7 +19364,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.78...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.79...HEAD
+[v3.2.79]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.78...v3.2.79
 [v3.2.78]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.18.0...v3.2.78
 [1.18.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.77...1.18.0
 [v3.2.77]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.76...v3.2.77
