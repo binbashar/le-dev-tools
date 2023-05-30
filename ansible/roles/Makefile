@@ -61,6 +61,7 @@ init-makefiles: init-control-file ## initialize makefiles
 	rm -rf ${MAKEFILES_DIR}
 	mkdir -p ${MAKEFILES_DIR}
 	git clone https://github.com/binbashar/le-dev-makefiles.git ${MAKEFILES_DIR}
+	cd ${MAKEFILES_DIR} && git checkout ISSUE-47-le-dev-tools-notification-on-failure
 
 init-control-file: ## sets the notification files
 	@rm -f failedsyncs.txt
