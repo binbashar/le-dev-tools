@@ -36,13 +36,13 @@ jobs:
           name: git-sync-fork-upstream-terraform
           command: make git-clone-repo-terraform && make git-sync-fork-upstream-terraform SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
-      #- run:
-      #    name: git-sync-fork-upstream-git
-      #    command: make git-clone-repo-git && make git-sync-fork-upstream-git SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
+      - run:
+          name: git-sync-fork-upstream-git
+          command: make git-clone-repo-git && make git-sync-fork-upstream-git SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
-      #- run:
-      #    name: git-sync-fork-upstream-refarch
-      #    command: make git-clone-repo-refarch && make git-sync-fork-upstream-refarch SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
+      - run:
+          name: git-sync-fork-upstream-refarch
+          command: make git-clone-repo-refarch && make git-sync-fork-upstream-refarch SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
   #
   # Grant all binbashar repo topics are setup
@@ -72,13 +72,13 @@ jobs:
           name: github-repo-replace-all-topics-terraform
           command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-terraform
 
-      #- run:
-      #    name: github-repo-replace-all-topics-git
-      #    command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-git
+      - run:
+          name: github-repo-replace-all-topics-git
+          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-git
 
-      #- run:
-      #    name: github-repo-replace-all-topics-refarch
-      #    command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-refarch
+      - run:
+          name: github-repo-replace-all-topics-refarch
+          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-refarch
 
   #
   # Release
