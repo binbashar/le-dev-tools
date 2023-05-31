@@ -28,9 +28,9 @@ jobs:
           name: git-sync-fork-upstream-ansible
           command: make git-clone-repo-ansible && make git-sync-fork-upstream-ansible SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
-      #- run:
-      #    name: git-sync-fork-upstream-docker
-      #    command: make git-clone-repo-docker && make git-sync-fork-upstream-docker SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
+      - run:
+          name: git-sync-fork-upstream-docker
+          command: make git-clone-repo-docker && make git-sync-fork-upstream-docker SLACK_URL="${SLACK_DIRECT_WEBHOOK}"
 
       - run:
           name: git-sync-fork-upstream-terraform
@@ -64,9 +64,9 @@ jobs:
           name: github-repo-replace-all-topics-ansible
           command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-ansible
 
-      #- run:
-      #    name: github-repo-replace-all-topics-docker
-      #    command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-docker
+      - run:
+          name: github-repo-replace-all-topics-docker
+          command: make GITHUB_TOKEN=${GITHUB_OAUTH_ACCESS_TOKEN} github-repo-replace-all-topics-docker
 
       - run:
           name: github-repo-replace-all-topics-terraform
