@@ -7,8 +7,584 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.79"></a>
+## [v3.2.79] - 0001-01-01
+
+
+
+<a name="v3.2.78"></a>
+## [v3.2.78] - 2023-05-21
+
+- commenting out sumologic collerctor circleci pending step
+- disabling sumologic colector at circleci pipeline
+- Add terraform-aws-apigateway-v2 module to the fork list ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- [BV-111] ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- ISSUE-52 Added refarch content to sync process ([#53](https://github.com/binbashar/bb-devops-dev-tools/issues/53))
+- ISSUE-50 added git section to sync process ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- BBL-528 added new terraform repo to sync ([#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48))
+- BBL-528 fixed end of def ([#46](https://github.com/binbashar/bb-devops-dev-tools/issues/46))
+- BBL-528 added branch to repo list ([#45](https://github.com/binbashar/bb-devops-dev-tools/issues/45))
+- Update README.md
+- Update config.yml
+- Update config.yml
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="1.18.0"></a>
+## [1.18.0] - 2023-05-14
+
+- ci: org molecule verify
+- fix: darwin svc start
+- ci: speed up ci pipeline
+- ci: change org test
+- docs: edit README
+- fix: deps for ubuntu 22
+- fix: molecule tests
+- fix: molecule tests
+- fix: molecule tests
+- fix: deps for ubuntu 22
+- ci: fix molecule command
+- ci: fix
+- fix: deps for ubuntu 22
+- ci: rework ansible-lint
+- ci: use molecule 5 for ci tests
+- tests: add molecule 5 support
+- feat: add macos support
+- Use the version codename for Debian bookworm as there is no ID yet.
+- Added Debian bookworm dependencies installation task.
+- Small fixes
+- Set the right group permissions.
+- Edit PR pipeline trigger
+- Use action-molecule 1.4.5
+- Reduce tested operating systems
+- Back to cgroup v1
+- Try ubuntu 22.04 and cgroup v2
+- Try ubuntu 2004
+- Update action trigger
+- Bump molecule action
+- Remove Debian 9 test
+- Fix molecule
+- Change GHA trigger
+- Change destination branch in the contributing description
+- Change GHA trigger
+- Fix cgroupv2 issue in Molecule
+- Fix molecule platforms
+- Fix linting
+- Rename workflow file, update test matrix
+- Edit Readme
+- fix: test molecule ci trigger
+- fix: test molecule ci trigger
+- fix: test molecule ci trigger
+- fix: test molecule ci trigger
+- fix: test molecule ci trigger
+- [fix]: enable root run & refactor ansible role
+- Update actions/checkout action to v3
+- Edit release-drafter
+- Edit Galaxy metadata
+- Direct download and FQCN
+- ci: Exclude Molecule test for non Ansible changes
+- ci: edit Release Drafter
+- style: Add extra label
+- ci: edit Release Drafter
+- docs: add Fedora 34-36 to galaxy metadata
+- ci: add test for ubuntu 22
+- ci: fix pre-commit
+- Update actions/setup-python action to v4
+- ci: fix push to galaxy when released from draft
+- ci: fix env variable
+- Update pre-commit/action action to v3
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- ci: fix env variable
+- Ref [#135](https://github.com/binbashar/bb-devops-dev-tools/issues/135) - Correct teardown permissions
+- Edit README
+- Edit README
+- Edit README
+- Edit README
+- Update robertdebock/galaxy-action action to v1.2.1
+- Add Release Drafter
+- Fix linting
+- Add environment to GHA
+- fix issues with spaces in runner_name in more cases
+- Update install_runner.yml
+- Community standards improvement
+- Update robertdebock/galaxy-action action to v1.2.0
+- Accept a boolean value being entered as a string.
+- Edit readme
+- Fix repo test
+- Fix uninstall
+- Fix repo test
+- Improve uninstallation
+- Fix idempotence
+- Fix lint
+- Several changes
+- Update actions/checkout action to v3
+- Add testing for Debian 11 in the CI
+- Install dependencies for Debian Bullseye
+- Add option to configure runner group
+- Remove CentoOS8 from tests
+- We should be able to put a space into the runner_name variable
+- Fix an issue on GHES
+- Add Debian Bullseye
+- Update MonolithProjects/action-molecule action to v1.4.5
+- Edit README
+- Add namespace to Galaxy metadata
+- Fix extra args for Org and Replace tasks
+- Edit pull request template
+- Extend pre-commit
+- Edit pull request template
+- Add pre-commit to CONTRIBUTING guide
+- Fix minor spelling mistakes
+- Better GitHub Enterprise Server support
+- Backward compatibility
+- Ignore ansible-lint ignore_errors rule
+- Building service/runner name for GHES
+- Disable Renovate dashboard
+- Update MonolithProjects/action-molecule action to v1.4.4
+- Remove ghp_ regex search from assert
+- Fix indentation
+- Use correct boolean comparison
+- Updated task text
+- Separated checks for each variable, to have nice message
+- Improve assert test and messages
+- Fix molecule scenario name
+- Edit README
+- [FIX] missing create option to handle non existence
+- [ADD] support custom env files.
+- Update robertdebock/galaxy-action action to v1.1.1
+- Add renovate.json
+- Update
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Add Rocky Linux 8 molecule tests
+- Fix failing Ansible check mode
+- Add manual workflow
+- Use ubuntu-18.04 as the workflows runner
+- Fix badge link
+- GH Runner test
+- Add Fedora34 to Readme
+- Add Fedora34 test
+- Fix indent
+- Add pre-commit
+- Ignore .cache
+- Add pre-commit
+- Add pre-commit
+- Change some wording
+- Edit README
+- add config for passing additional arguments to `config.sh`
+- make source repository for downloading runner releases configurable
+- Fix minor spelling mistake
+- Update Molecule action
+- Add jmespath
+- Update
+- Add jmespath
+- Add labels verification
+- Edit assert
+- Update
+- Fix Galaxy metadata
+- Update
+- Add test for Labels
+- add test to check registered runners labels
+- fix labels CLI flag arguments generation
+- Update
+- Edit README
+- Change how to add labels
+- Change how to add labels
+- Fix cleanup
+- Add PR Template
+- Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
+<a name="v3.2.77"></a>
+## [v3.2.77] - 2023-05-14
+
+
+
+<a name="v3.2.76"></a>
+## [v3.2.76] - 2023-05-07
+
+
+
+<a name="v3.2.75"></a>
+## [v3.2.75] - 2023-05-03
+
+- commenting out sumologic collerctor circleci pending step
+
+
+<a name="v3.2.74"></a>
+## [v3.2.74] - 2023-05-03
+
+- disabling sumologic colector at circleci pipeline
+
+
+<a name="v3.2.73"></a>
+## [v3.2.73] - 2023-04-30
+
+
+
+<a name="v3.2.72"></a>
+## [v3.2.72] - 2023-04-23
+
+
+
+<a name="v3.2.71"></a>
+## [v3.2.71] - 2023-04-16
+
+
+
+<a name="v3.2.70"></a>
+## [v3.2.70] - 2023-04-09
+
+
+
+<a name="v3.2.69"></a>
+## [v3.2.69] - 2023-04-02
+
+
+
 <a name="v3.2.68"></a>
-## [v3.2.68] - 0001-01-01
+## [v3.2.68] - 2023-03-26
 
 
 
@@ -25,6 +601,233 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.65"></a>
 ## [v3.2.65] - 2023-03-05
 
+- Add terraform-aws-apigateway-v2 module to the fork list ([#55](https://github.com/binbashar/bb-devops-dev-tools/issues/55))
+- [BV-111] ([#54](https://github.com/binbashar/bb-devops-dev-tools/issues/54))
+- ISSUE-52 Added refarch content to sync process ([#53](https://github.com/binbashar/bb-devops-dev-tools/issues/53))
+- ISSUE-50 added git section to sync process ([#51](https://github.com/binbashar/bb-devops-dev-tools/issues/51))
+- BBL-528 added new terraform repo to sync ([#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48))
+- BBL-528 fixed end of def ([#46](https://github.com/binbashar/bb-devops-dev-tools/issues/46))
+- BBL-528 added branch to repo list ([#45](https://github.com/binbashar/bb-devops-dev-tools/issues/45))
+- Update README.md
+- Update config.yml
+- Update config.yml
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.19.0"></a>
+## [0.19.0] - 2023-02-28
+
+- Update CHANGELOG
+- Update CHANGELOG
+- * Fix ´force_destroy´ attribute ypo * Update README
+- Bump up aws provider
+- Add new resource aws_backup_vault_lock_configuration
+- Add force-destroy flag to backup vault
+- Update CHANGELOG.md
+- Update CHANGELOG!
+- chore: optional effect allow
+- chore: iam role name, pretty iam policy document, precommit updates
+- Update CHANGELOG
+- docs(aws-version): update aws provider constrain
+- fix(version): fix aws provider constrain
+- Add support for AWS partitions
+- Added support for any AWS partitions
+- Update CHANGELOG
+- Update CHANGELOG
+- Remove provider contrainst in examples
+- Add constrainst fro Terraform & AWS provider versions
+- Update gitigmore
+- Update format for variables file
+- Update CHANGELOG
+- feat: Allow S3 backup
+- feat: Allow S3 backup
+- Update README
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.64"></a>
@@ -2141,6 +2944,220 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.37"></a>
 ## [v3.2.37] - 2022-10-02
 
+- Update README.md
+- Update config.yml
+- Update config.yml
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.18.0"></a>
+## [0.18.0] - 2022-09-30
+
+- Update CHANGELOG.md
+- Update CHANGELOG!
+- chore: optional effect allow
+- chore: iam role name, pretty iam policy document, precommit updates
+- Update CHANGELOG
+- docs(aws-version): update aws provider constrain
+- fix(version): fix aws provider constrain
+- Add support for AWS partitions
+- Added support for any AWS partitions
+- Update CHANGELOG
+- Update CHANGELOG
+- Remove provider contrainst in examples
+- Add constrainst fro Terraform & AWS provider versions
+- Update gitigmore
+- Update format for variables file
+- Update CHANGELOG
+- feat: Allow S3 backup
+- feat: Allow S3 backup
+- Update README
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.36"></a>
@@ -2192,11 +3209,426 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.27"></a>
 ## [v3.2.27] - 2022-07-31
 
+- Update config.yml
+- Update config.yml
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.17.0"></a>
+## [0.17.0] - 2022-07-25
+
+- Update CHANGELOG
+- docs(aws-version): update aws provider constrain
+- fix(version): fix aws provider constrain
+- Add support for AWS partitions
+- Added support for any AWS partitions
+- Update CHANGELOG
+- Update CHANGELOG
+- Remove provider contrainst in examples
+- Add constrainst fro Terraform & AWS provider versions
+- Update gitigmore
+- Update format for variables file
+- Update CHANGELOG
+- feat: Allow S3 backup
+- feat: Allow S3 backup
+- Update README
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.26"></a>
 ## [v3.2.26] - 2022-07-24
 
+- Update config.yml
+- Update config.yml
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.16.0"></a>
+## [0.16.0] - 2022-07-18
+
+- Add support for AWS partitions
+- Added support for any AWS partitions
+- Update CHANGELOG
+- Update CHANGELOG
+- Remove provider contrainst in examples
+- Add constrainst fro Terraform & AWS provider versions
+- Update gitigmore
+- Update format for variables file
+- Update CHANGELOG
+- feat: Allow S3 backup
+- feat: Allow S3 backup
+- Update README
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.25"></a>
@@ -3593,6 +5025,208 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.17"></a>
 ## [v3.2.17] - 2022-05-01
 
+- updating tf iac lib modules list
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.15.0"></a>
+## [0.15.0] - 2022-04-29
+
+- Update CHANGELOG
+- Update CHANGELOG
+- Remove provider contrainst in examples
+- Add constrainst fro Terraform & AWS provider versions
+- Update gitigmore
+- Update format for variables file
+- Update CHANGELOG
+- feat: Allow S3 backup
+- feat: Allow S3 backup
+- Update README
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.16"></a>
@@ -4495,6 +6129,203 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.9"></a>
 ## [v3.2.9] - 2022-03-06
 
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.14.0"></a>
+## [0.14.0] - 2022-03-03
+
+- Update gitigmore
+- Update format for variables file
+- Update CHANGELOG
+- feat: Allow S3 backup
+- feat: Allow S3 backup
+- Update README
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.8"></a>
@@ -4610,6 +6441,93 @@ All notable changes to this project will be documented in this file.
 - BBL-117 Adding CHANGELOG.md config files
 - BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
 - BBL-177 first commit
+
+
+<a name="0.13.3"></a>
+## [0.13.3] - 2022-02-19
+
+- Update README
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="1.14.0"></a>
@@ -4928,16 +6846,587 @@ All notable changes to this project will be documented in this file.
 <a name="v3.2.6"></a>
 ## [v3.2.6] - 2022-02-06
 
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.13.2"></a>
+## [0.13.2] - 2022-02-02
+
+- Update complete example
+- Update examples and READMEs for Tags and Conditions
+- Update examples and READMEs
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.5"></a>
 ## [v3.2.5] - 2022-01-30
 
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.13.1"></a>
+## [0.13.1] - 2022-01-26
+
+- Update examples and READMEs
+
+
+<a name="0.13.0"></a>
+## [0.13.0] - 2022-01-26
+
+- Update Changelog
+- Update complete example
+- Add string_like, string_not_equals, string_not_like conditions
+- Rename README
+- Add dynamic not_resources and condition (string_equals)
+
+
+<a name="0.12.2"></a>
+## [0.12.2] - 2022-01-25
+
+- Release 0.12.2, fix backup selection re-creation issue
+- fix [#48](https://github.com/binbashar/bb-devops-dev-tools/issues/48)
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.4"></a>
 ## [v3.2.4] - 2022-01-23
 
+- Adding new terraform IaC lib modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- New terraform modules added
+- Adding "le-tf-gitlab" repo to the ref arch repo list
+- adding new forked IaC library terraform repos
+- updating terraform repos
+- adding ref-arch repos github tagging
+- adding new IaC library terraform repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new terraform forked modules
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.12.1"></a>
+## [0.12.1] - 2022-01-02
+
+- * Change formatting TF code * Update CHANGELOG
+- align example readme with code
+- Fixed error when missing optional vault_name
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v3.2.3"></a>
@@ -7660,6 +10149,174 @@ All notable changes to this project will be documented in this file.
 <a name="v0.1.11"></a>
 ## [v0.1.11] - 2021-07-18
 
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding new ref-archietcture forked tgw module
+- BBL-192 | removing deprecated terraform repo from list
+- BBL-192 | adding new config ref-arch ghactions repo
+- BBL-192 | adding new ref-archietcture ghactions repos
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.12.0"></a>
+## [0.12.0] - 2021-07-16
+
+- Add Error creating Backup Vault know issue in README
+- Add multiple copy_action support
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.1.10"></a>
@@ -8877,11 +11534,331 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.73"></a>
 ## [v0.0.73] - 2021-05-16
 
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.11.6"></a>
+## [0.11.6] - 2021-05-13
+
+- Fix selection-tags in README
+- Remove old know issues from README
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.0.72"></a>
 ## [v0.0.72] - 2021-05-09
 
+- BBL-192 | Updating repo list - terraform and ref-architecture
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.11.5"></a>
+## [0.11.5] - 2021-05-05
+
+- Update CHANGELOG
+- Fix recovery_point_tags default value
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.0.71"></a>
@@ -9027,6 +12004,167 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.69"></a>
 ## [v0.0.69] - 2021-04-25
 
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.11.4"></a>
+## [0.11.4] - 2021-04-22
+
+- Update CHANGELOG.md
+- Update CHANGELOG
+- Fix typo
+
+
+<a name="0.11.3"></a>
+## [0.11.3] - 2021-04-22
+
+- Update README & fix formatting
+- Add rule_enable_continuous_backup var in README
+- Update complete example & README
+- AddAdd support for enable_continuous_backup
+- Update REAME
+- Rename  for
+- Add support for several selection tag
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.0.68"></a>
@@ -9037,6 +12175,183 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.67"></a>
 ## [v0.0.67] - 2021-04-11
 
+- BBL-192 | adding new repo to ref arch list
+- BBL-192 | adding new repos
+- BBL-192 | adding new ansible and terraform leverage supported repos
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-192 | adding terraform module to the repo list
+- BBL-192 | updating terraform modules repo list
+- BBL-192 | adding new leverage repos
+- BBL-192 | adding terraform gh runner module
+- BBL-192 | adding new ansible and terraform forked repos
+- BBL-192 | adding new ansible roles
+- BBL-444 | slack notif + makefile lastest ver + sumologic to run for every job
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | adding tf transit gw module
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-440 | improving Makefile init-makefiles w/ latest fixed version
+- BBL-84 | fixing Makefiles lib version
+- BBL-84 | adding tf repo to list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-438 | updating terraform repo list
+- BBL-313 | segregating leverage public docker images repos
+- updating leverage repo list
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | fixing context to fix unauth error
+- BBL-381 | adding requires for sumologic collector workflow
+- BBL-381 | updating makefile include sintaxt
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | updating circleci config to integrate with sumologic
+- BBL-381 | upgrading makefile + adding leverage repo
+- BBL-426 | circleci cron-context added with limited security permissions
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-381 | upgrading terraform modules list
+- BBL-381 | upgrading circleci machine exec ver
+- BBL-81 | fix ansible roles var list sintaxt
+- BBL-81 | updating repos list
+- BBL-381 | updating circleci job build on pr
+- BBL-381 | updating circleci job to forder workflow order
+- BBL-381 | sitaxt break line clean up
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | commenting mandatory Makefile lines
+- BBL-381 | adding init-makefiles for every necessary sub-folder
+- BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
+- BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
+- BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.11.2"></a>
+## [0.11.2] - 2021-04-10
+
+- Add rule_enable_continuous_backup var in README
+
+
+<a name="0.11.1"></a>
+## [0.11.1] - 2021-04-10
+
+- Update complete example & README
+
+
+<a name="0.11.0"></a>
+## [0.11.0] - 2021-04-10
+
+- AddAdd support for enable_continuous_backup
+- Update REAME
+
+
+<a name="0.10.0"></a>
+## [0.10.0] - 2021-04-07
+
+- Rename  for
+
+
+<a name="0.9.0"></a>
+## [0.9.0] - 2021-04-07
+
+- Add support for several selection tag
+
+
+<a name="0.8.0"></a>
+## [0.8.0] - 2021-04-07
+
+- Allows attaching an already created IAM role to the plan
+- Allows attaching an already created IAM role
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.0.66"></a>
@@ -9863,6 +13178,295 @@ All notable changes to this project will be documented in this file.
 - Fix cleanup
 - Add PR Template
 - Master to Main
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Update
+- Fix service name building
+- Fix service name building
+- Update
+- Update
+- Update
+- Update
+- Update
+- Edit actions workflow
+- Better molecule tests
+- Fix idempotence
+- Fix service name length
+- Add readme
+- Making sure labels default is read as empty string
+- Adding options for setting labels with default of no labels
+- Add project to awesome-runners list
+- Hide output
+- Fix guthub url variable
+- Fix typo
+- Update README.md with new variables
+- Add new line
+- Add option to overwrite service_name
+- Add support for Enterprise Server
+- Edit README
+- add arm support
+- Edit GHA workflow
+- Add assert task
+- Fix service name length limit
+- Add assert task
+- Use github_owner in org runner_service
+- Sync default vars with README
+- Add variable
+- molecule settings cleaning
+- molecule playbook corrections
+- Static temp folder
+- README correction
+- Parallel jobs
+- Fix installation idempotence
+- Add installation idempotence test
+- Fix hide_sensitive_logs variable
+- Fix github workflows
+- Update GitHub token readme section
+- Use github_owner in collect_info_* tasks
+- Fix runner_name
+- Edit README
+- Merge branch 'develop' into runner-name
+- Fix missing svc.sh
+- Fix molecule cleanup, return reinstall test
+- Disable idempotence test
+- Simplify molecule test
+- Fix molecule test
+- Fix molecule test
+- Ubuntu 18 for wf
+- Return all os tests
+- Better tests
+- Better tests
+- Better tests
+- Better tests
+- Better verifier
+- Mention github_owner variable in docs
+- Add runner_name variable
+- Add uninstall variable
+- Change default vars
+- Conditions in main
+- Change default vars
+- Add cleanup playbooks
+- Disable idempotence molecule test
+- Fix variable name and some wording
+- Added tests for organization runner
+- Add support for an organization + use handler for service restart
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix typo in README
+- Fixed molecule. Enable full workflow
+- Test
+- Test
+- Fix molecule test
+- Test
+- Test
+- Test
+- Test
+- Use latest mocelcule GH Action
+- Use latest mocelcule GH Action
+- Fix reinstall and unarchive on every runs + use tempfile
+- Fix permissions
+- Add mode to unarchive
+- Add new workflow
+- Add new workflow
+- Fix wf issue
+- Fix wf issue
+- Add Ansible-lint skip rule
+- Change main test
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - cleaning comments
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: improving 'delegate_to' method - missmatch runner_dir
+- [issue [#29](https://github.com/binbashar/bb-devops-dev-tools/issues/29)]: imrpoving 'delegate_to' method
+- [no refs]: conflicts with 'become' and 'delegate_to' methods - user can't be the same on controller and remote nodes
+- Edit contribution
+- Add new line
+- Add contributing
+- Add funding
+- Edit README
+- Edit README
+- Change auth method
+- Change auth method
+- Empty user
+- Fake user
+- Empty user
+- No user
+- Fix typo
+- README editing
+- README editing
+- Fix defaults
+- README editing
+- Support organization owner in Github api url
+- Better docs
+- Better docs
+- Better docs
+- Add ACL package
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Molecule jobs dependency
+- Add Ansible tags tests with Molecule
+- Revert tests
+- Fix metadata
+- Fix metadata
+- Fix metadata
+- New action
+- Old action
+- Clean metadata
+- Add update dnf cache
+- New GitHub action test
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Updtate action ver
+- Fix
+- Use different action
+- Test
+- Test
+- Update Molecule action
+- Update Molecule action
+- Add ansible-lint
+- Edit README
+- Add the runner_user when the service is installed
+- Edit readme
+- Edit metadata and add fedora 31 to molecule
+- Add epel role to molecule converge
+- render dependencies non-obligatory
+- Fix reinstall
+- Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
+<a name="0.7.0"></a>
+## [0.7.0] - 2021-02-28
+
+- Update CHANGELOG.md
+- Update CHANGELOG.md
+- Add  backup_vault_events example
+- Update the complete example
+- Update README & CHANGELOG
+- Add new implementation for notifications
+- Add notification logic
+- Add AWS Backup Vault notification support
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="1.7.0"></a>
@@ -12596,6 +16200,53 @@ All notable changes to this project will be documented in this file.
 - Initial commit
 
 
+<a name="0.6.0"></a>
+## [0.6.0] - 2020-12-06
+
+- Add support to activate Windows VSS
+- Release 0.6.0
+- added dynamic block to activate Windows VSS
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
+
+
 <a name="v0.0.41"></a>
 ## [v0.0.41] - 2020-12-06
 
@@ -13878,6 +17529,96 @@ All notable changes to this project will be documented in this file.
 - BBL-381 | adding Makefile standalone approach for ref-architecture layer + sintaxt spaces improvement
 - BBL-381 | updating .gitignore to allow [@bin](https://github.com/bin) ignore during buil_and_release ci stage
 - BBL-381 | standalone makefile approach updates
+- BBL-192 | updating .gitignore, adding .editorconfig + LICENSE.md + Makefile tf updated
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.5.0"></a>
+## [0.5.0] - 2020-09-09
+
+- Add Restores policy to Service Role
+- Add service role output
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.0.14"></a>
@@ -14149,6 +17890,48 @@ All notable changes to this project will be documented in this file.
 - BBL-177 first commit
 
 
+<a name="0.4.1"></a>
+## [0.4.1] - 2020-08-13
+
+- Update CHANGELOG
+- Fixing registry url
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
+
+
 <a name="1.2.3"></a>
 ## [1.2.3] - 2020-08-13
 
@@ -14306,6 +18089,91 @@ All notable changes to this project will be documented in this file.
 <a name="v0.0.10"></a>
 ## [v0.0.10] - 2020-08-09
 
+- Merge branch 'master' into BBL-192-fixing-typo
+- BBL-192 fixing typo in repo name
+- Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.4.0"></a>
+## [0.4.0] - 2020-08-04
+
+- Add support for selection by tags only
+- Add default  value for resources when adding just tag selections
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.0.9"></a>
@@ -14319,6 +18187,86 @@ All notable changes to this project will be documented in this file.
 - Merge branch 'master' into BBL-192-fixing-typo
 - BBL-192 fixing typo in repo name
 - Merge branch 'master' of github.com:binbashar/le-dev-tools
+- BBL-84 adding brand new le-ref-architecture-doc repo to ref-architecture ones
+- BBL-84 update scheduling to a weekly frequency
+- BBL-84 CircileCI jobs tested -> scheduling sync pipeline to run nightly
+- BBL-84 minor circleci/config.yaml sintaxt fix
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 adding git clone makefile cmd + forcing upstream for release-mgmt circleci job step
+- BBL-84 removing nightly trigger to validate makefile cmds work properly
+- BBL-84 fixing circleci config for nightly exec
+- BBL-84 updating repos + fork sync automation added
+- BBL-119 update role name in Makefile list
+- BBL-119 updating leverage modules Makefile cross-tech
+- BBL-274 updating Makefiles with new library components
+- Merge branch 'master' of github.com:binbashar/bb-devops-dev-tools
+- BBL-274 fix CircleCI changelog Makefile cmd
+- BBL-222 removing not necesarry playbooks folder and updating ansible-role supported list
+- BBL-222 updating ansible ref arch repo name
+- BBL-222 re-adding 'git fetch --tags' to propagate upstream forked repo tags
+- BBL-222 updating ISSUES template config to fix integration
+- BBL-222 renaming and resizeing README.md figures
+- BBL-222 adding .github dir w/ ISSUES and PRs templates
+- BBL-222 .chlog and .gitignore minor updates
+- BBL-222 | GitHub topics makefile helper ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- BBL-222 updating topics for reference architecture repositories
+- BBL-222 using github org parameter
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-222 small makefile comments sintext correction
+- BBL-222 cleaner .circleci/config setup
+- BBL-222 Cross-project Makefile update using [@bin](https://github.com/bin)/makefiles + Github topics cmds support added
+- BBL-222 Adding bin Makefile library files for improved reusability
+- BBL-222 .chglog files updated to improve the CHANGELOG.md format
+- Bbl 117 bb devops dev tools ([#7](https://github.com/binbashar/bb-devops-dev-tools/issues/7))
+- BBL-224 adding new repos + git-sync-fork-upstream Makefile task
+- BBL-199 - modules for ec2 ansible fleet scenarios ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- BBL-199 modules for ec2 ansible fleet scenarios
+- Bbl 117 bb devops dev tools ([#3](https://github.com/binbashar/bb-devops-dev-tools/issues/3))
+- Merge branch 'master' into BBL-117-bb-devops-dev-tools
+- BBL-117 updating CHANGELOG.md to std format
+- BBL-117 - BB DevOps Dev Tools CHANGELOG.md config ([#2](https://github.com/binbashar/bb-devops-dev-tools/issues/2))
+- BBL-117 updating CHANGELOG.md config willing to show commit messages instead of PRs.
+- BBL-117 Adding CHANGELOG.md config files
+- BBL-117 updating README.md + Makefile (release-mgmt) -> validate CircleCI job
+- BBL-177 first commit
+
+
+<a name="0.3.2"></a>
+## [0.3.2] - 2020-07-20
+
+- Fix space in  value
+- Update README to include copy_action block example
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.0.7"></a>
@@ -14899,6 +18847,115 @@ All notable changes to this project will be documented in this file.
 
 - Fix reinstall
 - Fix reinstall
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Add option for latest version
+- Remove ignored file
+- Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
+<a name="0.3.1"></a>
+## [0.3.1] - 2020-04-17
+
+- Update README to include copy_action block example
+
+
+<a name="0.3.0"></a>
+## [0.3.0] - 2020-04-17
+
+- Update CHANCELOG
+- Update to include copy_action and provider version
+- Force provider >= v2.58.0
+- Update simple_plan_using_variables example
+- Update simple_plan_using_lists example
+- Update comple_example with copy_action
+- Fix deprated declaration in complete example
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="1.1.0"></a>
@@ -14911,6 +18968,95 @@ All notable changes to this project will be documented in this file.
 - Add option for latest version
 - Remove ignored file
 - Add Debian support
+- Allow Ubuntu molecule tests
+- Fix README
+- Comment ununstall
+- Molecule test
+- Molecule test
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule fix
+- Molecule typo
+- Molecule typo
+- Molecule test
+- Fix molecule
+- Fix molecule
+- Disable ubuntu tests
+- Fix molecule
+- Fix uninstall
+- Edit molecule tests
+- Tested Ubuntu 16/18
+- Docs correction
+- Cosmetic changes
+- Fix badges and one ansible lint
+- Fix galaxy id
+- Fix ansible lints
+- Fix version tag
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule
+- Fix molecule scenario
+- Fix molecule
+- Add molecule
+- Add molecule
+- Initial release
+- Initial release
+- wip
+- wip
+- wip
+- Add reg token request
+- Add reg token request
+- Edit Readme
+- Fix badge
+- Fix some lints
+- Fix some lints
+- Fix some lints
+- Fix metadata
+- First release
+- First release
+- First release
+- WIP
+- Initial commit
+
+
+<a name="0.2.1"></a>
+## [0.2.1] - 2020-04-01
+
+- Add terraform logo in README
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="1.0.5"></a>
@@ -14988,11 +19134,6 @@ All notable changes to this project will be documented in this file.
 - wip
 - wip
 - wip
-
-
-<a name="0.1.0"></a>
-## [0.1.0] - 2020-03-16
-
 - Add reg token request
 - Add reg token request
 
@@ -15016,6 +19157,34 @@ All notable changes to this project will be documented in this file.
 - First release
 - WIP
 - Initial commit
+
+
+<a name="0.2.0"></a>
+## [0.2.0] - 2020-01-30
+
+- Update CHANGELOG
+- Fix formatting for inputs in README
+- outputs, variables, descriptions
+- count
+- counts
+- readme
+- enabled flag
+- Update CHANGELOG
+- Rename module references
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v0.5.1"></a>
@@ -15054,6 +19223,47 @@ All notable changes to this project will be documented in this file.
 
 - Updated pre-commit hooks
 - Define local.validation_domains properly. ([#28](https://github.com/binbashar/bb-devops-dev-tools/issues/28))
+- Updated pre-commit hooks
+- Replace template usage with 0.12 compatible list comprehension ([#17](https://github.com/binbashar/bb-devops-dev-tools/issues/17))
+- Improved access by index to help with deletion (relates to [#10](https://github.com/binbashar/bb-devops-dev-tools/issues/10))
+- Updated pre-commit-terraform to support terraform-docs and Terraform 0.12
+- Terraform.012 upgrade ([#9](https://github.com/binbashar/bb-devops-dev-tools/issues/9))
+- fix format issue ([#6](https://github.com/binbashar/bb-devops-dev-tools/issues/6))
+- Added multiple records for route53 validation (related to [#1](https://github.com/binbashar/bb-devops-dev-tools/issues/1))
+- Fixed bug when creation was disabled
+- Updated readme
+- Initial commit with all the code
+
+
+<a name="0.1.2"></a>
+## [0.1.2] - 2019-10-18
+
+- Update CHANGELOG
+- Rename module references
+
+
+<a name="0.1.1"></a>
+## [0.1.1] - 2019-10-18
+
+- Add LICENSE.md (Apache License)
+- Update CHANGELOG
+
+
+<a name="0.1.0"></a>
+## [0.1.0] - 2019-10-17
+
+- Update README
+- Rename rule_lifecycle_* vars
+- Rename rule_lifecycle_* vars
+- Force depends on policy/role attachment
+- Add default value when no selection_tag is found
+- Remove aws-backup-tag-policy name
+- Fix selection section in the complete example
+- Add example folder
+- Add comment on vault dependency
+- Fix empty lines in variables
+- Add AWS Backup module logic
+- Add README
 
 
 <a name="v2.3.0"></a>
@@ -15154,11 +19364,24 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.68...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.79...HEAD
+[v3.2.79]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.78...v3.2.79
+[v3.2.78]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.18.0...v3.2.78
+[1.18.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.77...1.18.0
+[v3.2.77]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.76...v3.2.77
+[v3.2.76]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.75...v3.2.76
+[v3.2.75]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.74...v3.2.75
+[v3.2.74]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.73...v3.2.74
+[v3.2.73]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.72...v3.2.73
+[v3.2.72]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.71...v3.2.72
+[v3.2.71]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.70...v3.2.71
+[v3.2.70]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.69...v3.2.70
+[v3.2.69]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.68...v3.2.69
 [v3.2.68]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.67...v3.2.68
 [v3.2.67]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.66...v3.2.67
 [v3.2.66]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.65...v3.2.66
-[v3.2.65]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.64...v3.2.65
+[v3.2.65]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.19.0...v3.2.65
+[0.19.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.64...0.19.0
 [v3.2.64]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.63...v3.2.64
 [v3.2.63]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.62...v3.2.63
 [v3.2.62]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.61...v3.2.62
@@ -15191,7 +19414,8 @@ All notable changes to this project will be documented in this file.
 [v3.2.40]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.39...v3.2.40
 [v3.2.39]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.38...v3.2.39
 [v3.2.38]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.37...v3.2.38
-[v3.2.37]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.36...v3.2.37
+[v3.2.37]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.18.0...v3.2.37
+[0.18.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.36...0.18.0
 [v3.2.36]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.35...v3.2.36
 [v3.2.35]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.34...v3.2.35
 [v3.2.34]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.33...v3.2.34
@@ -15201,8 +19425,10 @@ All notable changes to this project will be documented in this file.
 [v3.2.30]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.29...v3.2.30
 [v3.2.29]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.28...v3.2.29
 [v3.2.28]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.27...v3.2.28
-[v3.2.27]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.26...v3.2.27
-[v3.2.26]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.25...v3.2.26
+[v3.2.27]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.17.0...v3.2.27
+[0.17.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.26...0.17.0
+[v3.2.26]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.16.0...v3.2.26
+[0.16.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.25...0.16.0
 [v3.2.25]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.16.0...v3.2.25
 [1.16.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.24...1.16.0
 [v3.2.24]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.23...v3.2.24
@@ -15214,7 +19440,8 @@ All notable changes to this project will be documented in this file.
 [v3.2.19]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.3...v3.2.19
 [1.15.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.18...1.15.3
 [v3.2.18]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.17...v3.2.18
-[v3.2.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.16...v3.2.17
+[v3.2.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.15.0...v3.2.17
+[0.15.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.16...0.15.0
 [v3.2.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.15...v3.2.16
 [v3.2.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.14...v3.2.15
 [v3.2.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.13...v3.2.14
@@ -15225,13 +19452,20 @@ All notable changes to this project will be documented in this file.
 [v3.2.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.1...v3.2.10
 [1.15.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.15.0...1.15.1
 [1.15.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.9...1.15.0
-[v3.2.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.8...v3.2.9
+[v3.2.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.14.0...v3.2.9
+[0.14.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.8...0.14.0
 [v3.2.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.7...v3.2.8
-[v3.2.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.14.0...v3.2.7
+[v3.2.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.13.3...v3.2.7
+[0.13.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.14.0...0.13.3
 [1.14.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.6...1.14.0
-[v3.2.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.5...v3.2.6
-[v3.2.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.4...v3.2.5
-[v3.2.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.3...v3.2.4
+[v3.2.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.13.2...v3.2.6
+[0.13.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.5...0.13.2
+[v3.2.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.13.1...v3.2.5
+[0.13.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.13.0...0.13.1
+[0.13.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.12.2...0.13.0
+[0.12.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.4...0.12.2
+[v3.2.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.12.1...v3.2.4
+[0.12.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.3...0.12.1
 [v3.2.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.2...v3.2.3
 [v3.2.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.16...v3.2.2
 [v2.5.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.15...v2.5.16
@@ -15272,7 +19506,8 @@ All notable changes to this project will be documented in this file.
 [1.10.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.13...1.10.0
 [v0.1.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.12...v0.1.13
 [v0.1.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.11...v0.1.12
-[v0.1.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.10...v0.1.11
+[v0.1.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.12.0...v0.1.11
+[0.12.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.10...0.12.0
 [v0.1.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.9...v0.1.10
 [v0.1.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.8...v0.1.9
 [v0.1.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.9.0...v0.1.8
@@ -15290,14 +19525,24 @@ All notable changes to this project will be documented in this file.
 [v0.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.74...v0.1.1
 [v0.0.74]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.1.0...v0.0.74
 [v0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.73...v0.1.0
-[v0.0.73]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.72...v0.0.73
-[v0.0.72]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.71...v0.0.72
+[v0.0.73]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.11.6...v0.0.73
+[0.11.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.72...0.11.6
+[v0.0.72]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.11.5...v0.0.72
+[0.11.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.71...0.11.5
 [v0.0.71]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.70...v0.0.71
 [v0.0.70]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.0.0...v0.0.70
 [v3.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.69...v3.0.0
-[v0.0.69]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.68...v0.0.69
+[v0.0.69]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.11.4...v0.0.69
+[0.11.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.11.3...0.11.4
+[0.11.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.68...0.11.3
 [v0.0.68]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.67...v0.0.68
-[v0.0.67]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.66...v0.0.67
+[v0.0.67]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.11.2...v0.0.67
+[0.11.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.11.1...0.11.2
+[0.11.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.11.0...0.11.1
+[0.11.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.10.0...0.11.0
+[0.10.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.9.0...0.10.0
+[0.9.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.8.0...0.9.0
+[0.8.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.66...0.8.0
 [v0.0.66]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.65...v0.0.66
 [v0.0.65]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.8.2...v0.0.65
 [1.8.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.64...1.8.2
@@ -15308,7 +19553,8 @@ All notable changes to this project will be documented in this file.
 [v0.0.61]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.60...v0.0.61
 [v0.0.60]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.59...v0.0.60
 [v0.0.59]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.8.0...v0.0.59
-[1.8.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.7.0...1.8.0
+[1.8.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.7.0...1.8.0
+[0.7.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.7.0...0.7.0
 [1.7.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.58...1.7.0
 [v0.0.58]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.14.0...v0.0.58
 [v2.14.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.6.0...v2.14.0
@@ -15336,7 +19582,8 @@ All notable changes to this project will be documented in this file.
 [v0.0.43]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.5...v0.0.43
 [1.4.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.42...1.4.5
 [v0.0.42]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.4...v0.0.42
-[1.4.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.41...1.4.4
+[1.4.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.6.0...1.4.4
+[0.6.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.41...0.6.0
 [v0.0.41]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.40...v0.0.41
 [v0.0.40]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.4.3...v0.0.40
 [1.4.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.39...1.4.3
@@ -15373,18 +19620,22 @@ All notable changes to this project will be documented in this file.
 [v0.0.18]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.17...v0.0.18
 [v0.0.17]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.16...v0.0.17
 [v0.0.16]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.15...v0.0.16
-[v0.0.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.14...v0.0.15
+[v0.0.15]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.5.0...v0.0.15
+[0.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.14...0.5.0
 [v0.0.14]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.13...v0.0.14
 [v0.0.13]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.12...v0.0.13
 [v0.0.12]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.4...v0.0.12
 [1.2.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.11.0...1.2.4
 [v2.11.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.11...v2.11.0
-[v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.3...v0.0.11
+[v0.0.11]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.4.1...v0.0.11
+[0.4.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.2.3...0.4.1
 [1.2.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.10.0...1.2.3
 [v2.10.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.10...v2.10.0
-[v0.0.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.9...v0.0.10
+[v0.0.10]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.4.0...v0.0.10
+[0.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.9...0.4.0
 [v0.0.9]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.8...v0.0.9
-[v0.0.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...v0.0.8
+[v0.0.8]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.3.2...v0.0.8
+[0.3.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.7...0.3.2
 [v0.0.7]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.6...v0.0.7
 [v0.0.6]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.5...v0.0.6
 [v0.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.0.4...v0.0.5
@@ -15403,21 +19654,27 @@ All notable changes to this project will be documented in this file.
 [1.1.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.3...1.1.4
 [1.1.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.2...1.1.3
 [1.1.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.1...1.1.2
-[1.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.5...1.1.0
+[1.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.3.1...1.1.1
+[0.3.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.3.0...0.3.1
+[0.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.1.0...0.3.0
+[1.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.2.1...1.1.0
+[0.2.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.5...0.2.1
 [1.0.5]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.4...1.0.5
 [1.0.4]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.0.0...1.0.1
-[1.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.1.0...1.0.0
-[0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.0.2...0.1.0
+[1.0.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.0.2...1.0.0
 [0.0.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.0.1...0.0.2
-[0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.1...0.0.1
+[0.0.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.2.0...0.0.1
+[0.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.1...0.2.0
 [v0.5.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/v0.5.0...v0.5.1
 [v0.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.5.0...v0.5.0
 [v2.5.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.4.0...v2.5.0
-[v2.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.3.0...v2.4.0
+[v2.4.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.1.2...v2.4.0
+[0.1.2]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.1.1...0.1.2
+[0.1.1]: https://github.com/binbashar/bb-devops-dev-tools/compare/0.1.0...0.1.1
+[0.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.3.0...0.1.0
 [v2.3.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.2.0...v2.3.0
 [v2.2.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v2.1.0...v2.2.0
 [v2.1.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v1.4.0...v2.1.0
