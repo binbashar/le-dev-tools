@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.80"></a>
+## [v3.2.80] - 2023-06-01
+
+- Issue 47 notification on failure ([#56](https://github.com/binbashar/bb-devops-dev-tools/issues/56))
+
+
 <a name="v3.2.79"></a>
-## [v3.2.79] - 0001-01-01
+## [v3.2.79] - 2023-05-28
 
 
 
@@ -19364,7 +19370,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.79...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.80...HEAD
+[v3.2.80]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.79...v3.2.80
 [v3.2.79]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.78...v3.2.79
 [v3.2.78]: https://github.com/binbashar/bb-devops-dev-tools/compare/1.18.0...v3.2.78
 [1.18.0]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.77...1.18.0
