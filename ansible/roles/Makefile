@@ -57,10 +57,14 @@ help:
 #==============================================================#
 # INITIALIZATION                                               #
 #==============================================================#
-init-makefiles: ## initialize makefiles
+init-makefiles: init-control-file ## initialize makefiles
 	rm -rf ${MAKEFILES_DIR}
 	mkdir -p ${MAKEFILES_DIR}
 	git clone https://github.com/binbashar/le-dev-makefiles.git ${MAKEFILES_DIR}
 
+init-control-file: ## sets the notification files
+	@rm -f failedsyncs.txt
+
 -include ${MAKEFILES_DIR}/git/git.mk
 -include ${MAKEFILES_DIR}/github/github.mk
+-include ${MAKEFILES_DIR}/slack/notifications.mk
