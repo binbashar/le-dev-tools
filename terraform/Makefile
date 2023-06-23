@@ -10,6 +10,7 @@ GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-terraform","binbash-terraform","
 define REPOS_LIST
 "terraform-aws-acm","terraform-aws-modules/terraform-aws-acm","master" \
 "terraform-aws-alb","terraform-aws-modules/terraform-aws-alb","master" \
+"terraform-aws-apigateway-v2","terraform-aws-modules/terraform-aws-apigateway-v2","master" \
 "terraform-aws-autoscaling","terraform-aws-modules/terraform-aws-autoscaling","master" \
 "terraform-aws-backup","lgallard/terraform-aws-backup","master" \
 "terraform-aws-cloudfront","jmgreg31/terraform-aws-cloudfront","master" \
@@ -30,6 +31,7 @@ define REPOS_LIST
 "terraform-aws-ecr","lgallard/terraform-aws-ecr","master" \
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account","master" \
 "terraform-aws-ecr-lifecycle-policy-rule","doingcloudright/terraform-aws-ecr-lifecycle-policy-rule","master" \
+"terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main" \
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks","master" \
 "terraform-aws-elasticsearch","lgallard/terraform-aws-elasticsearch","master" \
 "terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis","main" \
@@ -54,6 +56,7 @@ define REPOS_LIST
 "terraform-aws-rds","terraform-aws-modules/terraform-aws-rds","master" \
 "terraform-aws-rds-export-to-s3","","" \
 "terraform-aws-rds-aurora","terraform-aws-modules/terraform-aws-rds-aurora","master" \
+"terraform-aws-domain-redirect","byu-oit/terraform-aws-domain-redirect","main" \
 "terraform-aws-redshift","terraform-aws-modules/terraform-aws-redshift","master" \
 "terraform-aws-root-login-notifications","trussworks/terraform-aws-root-login-notifications","main" \
 "terraform-aws-route53-alias","cloudposse/terraform-aws-route53-alias","main" \
@@ -80,10 +83,10 @@ define REPOS_LIST
 "terraform-aws-wafv2","trussworks/terraform-aws-wafv2","main" \
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2","main" \
 "terraform-null-label","cloudposse/terraform-null-label","main" \
-"terraform-terraform-label","cloudposse/terraform-terraform-label","main" \
+"terraform-playground","","master"
 "terraform-provider-postgresql","cyrilgdn/terraform-provider-postgresql","master" \
-"terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main" \
-"terraform-aws-apigateway-v2","terraform-aws-modules/terraform-aws-apigateway-v2","master"
+"terraform-provider-sops","carlpett/terraform-provider-sops","master" \
+"terraform-terraform-label","cloudposse/terraform-terraform-label","main"
 endef
 
 # "terraform-aws-transit-gateway","terraform-aws-modules/terraform-aws-transit-gateway","master"
