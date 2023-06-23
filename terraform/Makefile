@@ -83,7 +83,7 @@ define REPOS_LIST
 "terraform-aws-wafv2","trussworks/terraform-aws-wafv2","main" \
 "terraform-aws-waf-webaclv2","umotif-public/terraform-aws-waf-webaclv2","main" \
 "terraform-null-label","cloudposse/terraform-null-label","main" \
-"terraform-playground","","master"
+"terraform-playground","","master" \
 "terraform-provider-postgresql","cyrilgdn/terraform-provider-postgresql","master" \
 "terraform-provider-sops","carlpett/terraform-provider-sops","master" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label","main"
