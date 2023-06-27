@@ -86,7 +86,7 @@ define REPOS_LIST
 "terraform-playground","","master" \
 "terraform-provider-postgresql","cyrilgdn/terraform-provider-postgresql","master" \
 "terraform-provider-sops","carlpett/terraform-provider-sops","master" \
-"terraform-terraform-label","cloudposse/terraform-terraform-label","main"
+"terraform-terraform-label","cloudposse/terraform-terraform-label","main" \
 "terraform-aws-eventbridge","terraform-aws-modules/terraform-aws-eventbridge","master"
 endef
 
