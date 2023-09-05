@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.97"></a>
+## [v3.2.97] - 2023-09-05
+
+- Update Makefile repo ansible-bubectl branch rename
+
+
 <a name="v3.2.96"></a>
-## [v3.2.96] - 0001-01-01
+## [v3.2.96] - 2023-09-03
 
 
 
@@ -19454,7 +19460,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.96...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.97...HEAD
+[v3.2.97]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.96...v3.2.97
 [v3.2.96]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.95...v3.2.96
 [v3.2.95]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.94...v3.2.95
 [v3.2.94]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.93...v3.2.94
