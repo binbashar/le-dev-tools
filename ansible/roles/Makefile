@@ -10,7 +10,7 @@ GIT_GITHUB_REPO_TOPICS := {"names": ["bb-le-mod-ansible-role","binbash-ansible-r
 define REPOS_LIST
 "ansible-alertmanager","cloudalchemy/ansible-alertmanager","master" \
 "ansible-fail2ban","Oefenweb/ansible-fail2ban","master" \
-"ansible-kubectl","andrewrothstein/ansible-kubectl","master" \
+"ansible-kubectl","andrewrothstein/ansible-kubectl","main" \
 "ansible-grafana","cloudalchemy/ansible-grafana","master" \
 "ansible-role-bash-command","RoleModel/bash_command","master" \
 "ansible-role-cron","manala/ansible-role-cron","master" \
