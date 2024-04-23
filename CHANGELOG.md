@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.131"></a>
+## [v3.2.131] - 2024-04-23
+
+- Fixed main branch name ([#63](https://github.com/binbashar/bb-devops-dev-tools/issues/63))
+
+
 <a name="v3.2.130"></a>
-## [v3.2.130] - 0001-01-01
+## [v3.2.130] - 2024-04-21
 
 
 
@@ -19625,7 +19631,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.130...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.131...HEAD
+[v3.2.131]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.130...v3.2.131
 [v3.2.130]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.129...v3.2.130
 [v3.2.129]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.128...v3.2.129
 [v3.2.128]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.127...v3.2.128
