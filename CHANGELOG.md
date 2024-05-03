@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.133"></a>
+## [v3.2.133] - 2024-05-03
+
+- chore: Add ECS terraform module ([#64](https://github.com/binbashar/bb-devops-dev-tools/issues/64))
+
+
 <a name="v3.2.132"></a>
-## [v3.2.132] - 0001-01-01
+## [v3.2.132] - 2024-04-28
 
 
 
@@ -19636,7 +19642,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.132...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.133...HEAD
+[v3.2.133]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.132...v3.2.133
 [v3.2.132]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.131...v3.2.132
 [v3.2.131]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.130...v3.2.131
 [v3.2.130]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.129...v3.2.130
