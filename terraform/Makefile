@@ -17,6 +17,7 @@ define REPOS_LIST
 "terraform-aws-cloudfront-s3-cdn","cloudposse/terraform-aws-cloudfront-s3-cdn","main" \
 "terraform-aws-cloudtrail","cloudposse/terraform-aws-cloudtrail","main" \
 "terraform-aws-cloudtrail-cloudwatch-alarms","cloudposse/terraform-aws-cloudtrail-cloudwatch-alarms","main" \
+"terraform-aws-cloudwatch-synthetics","clouddrove/terraform-aws-cloudwatch-synthetics","master" \
 "terraform-aws-cloudtrail-s3-bucket","cloudposse/terraform-aws-cloudtrail-s3-bucket","main" \
 "terraform-aws-cloudwatch-alarms","clouddrove/terraform-aws-cloudwatch-alarms","master" \
 "terraform-aws-config","trussworks/terraform-aws-config","main" \
@@ -54,6 +55,7 @@ define REPOS_LIST
 "terraform-aws-natgw-notifications","","" \
 "terraform-aws-network-firewall","","" \
 "terraform-aws-notify-slack","terraform-aws-modules/terraform-aws-notify-slack","master" \
+"terraform-aws-opensearch","terraform-aws-modules/terraform-aws-opensearch","master" \
 "terraform-aws-rds","terraform-aws-modules/terraform-aws-rds","master" \
 "terraform-aws-rds-export-to-s3","","" \
 "terraform-aws-rds-aurora","terraform-aws-modules/terraform-aws-rds-aurora","master" \
