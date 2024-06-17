@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.142"></a>
+## [v3.2.142] - 2024-06-17
+
+- chore: Point to ECR module to terraform-aws-modules organization ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+
+
 <a name="v3.2.141"></a>
-## [v3.2.141] - 0001-01-01
+## [v3.2.141] - 2024-06-16
 
 
 
@@ -19683,7 +19689,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.141...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.142...HEAD
+[v3.2.142]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.141...v3.2.142
 [v3.2.141]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.140...v3.2.141
 [v3.2.140]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.139...v3.2.140
 [v3.2.139]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.138...v3.2.139
