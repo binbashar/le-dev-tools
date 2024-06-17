@@ -29,7 +29,7 @@ define REPOS_LIST
 "terraform-aws-dynamodb","cloudposse/terraform-aws-dynamodb","main" \
 "terraform-aws-ec2-basic-layout","","" \
 "terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance","master" \
-"terraform-aws-ecr","lgallard/terraform-aws-ecr","master" \
+"terraform-aws-ecr","terraform-aws-modules/terraform-aws-ecr","master" \
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account","master" \
 "terraform-aws-ecr-lifecycle-policy-rule","doingcloudright/terraform-aws-ecr-lifecycle-policy-rule","master" \
 "terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main" \
