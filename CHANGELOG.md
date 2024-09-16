@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.155"></a>
+## [v3.2.155] - 2024-09-16
+
+- add aws client vpn repo
+
+
 <a name="v3.2.154"></a>
-## [v3.2.154] - 0001-01-01
+## [v3.2.154] - 2024-09-08
 
 
 
@@ -19749,7 +19755,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.154...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.155...HEAD
+[v3.2.155]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.154...v3.2.155
 [v3.2.154]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.153...v3.2.154
 [v3.2.153]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.152...v3.2.153
 [v3.2.152]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.151...v3.2.152
