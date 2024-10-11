@@ -6,7 +6,7 @@ jobs:
   #
   git-sync-fork-upstream:
     machine:
-      image: ubuntu-2004:202201-01 # Ubuntu 20.04, Docker v20.10.12, Docker Compose v1.29.2
+      image: ubuntu-2204:edge
 
       # This job has been blocked because Docker Layer Caching is not available on your plan.
       # Should upgrade if necessary.
@@ -44,7 +44,7 @@ jobs:
   #
   github-repo-replace-all-topics:
     machine:
-      image: ubuntu-2004:202201-01
+      image: ubuntu-2204:edge
 
       docker_layer_caching: false
 
@@ -80,7 +80,7 @@ jobs:
   #
   release-version-with-changelog:
     machine:
-      image: ubuntu-2004:202201-01 # Ubuntu 20.04, Docker v20.10.12, Docker Compose v1.29.2
+      image: ubuntu-2204:edge
 
       docker_layer_caching: false
 
