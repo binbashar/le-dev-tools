@@ -23,8 +23,10 @@ define REPOS_LIST
 "terraform-aws-config-notifications","trussworks/terraform-aws-config-notifications","main" \
 "terraform-aws-backup-notifications","","" \
 "terraform-aws-certbot-lambda","","" \
+"terraform-aws-client-vpn","DNXLabs/terraform-aws-client-vpn","master" \
 "terraform-aws-cost-billing-alarm","","" \
 "terraform-aws-cost-budget","","" \
+"terraform-aws-dms","terraform-aws-modules/terraform-aws-dms","master" \
 "terraform-aws-dynamodb","cloudposse/terraform-aws-dynamodb","main" \
 "terraform-aws-ec2-basic-layout","","" \
 "terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance","master" \
@@ -34,6 +36,7 @@ define REPOS_LIST
 "terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main" \
 "terraform-aws-ecs","terraform-aws-modules/terraform-aws-ecs","master" \
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks","master" \
+"terraform-aws-eks-efs-csi-driver","DNXLabs/terraform-aws-eks-efs-csi-driver","master" \
 "terraform-aws-elasticsearch","lgallard/terraform-aws-elasticsearch","master" \
 "terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis","main" \
 "terraform-aws-firewall-manager","cloudposse/terraform-aws-firewall-manager","main" \
@@ -53,6 +56,7 @@ define REPOS_LIST
 "terraform-aws-multi-az-subnets","cloudposse/terraform-aws-multi-az-subnets","main" \
 "terraform-aws-natgw-notifications","","" \
 "terraform-aws-network-firewall","","" \
+"terraform-aws-notify-discord","MefistoBaal/terraform-aws-notify-discord","master" \
 "terraform-aws-notify-slack","terraform-aws-modules/terraform-aws-notify-slack","master" \
 "terraform-aws-rds","terraform-aws-modules/terraform-aws-rds","master" \
 "terraform-aws-rds-export-to-s3","","" \
