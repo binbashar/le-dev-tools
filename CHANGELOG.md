@@ -7,8 +7,126 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.157"></a>
+## [v3.2.157] - 0001-01-01
+
+
+
+<a name="v3.2.156"></a>
+## [v3.2.156] - 2024-09-22
+
+
+
+<a name="v3.2.155"></a>
+## [v3.2.155] - 2024-09-16
+
+- add aws client vpn repo
+
+
+<a name="v3.2.154"></a>
+## [v3.2.154] - 2024-09-08
+
+
+
+<a name="v3.2.153"></a>
+## [v3.2.153] - 2024-09-01
+
+
+
+<a name="v3.2.152"></a>
+## [v3.2.152] - 2024-08-25
+
+
+
+<a name="v3.2.151"></a>
+## [v3.2.151] - 2024-08-18
+
+
+
+<a name="v3.2.150"></a>
+## [v3.2.150] - 2024-08-11
+
+
+
+<a name="v3.2.149"></a>
+## [v3.2.149] - 2024-08-04
+
+
+
+<a name="v3.2.148"></a>
+## [v3.2.148] - 2024-07-28
+
+
+
+<a name="v3.2.147"></a>
+## [v3.2.147] - 2024-07-21
+
+
+
+<a name="v3.2.146"></a>
+## [v3.2.146] - 2024-07-14
+
+
+
+<a name="v3.2.145"></a>
+## [v3.2.145] - 2024-07-07
+
+
+
+<a name="v3.2.144"></a>
+## [v3.2.144] - 2024-06-30
+
+
+
+<a name="v3.2.143"></a>
+## [v3.2.143] - 2024-06-23
+
+
+
+<a name="v3.2.142"></a>
+## [v3.2.142] - 2024-06-17
+
+- chore: Point to ECR module to terraform-aws-modules organization ([#66](https://github.com/binbashar/bb-devops-dev-tools/issues/66))
+
+
+<a name="v3.2.141"></a>
+## [v3.2.141] - 2024-06-16
+
+
+
+<a name="v3.2.140"></a>
+## [v3.2.140] - 2024-06-09
+
+
+
+<a name="v3.2.139"></a>
+## [v3.2.139] - 2024-06-02
+
+
+
+<a name="v3.2.138"></a>
+## [v3.2.138] - 2024-05-26
+
+
+
+<a name="v3.2.137"></a>
+## [v3.2.137] - 2024-05-19
+
+
+
+<a name="v3.2.136"></a>
+## [v3.2.136] - 2024-05-12
+
+
+
+<a name="v3.2.135"></a>
+## [v3.2.135] - 2024-05-07
+
+- adding new tf repo to the forked list
+
+
 <a name="v3.2.134"></a>
-## [v3.2.134] - 0001-01-01
+## [v3.2.134] - 2024-05-05
 
 
 
@@ -19647,7 +19765,30 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.134...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.157...HEAD
+[v3.2.157]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.156...v3.2.157
+[v3.2.156]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.155...v3.2.156
+[v3.2.155]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.154...v3.2.155
+[v3.2.154]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.153...v3.2.154
+[v3.2.153]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.152...v3.2.153
+[v3.2.152]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.151...v3.2.152
+[v3.2.151]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.150...v3.2.151
+[v3.2.150]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.149...v3.2.150
+[v3.2.149]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.148...v3.2.149
+[v3.2.148]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.147...v3.2.148
+[v3.2.147]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.146...v3.2.147
+[v3.2.146]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.145...v3.2.146
+[v3.2.145]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.144...v3.2.145
+[v3.2.144]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.143...v3.2.144
+[v3.2.143]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.142...v3.2.143
+[v3.2.142]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.141...v3.2.142
+[v3.2.141]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.140...v3.2.141
+[v3.2.140]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.139...v3.2.140
+[v3.2.139]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.138...v3.2.139
+[v3.2.138]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.137...v3.2.138
+[v3.2.137]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.136...v3.2.137
+[v3.2.136]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.135...v3.2.136
+[v3.2.135]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.134...v3.2.135
 [v3.2.134]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.133...v3.2.134
 [v3.2.133]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.132...v3.2.133
 [v3.2.132]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.131...v3.2.132

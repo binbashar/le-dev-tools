@@ -17,6 +17,7 @@ define REPOS_LIST
 "terraform-aws-cloudfront-s3-cdn","cloudposse/terraform-aws-cloudfront-s3-cdn","main" \
 "terraform-aws-cloudtrail","cloudposse/terraform-aws-cloudtrail","main" \
 "terraform-aws-cloudtrail-cloudwatch-alarms","cloudposse/terraform-aws-cloudtrail-cloudwatch-alarms","main" \
+"terraform-aws-cloudwatch-synthetics","clouddrove/terraform-aws-cloudwatch-synthetics","master" \
 "terraform-aws-cloudtrail-s3-bucket","cloudposse/terraform-aws-cloudtrail-s3-bucket","main" \
 "terraform-aws-cloudwatch-alarms","clouddrove/terraform-aws-cloudwatch-alarms","master" \
 "terraform-aws-config","trussworks/terraform-aws-config","main" \
@@ -30,7 +31,7 @@ define REPOS_LIST
 "terraform-aws-dynamodb","cloudposse/terraform-aws-dynamodb","main" \
 "terraform-aws-ec2-basic-layout","","" \
 "terraform-aws-ec2-instance","terraform-aws-modules/terraform-aws-ec2-instance","master" \
-"terraform-aws-ecr","lgallard/terraform-aws-ecr","master" \
+"terraform-aws-ecr","terraform-aws-modules/terraform-aws-ecr","master" \
 "terraform-aws-ecr-cross-account","doingcloudright/terraform-aws-ecr-cross-account","master" \
 "terraform-aws-ecr-lifecycle-policy-rule","doingcloudright/terraform-aws-ecr-lifecycle-policy-rule","master" \
 "terraform-aws-ecr-public","cloudposse/terraform-aws-ecr-public","main" \
@@ -58,6 +59,7 @@ define REPOS_LIST
 "terraform-aws-network-firewall","","" \
 "terraform-aws-notify-discord","MefistoBaal/terraform-aws-notify-discord","master" \
 "terraform-aws-notify-slack","terraform-aws-modules/terraform-aws-notify-slack","master" \
+"terraform-aws-opensearch","terraform-aws-modules/terraform-aws-opensearch","master" \
 "terraform-aws-rds","terraform-aws-modules/terraform-aws-rds","master" \
 "terraform-aws-rds-export-to-s3","","" \
 "terraform-aws-rds-aurora","terraform-aws-modules/terraform-aws-rds-aurora","master" \
@@ -92,7 +94,8 @@ define REPOS_LIST
 "terraform-provider-postgresql","cyrilgdn/terraform-provider-postgresql","main" \
 "terraform-provider-sops","carlpett/terraform-provider-sops","master" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label","main" \
-"terraform-aws-eventbridge","terraform-aws-modules/terraform-aws-eventbridge","master"
+"terraform-aws-eventbridge","terraform-aws-modules/terraform-aws-eventbridge","master" \
+"terraform-aws-client-vpn","DNXLabs/terraform-aws-client-vpn","master"
 endef
 
 # "terraform-aws-transit-gateway","terraform-aws-modules/terraform-aws-transit-gateway","master"
