@@ -25,6 +25,7 @@ define REPOS_LIST
 "terraform-aws-backup-notifications","","" \
 "terraform-aws-certbot-lambda","","" \
 "terraform-aws-client-vpn","DNXLabs/terraform-aws-client-vpn","master" \
+"terraform-aws-code-deploy,"cloudposse/terraform-aws-code-deploy","main" \
 "terraform-aws-cost-billing-alarm","","" \
 "terraform-aws-cost-budget","","" \
 "terraform-aws-dms","terraform-aws-modules/terraform-aws-dms","master" \
