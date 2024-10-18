@@ -7,8 +7,16 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.160"></a>
+## [v3.2.160] - 2024-10-18
+
+- fixing missing quotes at tf makefile
+- adding new tf elasticache  module
+- adding new code-deploy module
+
+
 <a name="v3.2.159"></a>
-## [v3.2.159] - 0001-01-01
+## [v3.2.159] - 2024-10-13
 
 
 
@@ -19778,7 +19786,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.159...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.160...HEAD
+[v3.2.160]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.159...v3.2.160
 [v3.2.159]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.158...v3.2.159
 [v3.2.158]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.157...v3.2.158
 [v3.2.157]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.156...v3.2.157
