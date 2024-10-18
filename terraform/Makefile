@@ -40,6 +40,7 @@ define REPOS_LIST
 "terraform-aws-eks","terraform-aws-modules/terraform-aws-eks","master" \
 "terraform-aws-eks-efs-csi-driver","DNXLabs/terraform-aws-eks-efs-csi-driver","master" \
 "terraform-aws-elasticsearch","lgallard/terraform-aws-elasticsearch","master" \
+"terraform-aws-elasticache",terraform-aws-modules/terraform-aws-elasticache,"master" \
 "terraform-aws-elasticache-redis","cloudposse/terraform-aws-elasticache-redis","main" \
 "terraform-aws-firewall-manager","cloudposse/terraform-aws-firewall-manager","main" \
 "terraform-aws-github-runner","philips-labs/terraform-aws-github-runner","develop" \
