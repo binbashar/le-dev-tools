@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.162"></a>
+## [v3.2.162] - 2024-10-21
+
+- adding new code-pipeline tf module
+
+
 <a name="v3.2.161"></a>
-## [v3.2.161] - 0001-01-01
+## [v3.2.161] - 2024-10-20
 
 
 
@@ -19791,7 +19797,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.161...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.162...HEAD
+[v3.2.162]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.161...v3.2.162
 [v3.2.161]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.160...v3.2.161
 [v3.2.160]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.159...v3.2.160
 [v3.2.159]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.158...v3.2.159
