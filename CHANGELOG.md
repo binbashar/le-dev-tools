@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.180"></a>
+## [v3.2.180] - 2025-02-20
+
+- fix: commented-out nginx role entries from Makefile ([#70](https://github.com/binbashar/bb-devops-dev-tools/issues/70))
+
+
 <a name="v3.2.179"></a>
-## [v3.2.179] - 0001-01-01
+## [v3.2.179] - 2025-02-16
 
 
 
@@ -19882,7 +19888,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.179...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.180...HEAD
+[v3.2.180]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.179...v3.2.180
 [v3.2.179]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.178...v3.2.179
 [v3.2.178]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.177...v3.2.178
 [v3.2.177]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.176...v3.2.177
