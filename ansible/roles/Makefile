@@ -37,8 +37,8 @@ define REPOS_LIST
 "ansible-role-logrotate","nickhammond/ansible-logrotate","master" \
 "ansible-role-mongodb","UnderGreen/ansible-role-mongodb","master" \
 "ansible-role-nginx","jdauphant/ansible-role-nginx","master" \
-"ansible-role-nginxinc-nginx","nginxinc/ansible-role-nginx","main" \
-"ansible-role-nginx-config","nginxinc/ansible-role-nginx-config","main" \
+# "ansible-role-nginxinc-nginx","nginxinc/ansible-role-nginx","main" \
+# "ansible-role-nginx-config","nginxinc/ansible-role-nginx-config","main" \
 "ansible-role-security","geerlingguy/ansible-role-security","master" \
 "ansible-role-users","","" \
 "ansible-role-vault","ansible-community/ansible-vault","master" \
