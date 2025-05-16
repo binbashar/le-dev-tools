@@ -98,7 +98,8 @@ define REPOS_LIST
 "terraform-provider-sops","carlpett/terraform-provider-sops","master" \
 "terraform-terraform-label","cloudposse/terraform-terraform-label","main" \
 "terraform-aws-eventbridge","terraform-aws-modules/terraform-aws-eventbridge","master" \
-"terraform-aws-client-vpn","DNXLabs/terraform-aws-client-vpn","master"
+"terraform-aws-client-vpn","DNXLabs/terraform-aws-client-vpn","master" \
+"terraform-aws-api-gateway", "cloudposse/terraform-aws-api-gateway", "main"
 endef
 
 # "terraform-aws-transit-gateway","terraform-aws-modules/terraform-aws-transit-gateway","master"
