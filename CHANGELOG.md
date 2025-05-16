@@ -7,8 +7,14 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.194"></a>
+## [v3.2.194] - 2025-05-16
+
+- Add module for api gateway v1
+
+
 <a name="v3.2.193"></a>
-## [v3.2.193] - 0001-01-01
+## [v3.2.193] - 2025-05-11
 
 
 
@@ -19954,7 +19960,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.193...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.194...HEAD
+[v3.2.194]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.193...v3.2.194
 [v3.2.193]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.192...v3.2.193
 [v3.2.192]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.191...v3.2.192
 [v3.2.191]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.190...v3.2.191
