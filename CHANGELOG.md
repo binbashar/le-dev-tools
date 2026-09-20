@@ -7,8 +7,13 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v3.2.263"></a>
+## [v3.2.263] - 0001-01-01
+
+
+
 <a name="v3.2.262"></a>
-## [v3.2.262] - 0001-01-01
+## [v3.2.262] - 2026-09-13
 
 
 
@@ -20300,7 +20305,8 @@ All notable changes to this project will be documented in this file.
 - First.
 
 
-[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.262...HEAD
+[Unreleased]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.263...HEAD
+[v3.2.263]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.262...v3.2.263
 [v3.2.262]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.261...v3.2.262
 [v3.2.261]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.260...v3.2.261
 [v3.2.260]: https://github.com/binbashar/bb-devops-dev-tools/compare/v3.2.259...v3.2.260
